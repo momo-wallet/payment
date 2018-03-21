@@ -1,0 +1,1350 @@
+2017-09-06 11:41:08,769 [9] INFO Momo.ProcessIcon - Start running
+2017-09-06 11:41:12,849 [12] DEBUG Momo.ProcessIcon - File created event captured C:\coop\9ddd8489-4e88-4431-bb87-34069fb70028.REQ
+2017-09-06 11:41:12,849 [6] DEBUG Momo.ProcessIcon - File scan captured C:\coop\9ddd8489-4e88-4431-bb87-34069fb70028.REQ
+2017-09-06 11:41:19,208 [6] DEBUG Momo.MomoProcess - File lock failed C:\coop\9ddd8489-4e88-4431-bb87-34069fb70028.REQ ignore it
+2017-09-06 11:45:22,159 [10] INFO Momo.ProcessIcon - Start running
+2017-09-06 11:45:33,289 [15] DEBUG Momo.ProcessIcon - File created event captured C:\coop\3af8c255-e5f3-49cb-9397-08a7b9534f1f.REQ
+2017-09-06 11:45:39,591 [3] DEBUG Momo.ProcessIcon - File scan captured C:\coop\3af8c255-e5f3-49cb-9397-08a7b9534f1f.REQ
+2017-09-06 11:45:39,635 [3] DEBUG Momo.MomoProcess - <3af8c255-e5f3-49cb-9397-08a7b9534f1f>File lock failed C:\coop\3af8c255-e5f3-49cb-9397-08a7b9534f1f.REQ ignore it
+2017-09-06 11:45:39,637 [6] DEBUG Momo.MomoProcess - <3af8c255-e5f3-49cb-9397-08a7b9534f1f>Request valid, send to momo server 3af8c255-e5f3-49cb-9397-08a7b9534f1f,10000,353843463119432453,VC1,This for test only
+
+2017-09-06 11:46:03,546 [16] DEBUG Momo.ProcessIcon - File created event captured C:\coop\5af362ff-7a5c-4b2b-a278-b8701dc34881.REQ
+2017-09-06 11:46:03,549 [17] DEBUG Momo.MomoProcess - <5af362ff-7a5c-4b2b-a278-b8701dc34881>Request valid, send to momo server 5af362ff-7a5c-4b2b-a278-b8701dc34881,10000,353843463119432453,VC1,This for test only
+
+2017-09-06 11:46:15,375 [9] INFO Momo.ProcessIcon - Start running
+2017-09-06 11:52:10,613 [9] INFO Momo.ProcessIcon - Start running
+2017-09-06 11:53:46,803 [9] INFO Momo.ProcessIcon - Start running
+2017-09-20 10:00:09,343 [9] INFO Momo.ProcessIcon - Start running
+2017-09-21 09:48:11,308 [9] INFO Momo.ProcessIcon - Start running
+2017-09-21 09:48:21,175 [12] DEBUG Momo.ProcessIcon - File created event captured C:\coop\101.REQ
+2017-09-21 09:49:10,744 [9] INFO Momo.ProcessIcon - Start running
+2017-09-21 09:49:25,226 [12] DEBUG Momo.ProcessIcon - File created event captured C:\coop\ICVER03.REQ
+2017-09-21 09:50:39,593 [6] DEBUG Momo.MomoProcess - <ICVER03>Request valid, send to momo server ICVER03,3420000,MM60830972016173593,,
+
+2017-09-26 11:09:37,054 [12] DEBUG Momo.ProcessIcon - File created event captured C:\coop\ICVER03.REQ
+2017-09-26 11:09:37,057 [14] DEBUG Momo.MomoProcess - <ICVER03>ANS existed, delete it 
+2017-09-26 11:09:44,121 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 15:26:36,162 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 15:30:14,080 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 15:30:38,124 [6] DEBUG Momo.ProcessIcon - File scan captured C:\coop\ICVER03.REQ
+2017-09-28 15:30:38,128 [6] DEBUG Momo.MomoProcess - rename file existedC:\coop//ICVER03.HLD try to delete it
+2017-09-28 15:30:40,779 [6] DEBUG Momo.MomoProcess - <ICVER03>Request valid, send to momo server ICVER03,3420000,MM60830972016173593,,
+
+2017-09-28 16:04:36,855 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 16:04:38,888 [3] DEBUG Momo.ProcessIcon - File scan captured C:\coop\6d84da8e-2b23-4756-a3f4-d3f1ee632b43.REQ
+2017-09-28 16:04:38,889 [3] DEBUG Momo.ProcessIcon - File scan captured C:\coop\a8cfcec0-282b-4a91-ae39-53f5d8e48e40.REQ
+2017-09-28 16:04:45,063 [13] DEBUG Momo.MomoProcess - <a8cfcec0-282b-4a91-ae39-53f5d8e48e40>Request valid, send to momo server a8cfcec0-282b-4a91-ae39-53f5d8e48e40,34200,MM60830972016173593,,
+
+2017-09-28 16:04:45,063 [3] DEBUG Momo.MomoProcess - <6d84da8e-2b23-4756-a3f4-d3f1ee632b43>Request valid, send to momo server 6d84da8e-2b23-4756-a3f4-d3f1ee632b43,34200,MM60830972016173593,,
+
+2017-09-28 16:05:41,782 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 16:05:51,895 [6] DEBUG Momo.ProcessIcon - File scan captured C:\coop\a85367d8-24d6-4665-ad9f-ba45cecf0014.REQ
+2017-09-28 16:05:54,880 [6] DEBUG Momo.MomoProcess - <a85367d8-24d6-4665-ad9f-ba45cecf0014>Request valid, send to momo server a85367d8-24d6-4665-ad9f-ba45cecf0014,34200,MM60830972016173593,,
+
+2017-09-28 16:50:53,417 [14] DEBUG Momo.ProcessIcon - File scan captured C:\coop\10fae6d9-ca5e-4beb-a6fa-f71e6eb41ec3.REQ
+2017-09-28 16:50:55,598 [6] DEBUG Momo.MomoProcess - <10fae6d9-ca5e-4beb-a6fa-f71e6eb41ec3>Request valid, send to momo server 10fae6d9-ca5e-4beb-a6fa-f71e6eb41ec3,34200,MM60830972016173593,,
+
+2017-09-28 17:56:39,476 [10] INFO Momo.ProcessIcon - Start running
+2017-09-28 17:56:45,512 [6] DEBUG Momo.ProcessIcon - File scan captured C:\coop\96764ab7-8424-42d6-a703-59b7e5dc0637.REQ
+2017-09-28 17:56:48,317 [6] DEBUG Momo.MomoProcess - <96764ab7-8424-42d6-a703-59b7e5dc0637>Request valid, send to momo server 96764ab7-8424-42d6-a703-59b7e5dc0637,34200,MM60830972016173593,,
+
+2017-09-28 17:58:36,890 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 17:59:51,012 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 18:00:27,036 [6] DEBUG Momo.ProcessIcon - File scan captured C:\coop\954040df-3ea1-444d-8d77-3d1d655d2947.REQ
+2017-09-28 18:00:28,588 [6] DEBUG Momo.MomoProcess - <954040df-3ea1-444d-8d77-3d1d655d2947>Request valid, send to momo server 954040df-3ea1-444d-8d77-3d1d655d2947,34200,MM60830972016173593,,
+
+2017-09-28 18:04:44,850 [10] INFO Momo.ProcessIcon - Start running
+2017-09-28 18:07:49,704 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 18:08:19,743 [6] DEBUG Momo.ProcessIcon - File scan captured C:\coop\de8b878c-2322-43d0-8a34-c7d2925c53c2.REQ
+2017-09-28 18:08:22,325 [6] DEBUG Momo.MomoProcess - <de8b878c-2322-43d0-8a34-c7d2925c53c2>Request valid, send to momo server de8b878c-2322-43d0-8a34-c7d2925c53c2,34200,MM60830972016173593,,
+
+2017-09-28 19:37:15,432 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 19:37:59,466 [14] DEBUG Momo.ProcessIcon - File scan captured C:\coop\d9a9775a-fd50-4a29-8144-19aab0130e44.REQ
+2017-09-28 19:37:59,472 [14] DEBUG Momo.MomoProcess - <d9a9775a-fd50-4a29-8144-19aab0130e44>Request valid, send to momo server d9a9775a-fd50-4a29-8144-19aab0130e44,34200,MM60830972016173593,,
+
+2017-09-28 19:39:43,115 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 19:40:03,136 [6] DEBUG Momo.ProcessIcon - File scan captured C:\coop\3a71dc22-8e30-4e15-9f92-ee6b690a5a4b.REQ
+2017-09-28 19:40:03,144 [6] DEBUG Momo.MomoProcess - <3a71dc22-8e30-4e15-9f92-ee6b690a5a4b>Request valid, send to momo server 3a71dc22-8e30-4e15-9f92-ee6b690a5a4b,34200,MM60830972016173593,,
+
+2017-09-28 19:40:48,605 [9] INFO Momo.ProcessIcon - Start running
+2017-09-28 19:41:20,641 [6] DEBUG Momo.ProcessIcon - File scan captured C:\coop\2179c19e-0086-4e3a-aa37-f7cb1e623150.REQ
+2017-09-28 19:41:20,648 [6] DEBUG Momo.MomoProcess - <2179c19e-0086-4e3a-aa37-f7cb1e623150>Request valid, send to momo server 2179c19e-0086-4e3a-aa37-f7cb1e623150,34200,MM60830972016173593,,
+
+2017-09-28 19:50:03,452 [9] INFO Momo.ProcessIcon - Start running
+2017-09-29 09:45:21,872 [9] DEBUG Momo.ProcessIcon - doVerify C:\coop
+2017-09-29 09:45:21,891 [9] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-09-29 09:45:22,254 [9] INFO Momo.ProcessIcon - Start running
+2017-09-29 09:46:13,097 [9] INFO Momo.ProcessIcon - Stop running
+2017-09-29 09:53:18,967 [9] DEBUG Momo.ProcessIcon - doVerify C:\coop
+2017-09-29 09:53:18,986 [9] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-09-29 09:53:19,289 [9] INFO Momo.ProcessIcon - Start running
+2017-10-02 11:37:14,298 [9] INFO Momo.ProcessIcon - Start running
+2017-10-02 11:37:38,373 [9] INFO Momo.ProcessIcon - Start running
+2017-10-02 11:37:44,641 [9] INFO Momo.ProcessIcon - Stop running
+2017-10-02 15:43:14,308 [9] INFO Momo.ProcessIcon - Start running
+2017-10-02 15:43:20,127 [9] INFO Momo.ProcessIcon - Stop running
+2017-10-04 11:42:44,103 [9] INFO Momo.ProcessIcon - Start running
+2017-10-29 08:04:33,104 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 08:05:56,165 [1] DEBUG Momo.ProcessIcon - doVerify C:\coop
+2017-10-29 08:05:56,165 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 08:06:23,915 [1] DEBUG Momo.ProcessIcon - doVerify E:\
+2017-10-29 08:06:23,950 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-29 08:06:36,106 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 08:28:45,435 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 08:29:29,070 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-29 08:33:11,106 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 08:45:36,643 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 08:50:41,210 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 08:51:30,022 [1] DEBUG Momo.ProcessIcon - doVerify E:\
+2017-10-29 08:51:30,027 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-29 08:52:05,361 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-29 12:37:30,106 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 12:39:01,829 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 12:39:04,944 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-29 12:44:20,812 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 12:44:24,570 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 12:48:53,467 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 12:48:54,979 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 12:49:41,496 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 12:49:42,797 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 12:51:31,119 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 12:52:10,671 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 12:52:17,485 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-29 12:52:43,521 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 12:54:34,833 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 12:54:54,773 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 12:55:59,778 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:01:28,043 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:03:50,620 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:04:44,120 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:09:10,019 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:10:14,139 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:12:08,882 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:12:35,746 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:14:16,697 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:14:45,779 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:15:03,955 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:18:57,708 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:19:10,844 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:19:28,973 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:19:34,929 [1] INFO Momo.ProcessIcon - Start running
+2017-10-29 13:21:11,929 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:22:22,955 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:22:47,200 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:23:13,328 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:24:02,808 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:24:36,317 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:27:14,005 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:27:46,973 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:28:07,944 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:30:14,126 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:39:26,973 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:44:23,419 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 13:44:33,842 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 15:17:24,603 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 15:18:17,723 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 15:19:10,094 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 15:19:29,039 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 15:22:11,777 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 15:24:47,615 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 15:24:53,571 [1] DEBUG Momo.MomoAuthen - AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAKM9UOTsnGYhksMViC+XSqcK0FVtOwbb6YyCUirrHm8wAAAAAOgAAAAAIAACAAAABlqZWmM0MaTvDz/3lVlATF3V0cWPrJa/CxeH2A5ZT8ZyAAAAB+9KwDoMGyu7s7ays1/PwJo8WUZf4gNU03y5kvNWClLUAAAADcHQRcGlhJsEhXWsluos1w1enBRuhP+qC55fjUbQBmVGuBc3cUXtlXZBpdeOhGLabxFhGbKCWV+VkFNhzVO1P1
+2017-10-29 15:24:53,571 [1] DEBUG Momo.MomoAuthen - zfTZDnmCVain8HlBPO0HIzkbuyU=
+2017-10-29 15:24:53,571 [1] DEBUG Momo.MomoAuthen - MserviceCTM12qweAS!@
+2017-10-29 15:28:19,894 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 15:29:10,651 [1] DEBUG Momo.ProcessIcon - doVerify C:\coop
+2017-10-29 15:29:10,651 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-29 15:29:43,840 [1] DEBUG Momo.ProcessIcon - doVerify C:\Works
+2017-10-29 15:29:43,852 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-29 15:29:52,821 [1] DEBUG Momo.MomoAuthen - AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACldS3UOobHKssx+gTpfGE9193dd98wCa+e9e0UVI2XRwAAAAAOgAAAAAIAACAAAACdUQ+hwjUfwXfUyOtvJhlG6CA+uOenXRNrU2lkWp6vsCAAAACchbYEmKubBTO9Nzws294gn87l99aV+vh0/J34n+oqEEAAAABfsi9LEhuvR3Yp48LH5zGYA56sd9RbSQOvGO9NvOUjEqFdozkJF4uN2gE+2y8xwIciTK2d5ZE4VyQMjxLWFSPa
+2017-10-29 15:29:52,821 [1] DEBUG Momo.MomoAuthen - EA4loofLQ+PPvicG2p+T3vyJnWE=
+2017-10-29 15:29:52,821 [1] DEBUG Momo.MomoAuthen - MserviceCTM12qweAS!@
+2017-10-29 15:30:26,063 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-29 15:56:05,044 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-29 15:57:19,772 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 15:57:32,300 [1] DEBUG Momo.MomoAuthen - AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAD1KQJsQyr3cEibI5dOSvaFDUskdTcQOvMI7ooUu5Yp3AAAAAAOgAAAAAIAACAAAAANQmJUYgJu4CwCpmvzputEGT1FMcSrPtnGtVXmaril8CAAAADum9071h4fq07b0sebYeH0SHq3coPm+5aiqhPIABFk1EAAAACHRvSEk06mpf7P1cOu9RL1Yegqd7pAKRDZ5npJw0B1bTFUhxc5R3GwRleTWmpvAvmdSKnazuFXFY4qTDq/s/hk
+2017-10-29 15:57:32,300 [1] DEBUG Momo.MomoAuthen - Dhm3jvhG
+2017-10-29 15:57:32,300 [1] DEBUG Momo.MomoAuthen - MserviceCTM12qweAS!@
+2017-10-29 16:23:20,255 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:23:22,587 [1] DEBUG Momo.MomoAuthen - 2PiSI6lU
+2017-10-29 16:23:22,587 [1] DEBUG Momo.MomoAuthen - AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAtsCGjUVD0BCAhceoYP4CcBJnnncBnx7MG+gPlh5n7RQAAAAAOgAAAAAIAACAAAAAlBx03Srt3b/Atk76rhosnrRLC+rpkC2MunEVFwXYQsCAAAADNeqonoEe/uKz4W/Pbo5jccrm2MWi2fT/kl4jrWHGbHUAAAADFs9WnJNJtsguUXIEMMNrWXkhhhNkj4SUf5iHznLQqt12OPudGikTlLV5faL8jlJzBNuE9IGFZzi7aXVKJmZz2
+2017-10-29 16:23:22,703 [1] DEBUG Momo.ProcessIcon - {
+  "secureCode": "2PiSI6lU",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAtsCGjUVD0BCAhceoYP4CcBJnnncBnx7MG+gPlh5n7RQAAAAAOgAAAAAIAACAAAAAlBx03Srt3b/Atk76rhosnrRLC+rpkC2MunEVFwXYQsCAAAADNeqonoEe/uKz4W/Pbo5jccrm2MWi2fT/kl4jrWHGbHUAAAADFs9WnJNJtsguUXIEMMNrWXkhhhNkj4SUf5iHznLQqt12OPudGikTlLV5faL8jlJzBNuE9IGFZzi7aXVKJmZz2"
+}
+2017-10-29 16:26:31,041 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:26:33,542 [1] DEBUG Momo.MomoAuthen - secureCode: vjusYJ5d
+2017-10-29 16:26:33,542 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABkfFflsjPntSVdkiN73m73i/uPJeHzsf6ubPBhDaI+tQAAAAAOgAAAAAIAACAAAAANHvH9/VwWhMWoKy3VM+y5eUKUFOBczKcZCQVYIrsmxiAAAAAvpUI/qBT9m4xEJroatMnvtV+Zu2mnXpRPdG8/S3WZAUAAAAA3Kh483v/xnaC9FJSg/TbdWx2silGq5FwavjitOJZynpugkA8+gz4zSNVdcUjjxn1ZHtsgFfrxJvfrWRDs8LgO
+2017-10-29 16:26:33,612 [1] DEBUG Momo.ProcessIcon - {
+  "secureCode": "vjusYJ5d",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABkfFflsjPntSVdkiN73m73i/uPJeHzsf6ubPBhDaI+tQAAAAAOgAAAAAIAACAAAAANHvH9/VwWhMWoKy3VM+y5eUKUFOBczKcZCQVYIrsmxiAAAAAvpUI/qBT9m4xEJroatMnvtV+Zu2mnXpRPdG8/S3WZAUAAAAA3Kh483v/xnaC9FJSg/TbdWx2silGq5FwavjitOJZynpugkA8+gz4zSNVdcUjjxn1ZHtsgFfrxJvfrWRDs8LgO"
+}
+2017-10-29 16:26:33,614 [1] DEBUG Momo.ProcessIcon - False
+2017-10-29 16:27:06,231 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:27:08,406 [1] DEBUG Momo.MomoAuthen - secureCode: vtJpA4oK
+2017-10-29 16:27:08,406 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADi3X24673I5TTTugCwJiLaBsZ2mrRGATocKJPgZfmPrgAAAAAOgAAAAAIAACAAAADYE2CWMGK3VfToCwrGGdH/Bk9sb8Npsga+jvucCVCzQyAAAAD+7Go9tVOIezHkA1qvtD2ym31nSXpPvaHhYLajPgRJvkAAAAAoIKJ9+YDp3vz8PvFqDoCHLgLPB3chy3gIULVmZPHRUEJibsANMceari0pjFL3B9Y9A/DXij7Aal3p50fdKcKO
+2017-10-29 16:27:08,468 [1] DEBUG Momo.ProcessIcon - {
+  "secureCode": "vtJpA4oK",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADi3X24673I5TTTugCwJiLaBsZ2mrRGATocKJPgZfmPrgAAAAAOgAAAAAIAACAAAADYE2CWMGK3VfToCwrGGdH/Bk9sb8Npsga+jvucCVCzQyAAAAD+7Go9tVOIezHkA1qvtD2ym31nSXpPvaHhYLajPgRJvkAAAAAoIKJ9+YDp3vz8PvFqDoCHLgLPB3chy3gIULVmZPHRUEJibsANMceari0pjFL3B9Y9A/DXij7Aal3p50fdKcKO"
+}
+2017-10-29 16:27:08,485 [1] DEBUG Momo.ProcessIcon - False
+2017-10-29 16:29:20,863 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:29:23,080 [1] DEBUG Momo.MomoAuthen - secureCode: nhHatYXi
+2017-10-29 16:29:23,080 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADNfsC1wfB7k6dlufEHQRnyHEgj2swAeHQuOfTyMZbq6QAAAAAOgAAAAAIAACAAAACU+NvuQVCY1vFBr09ycvNmuacfo6+Sw8hsdufeW825oCAAAAD9IHhAF3z4hGWG7PrC/Q06vm27743rVBq75wA2Sm+HvkAAAAACxifeiMXI6etUFXMKw0TzASzYNVjxiHWmeDgRnhiLW1TyWrXRj2MdEoofHQYosEiq4GfqRzaRL4Bcn/CGdR8k
+2017-10-29 16:29:23,170 [1] DEBUG Momo.ProcessIcon - {
+  "secureCode": "nhHatYXi",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADNfsC1wfB7k6dlufEHQRnyHEgj2swAeHQuOfTyMZbq6QAAAAAOgAAAAAIAACAAAACU+NvuQVCY1vFBr09ycvNmuacfo6+Sw8hsdufeW825oCAAAAD9IHhAF3z4hGWG7PrC/Q06vm27743rVBq75wA2Sm+HvkAAAAACxifeiMXI6etUFXMKw0TzASzYNVjxiHWmeDgRnhiLW1TyWrXRj2MdEoofHQYosEiq4GfqRzaRL4Bcn/CGdR8k"
+}
+2017-10-29 16:29:23,171 [1] DEBUG Momo.MomoAuthen - MserviceCTM12qweAS!@
+2017-10-29 16:29:23,171 [1] DEBUG Momo.ProcessIcon - False
+2017-10-29 16:30:39,769 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:30:41,660 [1] DEBUG Momo.MomoAuthen - secureCode: WMscbqeA
+2017-10-29 16:30:41,660 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAGlUpE4bpCw38G3RhowrCNJwAPUsr1BAJZSQHI4wQ8ZwAAAAAOgAAAAAIAACAAAAAYMxGDuT4GkzY9fx03Ha6lRHUktPyM2UxMy3Q+tgjNAiAAAAA0q29XEaF0Yp3psdEU9FUkgPcLDVogbpuvCWLaaiJ8XEAAAABhKsTh0tx4J4xB47d4LbyKNhYR1wddWnDHfLKQd5L9YgoB2QRlLcBcsuBEIMgTqBPft28+Bc4BvXyIXluS7Umf
+2017-10-29 16:30:41,739 [1] DEBUG Momo.ProcessIcon - {
+  "secureCode": "WMscbqeA",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAGlUpE4bpCw38G3RhowrCNJwAPUsr1BAJZSQHI4wQ8ZwAAAAAOgAAAAAIAACAAAAAYMxGDuT4GkzY9fx03Ha6lRHUktPyM2UxMy3Q+tgjNAiAAAAA0q29XEaF0Yp3psdEU9FUkgPcLDVogbpuvCWLaaiJ8XEAAAABhKsTh0tx4J4xB47d4LbyKNhYR1wddWnDHfLKQd5L9YgoB2QRlLcBcsuBEIMgTqBPft28+Bc4BvXyIXluS7Umf"
+}
+2017-10-29 16:30:41,740 [1] DEBUG Momo.ProcessIcon - True
+2017-10-29 16:31:35,612 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:31:41,156 [1] DEBUG Momo.MomoAuthen - secureCode: wxbrqrAQ
+2017-10-29 16:31:41,156 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADhr13Qk7mQdipV+w/dNOyGRMspncfdrp/VbOK1qDCGwwAAAAAOgAAAAAIAACAAAAC3NrsfBjT6a01ayRxcIhXtM0FM1uL/W1/FZiEYEdpO6SAAAADAggvnNU0+Q4LLDmK0g+rM/nSo5vLgxWhwIC4qqECy90AAAABa7cMbK+8k1VV1639wCPrb971m6o7My0sTH+7DKDi1bvFVqv4q0D9G5a6MsnAEkMB1yVgvCeIXGAqosJZ4/WyU
+2017-10-29 16:31:41,218 [1] DEBUG Momo.ProcessIcon - {
+  "secureCode": "wxbrqrAQ",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADhr13Qk7mQdipV+w/dNOyGRMspncfdrp/VbOK1qDCGwwAAAAAOgAAAAAIAACAAAAC3NrsfBjT6a01ayRxcIhXtM0FM1uL/W1/FZiEYEdpO6SAAAADAggvnNU0+Q4LLDmK0g+rM/nSo5vLgxWhwIC4qqECy90AAAABa7cMbK+8k1VV1639wCPrb971m6o7My0sTH+7DKDi1bvFVqv4q0D9G5a6MsnAEkMB1yVgvCeIXGAqosJZ4/WyU"
+}
+2017-10-29 16:31:41,218 [1] DEBUG Momo.ProcessIcon - True
+2017-10-29 16:39:39,163 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:40:56,326 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:41:01,408 [1] ERROR Momo.MomoAuthen - User failed login
+System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 50
+2017-10-29 16:41:17,200 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:41:25,050 [1] ERROR Momo.MomoAuthen - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 51
+2017-10-29 16:42:19,257 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:42:23,970 [1] ERROR Momo.MomoAuthen - User failed login
+System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 50
+2017-10-29 16:42:25,747 [1] ERROR Momo.MomoAuthen - User failed login
+System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 50
+2017-10-29 16:42:27,469 [1] ERROR Momo.MomoAuthen - User failed login
+System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 50
+2017-10-29 16:42:28,388 [1] ERROR Momo.MomoAuthen - User failed login
+System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 50
+2017-10-29 16:43:11,517 [1] ERROR Momo.MomoAuthen - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 51
+2017-10-29 16:44:19,925 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:45:33,248 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:46:05,945 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-29 16:48:41,186 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:50:12,488 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:53:14,199 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:53:40,668 [1] ERROR Momo.MomoAuthen - User failed login
+System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 50
+2017-10-29 16:53:42,532 [1] ERROR Momo.MomoAuthen - User failed login
+System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 50
+2017-10-29 16:53:44,200 [1] ERROR Momo.MomoAuthen - User failed login
+System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 50
+2017-10-29 16:53:45,368 [1] ERROR Momo.MomoAuthen - User failed login
+System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at Momo.MomoAuthen.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\KhangDC\Desktop\CTM\CTM\MomoAuthen.cs:line 50
+2017-10-29 16:54:35,681 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:55:14,039 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 16:58:24,329 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:01:04,976 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:01:23,398 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:01:25,288 [1] DEBUG Momo.MomoAuthen - secureCode: NALH9VX+
+2017-10-29 17:01:25,288 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAhQLqkwA5GxL2PAmKv6am3ytzavirSRWjCuPTVoncnWAAAAAAOgAAAAAIAACAAAAAERME8PiWD9IHYwwvPB35LF5ACkUjnfhoy4nMQk+ET+hAAAAB/v4xIfdq6H82n7iQd5aAjQAAAAD8Z82I5ZTcXeESfVuJj2fbSsBQtctZUn+FLjvC0C+pN+YvnzuthC1HsNV1JZ+35AvWNUcZwbclWaykmAzYVrqw=
+2017-10-29 17:03:06,573 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:05:50,647 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:06:41,487 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:06:52,885 [1] DEBUG Momo.MomoAuthen - secureCode: +XSvuXwf
+2017-10-29 17:06:52,885 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAARWUbh5JxSj1ReFN1ZiMxIZG9Pgoo3mpfov4XdEDhAJQAAAAAOgAAAAAIAACAAAAAJuQEU3zLL8Ib/SChOvES963wF+JkGf2df70PTp69SMRAAAAA3HdOROxLCsvSC6myV7h8CQAAAAPTgPN2ax+PHCrkY3mOGRKMSKfk0enQZSBSOYzIE7/dPTFJKnqczPzoNMDB9m4jXSjBAz48Eaj2AYNpULtvjCS4=
+2017-10-29 17:09:45,320 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:10:24,054 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:10:36,787 [1] DEBUG Momo.MomoAuthen - secureCode: G4wgMwuK
+2017-10-29 17:10:36,787 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAByXQQq8jZU6aPA+te4kJk80GvnxOp5WFEL3a1lFNlDOAAAAAAOgAAAAAIAACAAAACke399/3PlThMcHdjyEWTMXoINplzmpLw61//BRsJYhBAAAADk+/OalveZFiEgnVRGIuP8QAAAACznxC9Uce2iBsXMJatPDR8Oje/rbHkvaOwts6//auI+iDGqAZTn1skzkAyt1tpT2M2fTMB4gi05FF2MgK2g+ks=
+2017-10-29 17:10:50,608 [1] DEBUG Momo.MomoAuthen - secureCode: NMEmzxAc
+2017-10-29 17:10:50,608 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADD0M4txPIX7hS1UlBVruzlNn+CGdOt4K1kvU8bWdoSpAAAAAAOgAAAAAIAACAAAAABxfLhA75QcC2rlmloISMans6DGacDwUGQS0yeaQIlmBAAAABOGqfXO1lc7wbcqyU9bwqLQAAAAPIU6iKaR+fVyDZnNdvNH6Beln4AyApVyO2wwiyWdyo4Th9HkWJNJ6BqZbOOgcK6wp1O7Txddp7vHBC5PPmr6Sw=
+2017-10-29 17:18:25,122 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:18:27,999 [1] DEBUG Momo.MomoAuthen - secureCode: EtyJHeU3
+2017-10-29 17:18:27,999 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABJE9qlom5fcp4l6ldrmrx9jtcBqhV4t8z+v8o8xl0JpwAAAAAOgAAAAAIAACAAAACnc1JWKF0bbWRC6nw9EbW2d6qqzZEITtZmLuBgo4/gihAAAAAy3RlGWRiwNe7eDm/qf1wUQAAAAAXleNBPggw3Qu3QACvlgZ6CefHbEEph7vz/McxImPPIS2kKBtbpDLqm3mkTdzhns4GRx6PQBsDPNRPR0Gtn+AU=
+2017-10-29 17:18:28,017 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:18:28,021 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,021 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,021 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,021 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:18:28,021 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,021 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,021 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,021 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:18:28,021 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:18:28,022 [1] DEBUG Momo.MomoAuthen - 0
+2017-10-29 17:28:20,100 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:28:22,234 [1] DEBUG Momo.MomoAuthen - 239
+2017-10-29 17:28:22,234 [1] DEBUG Momo.MomoAuthen - 168
+2017-10-29 17:28:22,234 [1] DEBUG Momo.MomoAuthen - 224
+2017-10-29 17:28:22,234 [1] DEBUG Momo.MomoAuthen - secureCode: 76jg
+2017-10-29 17:28:22,234 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAC9p+nD3dYvSRmMK2sAIclY2Fi0/2zlOgUpmMUXyJazUgAAAAAOgAAAAAIAACAAAAD0oaqpaZnpsEDiu9LBfxPIV+6eikrhPGluPuPDynqZ5xAAAABYUwc9yn2uNaCaOfnF3aKkQAAAABl+2hSthfpWnhjJ9rYcx/FZnyCXB1eUtTzwPvQPULrMWMrmzpt7xLATFK4VBSqIiOKEEveXrKJ2XJOJHvzY0vs=
+2017-10-29 17:28:22,250 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:28:22,250 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:28:22,250 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:28:22,250 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:28:22,250 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:28:22,250 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:28:22,250 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:28:22,250 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:30:09,414 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:30:11,242 [1] DEBUG Momo.MomoAuthen - 70
+2017-10-29 17:30:11,242 [1] DEBUG Momo.MomoAuthen - 40
+2017-10-29 17:30:11,242 [1] DEBUG Momo.MomoAuthen - 87
+2017-10-29 17:32:10,304 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:32:12,419 [1] DEBUG Momo.MomoAuthen - 119
+2017-10-29 17:32:12,419 [1] DEBUG Momo.MomoAuthen - 116
+2017-10-29 17:32:12,419 [1] DEBUG Momo.MomoAuthen - 68
+2017-10-29 17:32:12,419 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:32:12,419 [1] DEBUG Momo.MomoAuthen - secureCode: wtDX
+2017-10-29 17:32:12,419 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAArftd7QRYeHEdS3HUpc7oYVtCEUx1m9Inn2Y48a9JGmwAAAAAOgAAAAAIAACAAAAC0/7zpNG+Y43OkiD06chUO8Hl8f4iW4rmbT6MfGzFKRBAAAACDm07qGz+ebO0pojcMLJkbQAAAAMQNKqSIIlkbL93gqFFc9hoXiorqPG4HiDipA3IJG2BlBsEpSIgSZYKBg3KHG+0AmwfFGR+xaJuSnW+/bYTDTNI=
+2017-10-29 17:32:12,435 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:32:12,435 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:32:12,435 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:32:12,435 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:32:12,435 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:32:12,435 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:32:12,435 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:32:12,435 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:44:48,512 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:44:53,064 [1] DEBUG Momo.MomoAuthen - 47
+2017-10-29 17:44:53,068 [1] DEBUG Momo.MomoAuthen - 118
+2017-10-29 17:44:53,068 [1] DEBUG Momo.MomoAuthen - 74
+2017-10-29 17:44:53,068 [1] DEBUG Momo.MomoAuthen - 122
+2017-10-29 17:44:53,069 [1] DEBUG Momo.MomoAuthen - secureCode: /vJz
+2017-10-29 17:44:53,069 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAH968BHT3cwyhpkTs/OZpaKQ4m50wXlAHPYOpqEJ+UMgAAAAAOgAAAAAIAACAAAAB0zWjgShZYXGvcDqLF2yUiYnbFaXxpv67JOqR0eaJbiBAAAAAt+bX1fYKNg9zsPa3c6bRvQAAAAGqcTR/I4c+xIle7Bq6ur2nxhbun7niN2+sVZJ2FuOWY3TCXpQRTz92dnsn/fsDpKt+0pz2ZtRsFfi5jOiZ/1RE=
+2017-10-29 17:44:53,083 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:44:53,083 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:44:53,083 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:44:53,083 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:44:53,083 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:44:53,083 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:44:53,083 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:44:53,083 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:46:20,116 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:46:22,374 [1] DEBUG Momo.MomoAuthen - 112
+2017-10-29 17:46:22,378 [1] DEBUG Momo.MomoAuthen - 97
+2017-10-29 17:46:22,378 [1] DEBUG Momo.MomoAuthen - 81
+2017-10-29 17:46:22,378 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:46:22,378 [1] DEBUG Momo.MomoAuthen - 100
+2017-10-29 17:46:22,378 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:46:22,378 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:46:22,378 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:46:22,378 [1] DEBUG Momo.MomoAuthen - secureCode: paQAdA==
+2017-10-29 17:46:22,378 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABvM3k2NNsExQk/7jKKH9gqTNjwji5hspnEd4cT8vz+0AAAAAAOgAAAAAIAACAAAAAEnFEQLVd+N8xD92lgaBzUt+VQfvX26mcORxjr5KLmRxAAAACtaYTLPL6ts8T/N18CBj3MQAAAAAq+D/usrl+p0F62uYtAIC4LoHCxl+E2WNG0KGU0Znz6LYJtPNRYG9J5/nG4u1mv3TW8VL8OII6cXBvikDaCo2Q=
+2017-10-29 17:46:22,392 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:46:22,393 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:46:22,393 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:46:22,393 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:46:22,393 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:46:22,393 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:46:22,393 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:46:22,393 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:46:43,568 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:46:45,790 [1] DEBUG Momo.MomoAuthen - 115
+2017-10-29 17:46:45,806 [1] DEBUG Momo.MomoAuthen - 110
+2017-10-29 17:46:45,806 [1] DEBUG Momo.MomoAuthen - 115
+2017-10-29 17:46:45,806 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:46:45,806 [1] DEBUG Momo.MomoAuthen - secureCode: sns=
+2017-10-29 17:46:45,806 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACgqc94B/5pk1xAoceNclrdgZ3xq1EVx+kWTq12nzRINAAAAAAOgAAAAAIAACAAAAB+ll4NNeeq0Rez0qHhXl3hVriUO7Sg4y79ASEy81yVDxAAAADxHem5Q5/vgVMPmwJIYVoTQAAAAJvPZKR/jeBAnbqJXDJ2Zwsw5D99/i4eUQybEX4AeUI6kFwAXV3qG1T86idRgggv5sTCvK4CXOg7zEpzH4hCxnA=
+2017-10-29 17:46:45,822 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:46:45,822 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:46:45,822 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:46:45,822 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:46:45,822 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:46:45,822 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:46:45,822 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:46:45,822 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:49:51,955 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:49:54,013 [1] DEBUG Momo.MomoAuthen - 116
+2017-10-29 17:49:54,018 [1] DEBUG Momo.MomoAuthen - 89
+2017-10-29 17:49:54,018 [1] DEBUG Momo.MomoAuthen - 73
+2017-10-29 17:49:54,018 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:49:54,018 [1] DEBUG Momo.MomoAuthen - secureCode: tYI=
+2017-10-29 17:49:54,018 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABD4478cYlaE4ygk2qgwLdSofHC21uPtOH7+REVUEW+dgAAAAAOgAAAAAIAACAAAAB2Xg45rYibQshQ83MilqC1aQYVqY7xRMICjrf8LZj3nRAAAACh8NMny31c7nY+WGGna9YnQAAAAItu3waeictn0HG8Nz6MkEa3TuYiVDprtkbnB5HHeikZq8e6NJFhezmdWWpYYYSafkukXz9bh/BzfuETD6EDll8=
+2017-10-29 17:49:54,034 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:49:54,034 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:49:54,034 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:49:54,034 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:49:54,034 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:49:54,034 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:49:54,034 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:49:54,034 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:51:34,028 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:51:35,934 [1] DEBUG Momo.MomoAuthen - 52
+2017-10-29 17:51:35,950 [1] DEBUG Momo.MomoAuthen - 113
+2017-10-29 17:51:35,950 [1] DEBUG Momo.MomoAuthen - 81
+2017-10-29 17:51:35,950 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:51:35,950 [1] DEBUG Momo.MomoAuthen - secureCode: 4qQ=
+2017-10-29 17:51:35,950 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADDlnAtKvxFFRjfiTrr/Myd+M7B81XxijUUyV/90lTO/QAAAAAOgAAAAAIAACAAAACdkVk1p9whPt9MfPrErlWf+uml0AobrztsQBsaC2nwLxAAAACD0NyC2ottUzqGT3dfXe3GQAAAAJ1SUnr8ztTjQrNAbKRF6vbaPsocPUZ5GS5dWHYDCgQj3GmX96EVoaxGi+liLYE/Efwm+1AfrGVmabyUGsHXFb8=
+2017-10-29 17:51:35,966 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:51:35,966 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:51:35,966 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:51:35,966 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:51:35,966 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:51:35,966 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:51:35,966 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:51:35,966 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:53:28,214 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:53:30,293 [1] DEBUG Momo.MomoAuthen - 90
+2017-10-29 17:53:30,293 [1] DEBUG Momo.MomoAuthen - 70
+2017-10-29 17:53:30,293 [1] DEBUG Momo.MomoAuthen - 81
+2017-10-29 17:53:30,293 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:53:30,293 [1] DEBUG Momo.MomoAuthen - secureCode: ZFQ=
+2017-10-29 17:53:30,293 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABiJ+VFNUgMoF4NmSOb/y/a08hOhre3uqpoPs0oHECtTwAAAAAOgAAAAAIAACAAAABZAjXWZHHT+gLpiMvxyjqDukQll4IOqsnJgkFLak8K1xAAAAB2XtSDNj6RZH0RQXj5CZ0lQAAAAE779brpNVKrpaZaPVMlA1j0GRlLojCNelKSSzTa9FrFeyP7RloPQt7xPocfr1imEvKCHw8yZ07HEjyZo9wkTFw=
+2017-10-29 17:53:30,308 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:53:30,308 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:53:30,308 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:53:30,308 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:53:30,308 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:53:30,308 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:53:30,308 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:53:30,308 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:54:04,878 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:54:06,961 [1] DEBUG Momo.MomoAuthen - 89
+2017-10-29 17:54:06,965 [1] DEBUG Momo.MomoAuthen - 50
+2017-10-29 17:54:06,965 [1] DEBUG Momo.MomoAuthen - 83
+2017-10-29 17:54:06,965 [1] DEBUG Momo.MomoAuthen - 109
+2017-10-29 17:54:06,965 [1] DEBUG Momo.MomoAuthen - 67
+2017-10-29 17:54:06,965 [1] DEBUG Momo.MomoAuthen - 103
+2017-10-29 17:54:06,965 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:54:06,965 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:54:06,965 [1] DEBUG Momo.MomoAuthen - secureCode: Y2SmCg==
+2017-10-29 17:54:06,965 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABcCv+nzWb1qXQyf1PPzx6gPaYv7JUV/rzVAasaVkOX/wAAAAAOgAAAAAIAACAAAAAmCQjQ3PsbIpKzWi1i6IqAzLN2c7r03+AQqEuN7IZDeBAAAACY7QOQgPMHV9F7EeIb0rCSQAAAAB6vCYtUm7pVYxWUqj+TGP3dX9wAA3OAT1YiL7W4LWaazttT6+5gvaX4Joq8nIsRPOBdZddtLk8C77Kq2KKru4g=
+2017-10-29 17:54:06,981 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:54:06,981 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:54:06,981 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:54:06,981 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:54:06,981 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:54:06,981 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:54:06,981 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:54:06,981 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:55:09,757 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:55:12,232 [1] DEBUG Momo.MomoAuthen - 87
+2017-10-29 17:55:12,232 [1] DEBUG Momo.MomoAuthen - 114
+2017-10-29 17:55:12,232 [1] DEBUG Momo.MomoAuthen - 48
+2017-10-29 17:55:12,232 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:55:12,232 [1] DEBUG Momo.MomoAuthen - secureCode: Wr0=
+2017-10-29 17:55:12,232 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAD12hORcJ4h99egJunSWwzQt0GO0vTlCaaVjAFbQcgEbQAAAAAOgAAAAAIAACAAAABPI6m+inyKB64vp92EH7oEYeEZ1Y9FhMNjUHSezd5HphAAAAARS/8047AhfnmneQrwN5iMQAAAACZec4WEVo+U95s20gmt9JPYMLuENcgXjPOsjWNYgREzEpAnUWas3dOz/9SdZhd9Vvaq7Da0z4C7lCVYYkoZZCk=
+2017-10-29 17:55:12,247 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:55:12,247 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:55:12,247 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:55:12,247 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:55:12,247 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:55:12,247 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:55:12,247 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:55:12,247 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:56:12,978 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:56:15,385 [1] DEBUG Momo.MomoAuthen - 54
+2017-10-29 17:56:15,400 [1] DEBUG Momo.MomoAuthen - 115
+2017-10-29 17:56:15,400 [1] DEBUG Momo.MomoAuthen - 81
+2017-10-29 17:56:15,400 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:56:15,400 [1] DEBUG Momo.MomoAuthen - secureCode: 6sQ=
+2017-10-29 17:56:15,400 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABqHsl/VeqBq7tqefespMwYFEwLZhi2zkOBqPaz/MQndgAAAAAOgAAAAAIAACAAAAAfTMCcWWVziKG1AbMTtxEoaA6olo40QORfr2pLIUowLRAAAACDQ3+7qNHbegTzPeQTHsheQAAAADSMzlv63bdNjJw4cJ+5rtHk8FKlTOvKKV92nVsq5VCwRTcu+66zUMRHa6u8MgJcGC1hblx6IZPSRAMWwQ+1iiU=
+2017-10-29 17:56:15,416 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:56:15,416 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:56:15,416 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:56:15,416 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:56:15,416 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:56:15,416 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:56:15,416 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:56:15,416 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:56:56,999 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:56:59,115 [1] DEBUG Momo.MomoAuthen - 113
+2017-10-29 17:56:59,131 [1] DEBUG Momo.MomoAuthen - 103
+2017-10-29 17:56:59,131 [1] DEBUG Momo.MomoAuthen - 48
+2017-10-29 17:56:59,131 [1] DEBUG Momo.MomoAuthen - 84
+2017-10-29 17:56:59,131 [1] DEBUG Momo.MomoAuthen - secureCode: qg0T
+2017-10-29 17:56:59,131 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABUIzN4d9S6/hJ9ZxuaA3HRxMF3qv2L85SBXmhUdv4pbAAAAAAOgAAAAAIAACAAAADPKIDHZYo81ALsPg3Cz0CXzeLLbcsvAFVMSNWCAfogRxAAAAB9Z7bvGLm5hL8Dn6/0oLS7QAAAAKSPSDSmttxNbo8VI7x5rHYoal82yjo620OJVxw/bSDGqFtQvJKn89qEhz8rdVaVwYWPTgJUQaGUzddu+BibOL0=
+2017-10-29 17:56:59,146 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:56:59,146 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:56:59,146 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:56:59,146 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:56:59,146 [1] DEBUG Momo.MomoAuthen - 57
+2017-10-29 17:56:59,146 [1] DEBUG Momo.MomoAuthen - 86
+2017-10-29 17:56:59,146 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:56:59,146 [1] DEBUG Momo.MomoAuthen - 43
+2017-10-29 17:57:28,050 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:57:30,323 [1] DEBUG Momo.MomoAuthen - 54
+2017-10-29 17:57:30,323 [1] DEBUG Momo.MomoAuthen - 98
+2017-10-29 17:57:30,323 [1] DEBUG Momo.MomoAuthen - 115
+2017-10-29 17:57:30,323 [1] DEBUG Momo.MomoAuthen - 66
+2017-10-29 17:57:30,323 [1] DEBUG Momo.MomoAuthen - secureCode: 6bsB
+2017-10-29 17:57:30,323 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACxFzYesXULTq0qi6HxKEwx2EbQ48lh066af9/Hg/9nGQAAAAAOgAAAAAIAACAAAABKJe+ll9mryLbBOS7+4gNguLn10BkwJDEqcVxH23twWBAAAAByGgCOt85DNEqoQowo7XwuQAAAANm14b7nACZ43PwjUA7HEjmfPxRdI8Cm254GiARZK4aCOxMXvrdEllAYDD2WGveAxKn33lqxPrRRrNFxjHtyfoo=
+2017-10-29 17:57:51,225 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:57:53,932 [1] DEBUG Momo.MomoAuthen - 87
+2017-10-29 17:57:53,936 [1] DEBUG Momo.MomoAuthen - 80
+2017-10-29 17:57:53,936 [1] DEBUG Momo.MomoAuthen - 98
+2017-10-29 17:57:53,936 [1] DEBUG Momo.MomoAuthen - 49
+2017-10-29 17:57:53,936 [1] DEBUG Momo.MomoAuthen - secureCode: WPb1
+2017-10-29 17:57:53,936 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADINvzL+5waecm3zfProrbBUylcq2oPnVxQXOeomB1hmwAAAAAOgAAAAAIAACAAAAC1puPrVvIEohh26UJdiycHK51Q8pamZEGTnZ4C7xmHNRAAAABtMHbA8G81xVYe3SYk2tSbQAAAAIhVcUbcTnt8DjiKN2TFeH4SCnUIbiqqbhniskU6w5V+uFIk1Qzi6AdrBLsqv7h9UGx76xT0J0o2+sO/HmFGc0U=
+2017-10-29 17:57:57,673 [1] DEBUG Momo.MomoAuthen - 81
+2017-10-29 17:57:57,673 [1] DEBUG Momo.MomoAuthen - 88
+2017-10-29 17:57:57,673 [1] DEBUG Momo.MomoAuthen - 119
+2017-10-29 17:57:57,673 [1] DEBUG Momo.MomoAuthen - 107
+2017-10-29 17:57:57,673 [1] DEBUG Momo.MomoAuthen - secureCode: QXwk
+2017-10-29 17:57:57,673 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACoSkwo13HEkmfW0bIeQ1Vsi1c1KuKWEia/CBz+lexYggAAAAAOgAAAAAIAACAAAAB1B+iMwEIJ5OBLNv4TfqfBDcInwY7jNWEOJQdX0efw+BAAAACvZA5lErqOAVl6KgLORPgdQAAAACc2Ea55XaLebFy4PTkraxe6V8UKHqBQ5wiZ6MI2xo6w7RkzUz5bUR4StwasLEt5IrZbByw7z2XjjbdeFU40MEg=
+2017-10-29 17:57:59,470 [1] DEBUG Momo.MomoAuthen - 97
+2017-10-29 17:57:59,470 [1] DEBUG Momo.MomoAuthen - 105
+2017-10-29 17:57:59,470 [1] DEBUG Momo.MomoAuthen - 48
+2017-10-29 17:57:59,470 [1] DEBUG Momo.MomoAuthen - 50
+2017-10-29 17:57:59,471 [1] DEBUG Momo.MomoAuthen - secureCode: ai02
+2017-10-29 17:57:59,471 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACjM2BwLSV7EeKggdBQmFmWFizkO/VmDi6+JiyMtoBeMQAAAAAOgAAAAAIAACAAAACdsqQrb3V2HmbhYM1rrIh8ZtRROPAKmZhz8IJ7iIUplhAAAABvcWYn9cxIXiO44slYeWZjQAAAAK1KQVXwhwUpINZN0ZVMUG8eWUpJA9OJr1/U7mjg8+I1/dRHztQuO9Zwm6B+cOamQKyyV7vgZZPQ+lbV7DuDGlg=
+2017-10-29 17:58:01,881 [1] DEBUG Momo.MomoAuthen - 114
+2017-10-29 17:58:01,881 [1] DEBUG Momo.MomoAuthen - 85
+2017-10-29 17:58:01,881 [1] DEBUG Momo.MomoAuthen - 84
+2017-10-29 17:58:01,881 [1] DEBUG Momo.MomoAuthen - 104
+2017-10-29 17:58:01,881 [1] DEBUG Momo.MomoAuthen - secureCode: rUTh
+2017-10-29 17:58:01,881 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABXP41lGsL9waOz6vWLcQBEJhQ9E5+2nWFT9lSUdksQ9gAAAAAOgAAAAAIAACAAAABPJKH6ES6plhpo7LkoKyaAp17WxQBsftVw+Ips6eiUmxAAAAAxa3aaLbFe5MY0/7OkVtG3QAAAALnTEJYWOv47mNRzkorvsyZqony+SLYpAKpm0nCu9Cs8MV+vd4OdSTRZGVIvH96f6j7Crvv5RMdvOwd8+y4f1vA=
+2017-10-29 17:58:05,187 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:58:05,187 [1] DEBUG Momo.MomoAuthen - 51
+2017-10-29 17:58:05,187 [1] DEBUG Momo.MomoAuthen - 71
+2017-10-29 17:58:05,187 [1] DEBUG Momo.MomoAuthen - 115
+2017-10-29 17:58:05,187 [1] DEBUG Momo.MomoAuthen - secureCode: A3Gs
+2017-10-29 17:58:05,187 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACDXGMa98sQbE7rXuBuvS6xl/eVyryNxCdIajz1eBfixQAAAAAOgAAAAAIAACAAAABJf4ZtqbQZ686nzbD2fP+6wOtTxBTs8cValWB2INYhWhAAAAAH6X7XyVAyH6LHvxxN1x7CQAAAAJIoyiDwknbGF5iHYI4cQvnSF+CXRwPO2rB+ewmK73W+H6QB2SM090kuyXmQggoU1hUVvAfNIobU3r7HCM939q8=
+2017-10-29 17:58:16,388 [1] DEBUG Momo.MomoAuthen - 112
+2017-10-29 17:58:16,388 [1] DEBUG Momo.MomoAuthen - 103
+2017-10-29 17:58:16,388 [1] DEBUG Momo.MomoAuthen - 113
+2017-10-29 17:58:16,388 [1] DEBUG Momo.MomoAuthen - 87
+2017-10-29 17:58:16,388 [1] DEBUG Momo.MomoAuthen - secureCode: pgqW
+2017-10-29 17:58:16,388 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAQ4K49EWUs1uxesnCWa1bUysIB5OQCA1pO6XrSfxJ2CAAAAAAOgAAAAAIAACAAAADrPHUuU94Oc0oCzhPadgFelv+o41o9YTb010c7cXC//BAAAADbLge8jTEKlN7d1KdJZMtxQAAAAGSf7PKp8EDaqk+u1bQKIwIwoMtqrn94XP/MPbKUJg3CFU9oEFQ/UHGwX+HGjjNeJ+h0/UabyIlO+KGxpVKesF4=
+2017-10-29 17:58:18,443 [1] DEBUG Momo.MomoAuthen - 56
+2017-10-29 17:58:18,443 [1] DEBUG Momo.MomoAuthen - 117
+2017-10-29 17:58:18,443 [1] DEBUG Momo.MomoAuthen - 56
+2017-10-29 17:58:18,443 [1] DEBUG Momo.MomoAuthen - 76
+2017-10-29 17:58:18,443 [1] DEBUG Momo.MomoAuthen - secureCode: 8u8L
+2017-10-29 17:58:18,443 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAJndRy32PrK6TAgLnJMwGq+hwtHV0U3f6+LuVeZVXhPQAAAAAOgAAAAAIAACAAAABKwyRaFy0S4YJjJJm+JrxDH+hWYzeK8LnCw9k9xl+rHRAAAAA7mK6G12UmzltbUD3NsSQXQAAAAJ09DwsVW9DGAXTz3EfukFZfHzXK/ZvXpKT3cW5PZOkXMz7u6aSpSBcm4VtXNFth4aE5xLDZ9LIWT6gi7jri0vg=
+2017-10-29 17:58:22,469 [1] DEBUG Momo.MomoAuthen - 54
+2017-10-29 17:58:22,469 [1] DEBUG Momo.MomoAuthen - 108
+2017-10-29 17:58:22,469 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:58:22,469 [1] DEBUG Momo.MomoAuthen - 82
+2017-10-29 17:58:22,469 [1] DEBUG Momo.MomoAuthen - secureCode: 6lNR
+2017-10-29 17:58:22,469 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAD8kawd49A4IFuV3UlC+dqC8EMu4F1uNvn8o2OVfLyMTgAAAAAOgAAAAAIAACAAAACxhetQETgNpIRxAdHUP/nwebnMQMfb7P/efv9kGFEcwxAAAADKaRqdHyGo1MyZb/e6JsX3QAAAAPtgIBvNw9nD+132D5s/MBXWxIWmpm5MdLvMf6jFxY8tNfncTQbW2pWkpqpDUwAYU6/2fKm459RAh2gePuh9aRU=
+2017-10-29 17:58:25,555 [1] DEBUG Momo.MomoAuthen - 78
+2017-10-29 17:58:25,555 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:58:25,555 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:58:25,555 [1] DEBUG Momo.MomoAuthen - 68
+2017-10-29 17:58:25,555 [1] DEBUG Momo.MomoAuthen - secureCode: NHHD
+2017-10-29 17:58:25,555 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAD1lZbtAhOmj1jwfvnRIf3m18mEXc01E56DA0n/5Hj5TwAAAAAOgAAAAAIAACAAAACydbzbUTLuhQ100c3nC9iAJmBQKVx7Y5Z3xIzuWQ8CyRAAAAACLS0fFFfrdmTqBo6vNwqoQAAAABdxPhzNZcgORhV3UrxzuSaY0FnFHakZGVOYHHUGGlRtJ8k7rwCZomy729KYRPTnHFqLKswrLGsodAdBJEseGi0=
+2017-10-29 17:58:27,756 [1] DEBUG Momo.MomoAuthen - 77
+2017-10-29 17:58:27,756 [1] DEBUG Momo.MomoAuthen - 104
+2017-10-29 17:58:27,756 [1] DEBUG Momo.MomoAuthen - 69
+2017-10-29 17:58:27,756 [1] DEBUG Momo.MomoAuthen - 71
+2017-10-29 17:58:27,757 [1] DEBUG Momo.MomoAuthen - secureCode: MhEG
+2017-10-29 17:58:27,757 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABW6gle7r1J6Qkw5bl2ecOeyAqUrBMWLA8/VWH8TVkP0AAAAAAOgAAAAAIAACAAAABlXigZrCfNwrLegQwN9B6FocDAkYWX4qvmzPE8Gz86mBAAAABrmqBXzQlgzD8oGJf8CcITQAAAADvJfG3yW3LelU+eItaWVUr2VCovyqL4s1yGYYPvumM0TrOuJaeYRJJIWv8FLx+4mKTkjfoT65zgn6WKsXc0EuU=
+2017-10-29 17:58:48,308 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - 85
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - 105
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - 72
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - 84
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - 52
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - 81
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - secureCode: UiHT4Q==
+2017-10-29 17:58:50,697 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAC2qPKipNGX6gebQTdVDno+lbbm1PbhSE8uoGnNxYybewAAAAAOgAAAAAIAACAAAAAz+OYtLoFYP34W+JbWaoZNZEXAqGdWrKg+hfemRJUlBxAAAADJQc0bRp7OVHN2cIp87H0hQAAAAG4UD0hdc7gXiQC/TQAB/HGRhmnUFNHEPoVyfopA1Tq3fAmQByQ8ZK41Jeqtdt7R+uE0PodoTpL/77IvGIMVl7E=
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - 119
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - 112
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - 106
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - 77
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - 85
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - 65
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - secureCode: wpjMUA==
+2017-10-29 17:58:53,181 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAC5e1Vr2fNWI+Yz/vLfhz6hcxI7Io5yhswSZpWR5Z0tBQAAAAAOgAAAAAIAACAAAADizxQrE/ZRmG8E6H7ds6BqhTViIFQ+RYos2bKQNdWIAhAAAACtzkwBOJlswXX2z85PBtPmQAAAAIvIg1csmwcpr8haRbS4qxPMCQDSdKAU0E5NHYGjEsx2CNQafp9lbKx+CcK5BRpQd8Fdmob6KIMPvfuOT8KNebg=
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - 71
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - 47
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - 48
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - 110
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - 115
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - 119
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - secureCode: G/0nsw==
+2017-10-29 17:58:56,911 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADHJuCuF6jNo44aWMkpiZutQNe5fmPZs87e208C/QF30wAAAAAOgAAAAAIAACAAAACwoYH6CpiLoPj4O6SqHnHAeIk2SUZ19bfYPlDUj0nVyhAAAABmB/eafweF+4h5MNFkWWOAQAAAALYS337//nVC08rywqol5ea4rP8XcZZ7Rsj2LnfRWOtOQPsViOh5mt6q+bj9Awc6EhvqojSdE/h1NbMrrR/nPt8=
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - 79
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - 99
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - 81
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - 84
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - 56
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - 103
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - 61
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - secureCode: OcQT8g==
+2017-10-29 17:58:58,010 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADysYwE5fVjc6zkZuESfSZ8Vc7PmC3h05TQZW1K/Ca+TwAAAAAOgAAAAAIAACAAAABgMxzo5jz2GDENwMp4s5WDqWce86i7P3D1EUyGBUsMmhAAAAAhxetvFDenb/fQpmSQOQ3xQAAAAJzcoZJahONnzwbh67TksoW0S+vYfSggFGOi0Ij0VW5WDo3LDYjpz4TTZiW4tIRWV8I12beqxmobCTQnGTnZ1LM=
+2017-10-29 17:59:43,570 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 17:59:45,492 [1] DEBUG Momo.MomoAuthen - secureCode: gJCvPg==
+2017-10-29 17:59:45,492 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABv+fLWw932v57n6dVQk5gDpWzXgLcVdvjXigaktAiJDQAAAAAOgAAAAAIAACAAAACV3tOEqsLi/0UMF3Esjc8Hw1l7U48xht4oA4+mfcsB8BAAAAAnBKtRPsnMu4Ni3q3yjI4RQAAAAHXocXLNkNVfRSlt2qK5tSFTL7sXcf6waaMdSyYuwoL3nR76lNw8hKpJL6v4Xp4PGffMigY6XV5guUuzaq/Nmp8=
+2017-10-29 18:01:09,922 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 18:01:11,628 [1] DEBUG Momo.MomoAuthen - secureCode: jCGUaw==
+
+2017-10-29 18:01:11,629 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAA2uoaMjHN+WAEZh/RMUdmHiwJtN34by1YV11/2bnVLbgAAAAAOgAAAAAIAACAAAAA2SV3DzL7SWA6A3jXnB/GqpyUZPIGiRGzyvXnPIRr+XxAAAADvANvmuaN6Y44Qdf3Zdw09QAAAAG3ZDSVuPIMLgUk9a/rKQfIqbHk6gjfI3q/eHlQR3E/H+pQ4/Y8c4XWHkiOKxPcGEO+tPyNo4Yz6neoNkr7ComQ=
+2017-10-29 18:02:12,749 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 18:02:14,890 [1] DEBUG Momo.MomoAuthen - secureCode: GacPWA==
+
+2017-10-29 18:02:14,890 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAVP4xoz94mYXMAYJ6JEOg7mQ5fiTjyX0teyGUBC55eUAAAAAAOgAAAAAIAACAAAAD5bEWAhg9bnB2LLJ+0Wy4Kld4DdxiA/U/RKZBAU44zJRAAAAAZr+BV2U5/GW9vl4VdecyFQAAAAFR+bU2VQDMpEQWt5oEqBfIhcLj8IrNae3cIxRKEOEYKWYxhNVbzA5ao1SqTWe9wooI2dxZh4FbM4ZA6R+8D7mA=
+2017-10-29 18:02:14,968 [1] DEBUG Momo.MomoAuthen - {
+  "secureCode": "GacPWA==",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAAVP4xoz94mYXMAYJ6JEOg7mQ5fiTjyX0teyGUBC55eUAAAAAAOgAAAAAIAACAAAAD5bEWAhg9bnB2LLJ+0Wy4Kld4DdxiA/U/RKZBAU44zJRAAAAAZr+BV2U5/GW9vl4VdecyFQAAAAFR+bU2VQDMpEQWt5oEqBfIhcLj8IrNae3cIxRKEOEYKWYxhNVbzA5ao1SqTWe9wooI2dxZh4FbM4ZA6R+8D7mA="
+}
+2017-10-29 18:03:21,838 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 18:03:23,807 [1] DEBUG Momo.MomoAuthen - secureCode: 8hzh/A==
+
+2017-10-29 18:03:23,807 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAABs3UK39X7zF4J1Vue/QeyfGqIJI29QWPKRSCJQbaXvgAAAAAOgAAAAAIAACAAAADprH2N4QFkALiwmjzHeRdpCTbGd8Xrkx9q05fR7Z/s6hAAAACG0tlvdxvE+LUoktBGWx29QAAAAMwtp+zp5QL/d64xCNTJcczSZYCZku+INv4HZsPdfTQLzVbGNHfHKGs1BZJI1QDP5rFw5UP0N4RGueD0G+5X1F8=
+2017-10-29 18:03:23,870 [1] DEBUG Momo.MomoAuthen - {
+  "secureCode": "F2-1C-E1-FC",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAABs3UK39X7zF4J1Vue/QeyfGqIJI29QWPKRSCJQbaXvgAAAAAOgAAAAAIAACAAAADprH2N4QFkALiwmjzHeRdpCTbGd8Xrkx9q05fR7Z/s6hAAAACG0tlvdxvE+LUoktBGWx29QAAAAMwtp+zp5QL/d64xCNTJcczSZYCZku+INv4HZsPdfTQLzVbGNHfHKGs1BZJI1QDP5rFw5UP0N4RGueD0G+5X1F8="
+}
+2017-10-29 18:07:54,452 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 18:07:59,499 [1] DEBUG Momo.MomoAuthen - secureCode: 1RnN6w==
+
+2017-10-29 18:07:59,499 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACad0k5HzDaOFIKtY7dHy6i89QMywAM3sLaXSH0OfLvcwAAAAAOgAAAAAIAACAAAAA+iuu/FYD3YjS/OvFxMELsqn1ZB4Fc5hnuQkKdlbcw1xAAAACBs7u7IdmeWzhpw+YKy1I1QAAAAG/uA9GQUvvf59tHSnZhBgrW1as8tRQDe54R3rU1RtLHsf3MDO/c94ZhP5+ji+rYx9GkH//mlkJCYyDzFJ+4RLo=
+2017-10-29 18:07:59,545 [1] DEBUG Momo.MomoAuthen - {
+  "secureCode": "D5-19-CD-EB",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACad0k5HzDaOFIKtY7dHy6i89QMywAM3sLaXSH0OfLvcwAAAAAOgAAAAAIAACAAAAA+iuu/FYD3YjS/OvFxMELsqn1ZB4Fc5hnuQkKdlbcw1xAAAACBs7u7IdmeWzhpw+YKy1I1QAAAAG/uA9GQUvvf59tHSnZhBgrW1as8tRQDe54R3rU1RtLHsf3MDO/c94ZhP5+ji+rYx9GkH//mlkJCYyDzFJ+4RLo="
+}
+2017-10-29 18:08:23,607 [1] DEBUG Momo.MomoAuthen - secureCode: oi1TFg==
+
+2017-10-29 18:08:23,607 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAC7E6u8Z1kIQSCxMPdIRok3d5BmIgRnNMCbsVh+Qywb6QAAAAAOgAAAAAIAACAAAADwGZubXS1r3QhTGuIJ+wcoeYitGlvsQvQqjxlD/hdG0BAAAAC+6I4NYdynDYXxowH8jN7jQAAAAEJkPAsx68BAis3zgt1+dltMVs9a/6FN4dCgZdJiuqm1nFqFuzSSyCRXPyOk8b06BSo2Y8kla23flfzfVhF0ipw=
+2017-10-29 18:08:23,607 [1] DEBUG Momo.MomoAuthen - {
+  "secureCode": "A2-2D-53-16",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAC7E6u8Z1kIQSCxMPdIRok3d5BmIgRnNMCbsVh+Qywb6QAAAAAOgAAAAAIAACAAAADwGZubXS1r3QhTGuIJ+wcoeYitGlvsQvQqjxlD/hdG0BAAAAC+6I4NYdynDYXxowH8jN7jQAAAAEJkPAsx68BAis3zgt1+dltMVs9a/6FN4dCgZdJiuqm1nFqFuzSSyCRXPyOk8b06BSo2Y8kla23flfzfVhF0ipw="
+}
+2017-10-29 18:09:05,100 [1] DEBUG Momo.MomoAuthen - secureCode: HYLmDQ==
+
+2017-10-29 18:09:05,115 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACYwP9iX5MzhVERJzT0QnzJmXmZ/wES4HLY9YwAz5TECwAAAAAOgAAAAAIAACAAAACnnljK69DHj8LVRjY31KSVW+kszoSwRJS24QXgu5l/KxAAAACGBFASL4Dfw2Ih5qA7zFNsQAAAANXCdYIuc/3zkBQV7s5Nm8BzTLZ2zxTU4FNykUsFaI8gV9ZLy33TXc4LCHAhvOROBFE+TMbdLORDBamTIKfUTNc=
+2017-10-29 18:09:05,115 [1] DEBUG Momo.MomoAuthen - {
+  "secureCode": "1D-82-E6-0D",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACYwP9iX5MzhVERJzT0QnzJmXmZ/wES4HLY9YwAz5TECwAAAAAOgAAAAAIAACAAAACnnljK69DHj8LVRjY31KSVW+kszoSwRJS24QXgu5l/KxAAAACGBFASL4Dfw2Ih5qA7zFNsQAAAANXCdYIuc/3zkBQV7s5Nm8BzTLZ2zxTU4FNykUsFaI8gV9ZLy33TXc4LCHAhvOROBFE+TMbdLORDBamTIKfUTNc="
+}
+2017-10-29 18:09:07,155 [1] DEBUG Momo.MomoAuthen - secureCode: xlcdnQ==
+
+2017-10-29 18:09:07,155 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADMvSx3ssqK1KGTG6Oww7vImEJEFlytxzBct88rGqjU8gAAAAAOgAAAAAIAACAAAAD/67bxBDYG/rdWscISn54YshLMF+eTgppTZF4Scj+YqxAAAAD+s5r6hbqpOORAhwFOMXEbQAAAAOUF+krioMBIAnLGyhQQDn2WRl2ZqjxjROKnYd/MKrTmhKH1tZvn8FVn8Tf1esIFXKN5M61wuzb9QZkZ6VjoFAY=
+2017-10-29 18:09:07,155 [1] DEBUG Momo.MomoAuthen - {
+  "secureCode": "C6-57-1D-9D",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADMvSx3ssqK1KGTG6Oww7vImEJEFlytxzBct88rGqjU8gAAAAAOgAAAAAIAACAAAAD/67bxBDYG/rdWscISn54YshLMF+eTgppTZF4Scj+YqxAAAAD+s5r6hbqpOORAhwFOMXEbQAAAAOUF+krioMBIAnLGyhQQDn2WRl2ZqjxjROKnYd/MKrTmhKH1tZvn8FVn8Tf1esIFXKN5M61wuzb9QZkZ6VjoFAY="
+}
+2017-10-29 18:09:09,535 [1] DEBUG Momo.MomoAuthen - secureCode: my8wHQ==
+
+2017-10-29 18:09:09,535 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADw3zxuZwT6nkeByqD1+69yFUgtjCPrHqg0xC5/w973BAAAAAAOgAAAAAIAACAAAACgUWmpWthHV6/hd3I6v8spG/BiuK2ZGIemOqTgMVyBDxAAAADNoB2B0fPe+jGeB7VpyoHoQAAAAPE0O0fWSHtVKDFAiNB8IEVHxYDGihT0+ShNZzaQKwxudsupeoz+/COcofJDDvIDxWMlXC1r5Qt7kXMUQM9jMc4=
+2017-10-29 18:09:09,535 [1] DEBUG Momo.MomoAuthen - {
+  "secureCode": "9B-2F-30-1D",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADw3zxuZwT6nkeByqD1+69yFUgtjCPrHqg0xC5/w973BAAAAAAOgAAAAAIAACAAAACgUWmpWthHV6/hd3I6v8spG/BiuK2ZGIemOqTgMVyBDxAAAADNoB2B0fPe+jGeB7VpyoHoQAAAAPE0O0fWSHtVKDFAiNB8IEVHxYDGihT0+ShNZzaQKwxudsupeoz+/COcofJDDvIDxWMlXC1r5Qt7kXMUQM9jMc4="
+}
+2017-10-29 18:09:41,192 [1] DEBUG Momo.MomoAuthen - secureCode: q8WWFQ==
+
+2017-10-29 18:09:41,192 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACeSGNX6CERj7oJ/FmVhWM7GGyJaSIrGTmlnC5Cy4tfFwAAAAAOgAAAAAIAACAAAADGuYXbrV/5lMnsKzXB0C2RtRH9zsFXSUys/tG/8Vq6HBAAAABlvWKDpZcxpcs1ujPPJJ31QAAAAEYQPKLbSJMKoe0A53MOXdik0Ci3wwB0ky0fM1UEa2wG6KLQNUSaq78cUqKbwdQ8hkLCG6gKlF1pOWhVzCU7WqY=
+2017-10-29 18:09:41,192 [1] DEBUG Momo.MomoAuthen - {
+  "secureCode": "AB-C5-96-15",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACeSGNX6CERj7oJ/FmVhWM7GGyJaSIrGTmlnC5Cy4tfFwAAAAAOgAAAAAIAACAAAADGuYXbrV/5lMnsKzXB0C2RtRH9zsFXSUys/tG/8Vq6HBAAAABlvWKDpZcxpcs1ujPPJJ31QAAAAEYQPKLbSJMKoe0A53MOXdik0Ci3wwB0ky0fM1UEa2wG6KLQNUSaq78cUqKbwdQ8hkLCG6gKlF1pOWhVzCU7WqY="
+}
+2017-10-29 18:13:05,412 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-29 18:13:11,086 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 18:22:08,364 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 18:22:44,787 [1] DEBUG Momo.ProcessIcon - Folder [E:\Works] is not existed
+2017-10-29 18:22:54,186 [1] DEBUG Momo.MomoAuthen - secureCode: TboN/A==
+
+2017-10-29 18:22:54,186 [1] DEBUG Momo.MomoAuthen - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAC9t2GIHQdt4BhwWthzeOJwSoIOtLplvTLtTjsbIN9eQwAAAAAOgAAAAAIAACAAAADVSVp2gnZkFZ2Oj1T32PDgjLhCWLsSOVBWnBcBehCo3hAAAADO+9bD2moUY3hvJ5hwYMP4QAAAAGjB0hLpaTKYoIOoOkLLduzOtvQIgb0Uoha8LZ4OHs3tgqew3dtbO1er6m93pl7cDgZVN8fBgALtHVPcTs8Hp0Q=
+2017-10-29 18:22:54,242 [1] DEBUG Momo.MomoAuthen - {
+  "secureCode": "4D-BA-0D-FC",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAC9t2GIHQdt4BhwWthzeOJwSoIOtLplvTLtTjsbIN9eQwAAAAAOgAAAAAIAACAAAADVSVp2gnZkFZ2Oj1T32PDgjLhCWLsSOVBWnBcBehCo3hAAAADO+9bD2moUY3hvJ5hwYMP4QAAAAGjB0hLpaTKYoIOoOkLLduzOtvQIgb0Uoha8LZ4OHs3tgqew3dtbO1er6m93pl7cDgZVN8fBgALtHVPcTs8Hp0Q="
+}
+2017-10-29 19:47:55,102 [1] DEBUG Momo.MomoSecurity - secureCode: d7/TGg==
+
+2017-10-29 19:47:55,128 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAABDkKzwFLC8XEL8wvxDSwBeZ352sxJ6qpSqCVS/3gOpKAAAAAAOgAAAAAIAACAAAACZG7G+Syup1fxEJLBtWSstkYnHFV0Yw9yiEgIGGUqs+BAAAADLLRFv+fQk1BxhPJ2xbshiQAAAAEhBb9LZ4HvwvmRJbMmkGweOJfWQ/t+EoPb7TN2u4GO7WNc/d/6noA1YdZsdg9BgK3tjAyRjYRz14GUpwyKb+2g=
+2017-10-29 19:47:55,203 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "77-BF-D3-1A",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAABDkKzwFLC8XEL8wvxDSwBeZ352sxJ6qpSqCVS/3gOpKAAAAAAOgAAAAAIAACAAAACZG7G+Syup1fxEJLBtWSstkYnHFV0Yw9yiEgIGGUqs+BAAAADLLRFv+fQk1BxhPJ2xbshiQAAAAEhBb9LZ4HvwvmRJbMmkGweOJfWQ/t+EoPb7TN2u4GO7WNc/d/6noA1YdZsdg9BgK3tjAyRjYRz14GUpwyKb+2g="
+}
+2017-10-29 19:49:27,327 [1] DEBUG Momo.MomoSecurity - secureCode: jNZW1A==
+
+2017-10-29 19:49:27,350 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAD49cZKuRB4gydbipOqaYsPm6U9D3OiyqbK5cFp2kHTbgAAAAAOgAAAAAIAACAAAACF5UVHL524YVDyew/9j5tlNBCvQK/faHMf4B3FDRIRJRAAAACSSDgXL+d5YLbK3r+5VAuhQAAAAIOzE33kKiQYsMJ1xw5BTeI13LLnqHluzrPF1quNcw79LjvPNgs+lC53ik8Ubyuv2DUVJtqCCp0LkNTbxAWL23U=
+2017-10-29 19:49:27,396 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "8C-D6-56-D4",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAD49cZKuRB4gydbipOqaYsPm6U9D3OiyqbK5cFp2kHTbgAAAAAOgAAAAAIAACAAAACF5UVHL524YVDyew/9j5tlNBCvQK/faHMf4B3FDRIRJRAAAACSSDgXL+d5YLbK3r+5VAuhQAAAAIOzE33kKiQYsMJ1xw5BTeI13LLnqHluzrPF1quNcw79LjvPNgs+lC53ik8Ubyuv2DUVJtqCCp0LkNTbxAWL23U="
+}
+2017-10-29 19:49:27,416 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: Key not valid for use in specified state.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 72
+2017-10-29 19:49:36,045 [1] DEBUG Momo.MomoSecurity - secureCode: m9qYHA==
+
+2017-10-29 19:49:36,045 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAADjPVTxOcKLRiAzEyf9tnttZ6b+Jp9Om7bwmpBICD2gbgAAAAAOgAAAAAIAACAAAACt3FsrwmZg1nBsISP7usvNmKOSRHWcnSc5H87/f3iJ8xAAAAB1sQhyWY8DCiZNKd0LsZjhQAAAALjL68Vu0e6Wm7pvzux/hmK3XJHfSw00xW1vZ9sevmTh5C1eA0sRUJEXMRu4K5ni53Az2QxltOqj9H7hxRpDU3w=
+2017-10-29 19:49:36,045 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "9B-DA-98-1C",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAADjPVTxOcKLRiAzEyf9tnttZ6b+Jp9Om7bwmpBICD2gbgAAAAAOgAAAAAIAACAAAACt3FsrwmZg1nBsISP7usvNmKOSRHWcnSc5H87/f3iJ8xAAAAB1sQhyWY8DCiZNKd0LsZjhQAAAALjL68Vu0e6Wm7pvzux/hmK3XJHfSw00xW1vZ9sevmTh5C1eA0sRUJEXMRu4K5ni53Az2QxltOqj9H7hxRpDU3w="
+}
+2017-10-29 19:49:36,054 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: Key not valid for use in specified state.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 72
+2017-10-29 19:50:25,557 [1] DEBUG Momo.MomoSecurity - secureCode: NPXiqg==
+
+2017-10-29 19:50:25,557 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAD93sAx5cNCWohLp/Vi6+qjJ8I7Ds2JgxVCLRCwVj+DBAAAAAAOgAAAAAIAACAAAACcUL/0sqDeXP13vDekU7G5bni7EN+EEil+MBpXLsLerxAAAABhPZd4h/Kb6CAdEiF0/xrPQAAAAAYJfsVijCfz/3+q6MIX4skB9aAQuOYOjIGAfBE2ECkIv5UO7xK1rMLeW/tkHKgTU+sDsWaX4DIsEUDRvgqRo04=
+2017-10-29 19:50:25,557 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "34-F5-E2-AA",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAD93sAx5cNCWohLp/Vi6+qjJ8I7Ds2JgxVCLRCwVj+DBAAAAAAOgAAAAAIAACAAAACcUL/0sqDeXP13vDekU7G5bni7EN+EEil+MBpXLsLerxAAAABhPZd4h/Kb6CAdEiF0/xrPQAAAAAYJfsVijCfz/3+q6MIX4skB9aAQuOYOjIGAfBE2ECkIv5UO7xK1rMLeW/tkHKgTU+sDsWaX4DIsEUDRvgqRo04="
+}
+2017-10-29 19:50:25,564 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: Key not valid for use in specified state.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 72
+2017-10-29 19:56:40,935 [1] DEBUG Momo.MomoSecurity - secureCode: 3M4v5g==
+
+2017-10-29 19:56:40,960 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAABQys07mp9QQzp3+Ul4QqSSexOhXfMLK9V/VSKES6v89gAAAAAOgAAAAAIAACAAAAABHHCWF39vyYmjVMDMJdB85fzlo2zq3wtsFtxRc1w7RxAAAACfSNrZMU9uKLm7Qv35R/o5QAAAAAv31iYUTFXUCYQRLSSlvH96zlO9u3BCegaoy36wl2hI+BI5nWj92t1z2IAG9tLoBxnPmsN3Kix8mj5blONmBu8=
+2017-10-29 19:56:41,012 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "DC-CE-2F-E6",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAABQys07mp9QQzp3+Ul4QqSSexOhXfMLK9V/VSKES6v89gAAAAAOgAAAAAIAACAAAAABHHCWF39vyYmjVMDMJdB85fzlo2zq3wtsFtxRc1w7RxAAAACfSNrZMU9uKLm7Qv35R/o5QAAAAAv31iYUTFXUCYQRLSSlvH96zlO9u3BCegaoy36wl2hI+BI5nWj92t1z2IAG9tLoBxnPmsN3Kix8mj5blONmBu8="
+}
+2017-10-29 19:56:41,026 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: Key not valid for use in specified state.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 72
+2017-10-29 19:58:12,853 [1] DEBUG Momo.MomoSecurity - secureCode: GN9YWw==
+
+2017-10-29 19:58:12,879 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAADTQs1DrlDjgTbGGdRCZGg3ugubvY1pqlty8F/p7b8rGQAAAAAOgAAAAAIAACAAAABZR9oU4KsJ9jPeM+hB/HN5IzEYFMhWu0uz6u7q1sWSrRAAAADL+o6JJws4oLaKgCNUSOv7QAAAADoDZMzvO42fa3CEbko226BwB+n2PuUxcRQkueHmeRJktWCPkAtikZftau//k/mJCCjMDx5rxJCQdRz2I2sY5V8=
+2017-10-29 19:58:12,928 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "18-DF-58-5B",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAADTQs1DrlDjgTbGGdRCZGg3ugubvY1pqlty8F/p7b8rGQAAAAAOgAAAAAIAACAAAABZR9oU4KsJ9jPeM+hB/HN5IzEYFMhWu0uz6u7q1sWSrRAAAADL+o6JJws4oLaKgCNUSOv7QAAAADoDZMzvO42fa3CEbko226BwB+n2PuUxcRQkueHmeRJktWCPkAtikZftau//k/mJCCjMDx5rxJCQdRz2I2sY5V8="
+}
+2017-10-29 20:47:32,480 [1] DEBUG Momo.MomoSecurity - secureCode: O+PFAw==
+
+2017-10-29 20:47:32,504 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAABL2p3ckiCupMwely0PQm+Vg/MzpaDzZ5Wh8a81ke4t1AAAAAAOgAAAAAIAACAAAADqPCzNtUYuwmQJzD3W7rbtirbesmJE6d7qfYY4jntDZxAAAADRjM0YdheriiPPOA3wORcYQAAAAKjUFUykysgAk/sqp5u2EZFwqNtmnFi1i/yUY+lUay/Yzwa7CBtnk0yvewIJ/Qdesw5iGFf7W8CoZwMokGWBrng=
+2017-10-29 20:47:32,553 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "3B-E3-C5-03",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAABL2p3ckiCupMwely0PQm+Vg/MzpaDzZ5Wh8a81ke4t1AAAAAAOgAAAAAIAACAAAADqPCzNtUYuwmQJzD3W7rbtirbesmJE6d7qfYY4jntDZxAAAADRjM0YdheriiPPOA3wORcYQAAAAKjUFUykysgAk/sqp5u2EZFwqNtmnFi1i/yUY+lUay/Yzwa7CBtnk0yvewIJ/Qdesw5iGFf7W8CoZwMokGWBrng="
+}
+2017-10-29 21:02:36,559 [1] DEBUG Momo.MomoSecurity - secureCode: FA3ptw==
+
+2017-10-29 21:02:36,583 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAACh14s6YifYMgqfGDsChcL1eQAUsaaduIwY3XOx14bcGQAAAAAOgAAAAAIAACAAAABFNGT6k2iDEI0tZf8N6prUqh8ewYBn+btZ5wL3JwgTchAAAABwwCpMuUsn1Qcs/r00cHNZQAAAAEO5oL727J24/+YzOg6CcxNSQUClJKTUPboBG0WuO+biE9SLqwwxqcLNvMp2DgeHqZmnGFjJHyxcLEBdNSIu/gI=
+2017-10-29 21:10:12,902 [1] DEBUG Momo.MomoSecurity - secureCode: q9wbHw==
+
+2017-10-29 21:10:12,926 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAB+A00o/nejKcQAoXPaWSqWIc2jbz0+tktzrqL2V/uebQAAAAAOgAAAAAIAACAAAACrcqWGvBZ2YgzqliVtdJWx92g5JDeIK5Af/y5V45o8UxAAAAAOU7lqItz4F1otrahBQpBgQAAAADz0FUzDLj0e62uDIkWauXwyEepG0vrcdMHt7kVayEtV3U1CXfy+3FTqOG4Zuz+WCPXDzzZ2rL1iGlQszM7Wpt4=
+2017-10-29 21:11:03,773 [1] DEBUG Momo.MomoSecurity - secureCode: EoEMOA==
+
+2017-10-29 21:11:03,798 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAABR4IA9D62VMrEtSowWBeVkrKA/i2OwIJx41Use6nr0vAAAAAAOgAAAAAIAACAAAAAtaDV7b2hz5SzjTwS9kmR6w1jks+dVA6AlWEGK4DrpPBAAAAD3uxUMpX+I4tJPqBY85hTJQAAAACdjtCt1ly+6DTotjVfDUUGiKnFGPgkLaIXlk9CjvRlcxsZHrVLxuj8vWrOr2+00e4s8EFdtWHjn+pzMLhs8b6k=
+2017-10-29 21:17:52,653 [1] DEBUG Momo.MomoSecurity - secureCode: aUFkRQ==
+
+2017-10-29 21:17:52,678 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAAV55GJ/qmSyfwlN92T8PV42R5joIq+d8ixBEsrh1aylAAAAAAOgAAAAAIAACAAAAAnRGQ4RuvsGkJjwC9BAaD0JV4/BKj0xKj6aD7M2784wRAAAADozXi7+OOkbruolMdq28H7QAAAAAMPGt4tOE/1hGBHOMIIkDaCQTeHWIKSSjZ+26tDV6zFQ+5Fs3+FBLWkvHvCk+q2RZhk0DcDvzKmcRuYZjySGWE=
+2017-10-29 21:19:13,869 [1] DEBUG Momo.MomoSecurity - secureCode: 7Ju0JQ==
+
+2017-10-29 21:19:13,894 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAADDclNUsr8iXlaO/ET2qroU61uDj7O6G9q8v6++ir+EZAAAAAAOgAAAAAIAACAAAAD3bEVwAvchLRTVCu9pNZLsfJuRhBZBHMqvoBLwmb46DBAAAAArZKZoXkSu/MdpwCzY6XYwQAAAAGez40upRn8nLvCFQ1Pf5PnucP1WzognySV14sFmMUs5rGGsJMrgSJ2+A4b20w/uGDYfe6cs+fEKjReCm9Ospm8=
+2017-10-29 21:19:13,895 [1] DEBUG Momo.MomoSecurity - EC9BB425
+2017-10-29 21:19:13,945 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "EC-9B-B4-25",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAADDclNUsr8iXlaO/ET2qroU61uDj7O6G9q8v6++ir+EZAAAAAAOgAAAAAIAACAAAAD3bEVwAvchLRTVCu9pNZLsfJuRhBZBHMqvoBLwmb46DBAAAAArZKZoXkSu/MdpwCzY6XYwQAAAAGez40upRn8nLvCFQ1Pf5PnucP1WzognySV14sFmMUs5rGGsJMrgSJ2+A4b20w/uGDYfe6cs+fEKjReCm9Ospm8="
+}
+2017-10-29 21:19:57,971 [1] DEBUG Momo.MomoSecurity - secureCode: EY9Y4w==
+
+2017-10-29 21:19:57,993 [1] DEBUG Momo.MomoSecurity - pwd: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAACaaKH8x6tH+WJDyhErd8KjTEDSIsRE58muaucOwba5ewAAAAAOgAAAAAIAACAAAACYlZT5hPkeXmnlA0fMut+6rS4OQI+P9O5L8Ou/wqQH9xAAAABF2iytU6ZXtJzJNDv2Z4fEQAAAAMa8mACjuihWL+3It3vTXH/CnSlyeB9+bpBZa20TjND/Vo1m0Erk0QWmfCe/CeXvHfWnrBfSSj+qDUu8HS5+NO8=
+2017-10-29 21:19:57,994 [1] DEBUG Momo.MomoSecurity - 118F58E3
+2017-10-29 21:19:57,995 [1] DEBUG Momo.MomoSecurity - EY9Y4w==
+2017-10-29 21:19:58,042 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "11-8F-58-E3",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAACaaKH8x6tH+WJDyhErd8KjTEDSIsRE58muaucOwba5ewAAAAAOgAAAAAIAACAAAACYlZT5hPkeXmnlA0fMut+6rS4OQI+P9O5L8Ou/wqQH9xAAAABF2iytU6ZXtJzJNDv2Z4fEQAAAAMa8mACjuihWL+3It3vTXH/CnSlyeB9+bpBZa20TjND/Vo1m0Erk0QWmfCe/CeXvHfWnrBfSSj+qDUu8HS5+NO8="
+}
+2017-10-29 21:25:58,466 [1] DEBUG Momo.MomoSecurity - secureCode: 50-1C-A3-FB
+
+2017-10-29 21:25:58,491 [1] DEBUG Momo.MomoSecurity - password: AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAAEb2Rfldvyj2uhAPxp5GhA9x1V2XjS7LcwVhAB9oOh7gAAAAAOgAAAAAIAACAAAAAHRBBKL1gfgsfNoJcAQGVepwR3sZ3X3VzladDhKAYUWhAAAABmFC7yJYa5nlcvJmaplTdwQAAAAPJnopbCYT1834BOmdAo/CrRrjIqtVTBu2fbMdxajUYM5jtg2vYeLBvBQO2OE9QmBz1oY23p11NPwrv8yyUsXYY=
+2017-10-29 21:25:58,538 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "50-1C-A3-FB",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAAEb2Rfldvyj2uhAPxp5GhA9x1V2XjS7LcwVhAB9oOh7gAAAAAOgAAAAAIAACAAAAAHRBBKL1gfgsfNoJcAQGVepwR3sZ3X3VzladDhKAYUWhAAAABmFC7yJYa5nlcvJmaplTdwQAAAAPJnopbCYT1834BOmdAo/CrRrjIqtVTBu2fbMdxajUYM5jtg2vYeLBvBQO2OE9QmBz1oY23p11NPwrv8yyUsXYY="
+}
+2017-10-29 21:32:55,823 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "57-96-77-19",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAACtJKAfIdUGGtRhlii85azxHMFld4SH0IGhdVW0tx7laQAAAAAOgAAAAAIAACAAAAAEgitsjPIkxrFGt5XqiCwYzeXkdMfCKjKOYsrPHhF6UxAAAACsgGRqXeawhvMvXwgpfsl4QAAAAFvAWidRuVCKEkB8mTvXpmUpu+062aRCdyoULoXCx7mmCbqOYu/q/0oNhXIr0dv4xMsK1D+Z/QThg4D/OcSTJoE="
+}
+2017-10-29 21:32:55,847 [1] DEBUG Momo.MomoSecurity - DC-CE-2F-E6
+2017-10-29 21:33:10,904 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "59-23-25-91",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAAAufLOiWKPaK42qnjiE8ypTxAeQ4QPdTw+UNl3HdK2yQAAAAAOgAAAAAIAACAAAABO6TRTMnFIQrVy7gKgZHAgZUzG45cbkYsX89AWqORBqhAAAAD/uXj2nkQ7yjZeRfrP+tLNQAAAANGEtZnwsJeDKOiKhtcZERVNgMSZG1Q2ou3fYWWxQNC/wtyFPfyQyt5PHkclkW4l6vv3E05NkXDMKqR2e870/1o="
+}
+2017-10-29 21:33:10,904 [1] DEBUG Momo.MomoSecurity - DC-CE-2F-E6
+2017-10-29 21:33:10,906 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-29 21:33:40,640 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "95-82-29-A9",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAANVjQZHK+1uae3Tnl/MWFRBp6gsEUdgPVGEKIEJWXt+gAAAAAOgAAAAAIAACAAAADS2ABjO7fgoaKtXk0WRDoHC5h9WG6f3BdOObQ+X/1VyxAAAAAnfVIYRg84Z6g7sq3pGp1LQAAAAJ3QWNPoavu0LbDZpbqGq+aMPPK+xHXpRJdu06s6jvDvgEZHQdwrUB6285x009cLS31xU0x/QyGkPfVqIXQRh7Y="
+}
+2017-10-29 21:33:40,640 [1] DEBUG Momo.MomoSecurity - DC-CE-2F-E6
+2017-10-29 21:33:40,640 [1] DEBUG Momo.MomoSecurity - DCCE2FE3
+2017-10-29 21:33:40,650 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 21:53:30,110 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "A9-9D-69-A7",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAABgRrqN8gjxVCj9Fz0KN/JSsuipq86uR5tk8hIQiQ89yQAAAAAOgAAAAAIAACAAAAC6RIrb6hZD2VsYPNRMBiJqzKF0N3MXZ6M0cZBbZwfIuBAAAAD+SCA6G2WDbQdJC/aTtN8qQAAAAHSmYsUecVJfegqj0cOfDu87cjICoibMjnvjrtx8VyfucrkLptATln2Bije6okHb5S57Z/rghYJcaCvLoE4dlTs="
+}
+2017-10-29 21:53:30,137 [1] DEBUG Momo.MomoSecurity - DC-CE-2F-E6
+2017-10-29 22:14:35,268 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "FD-23-3E-C9",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAABCW29LTv3vNxSC9gSLlWaUmUTzWM4xNZCg8p6aS2tKswAAAAAOgAAAAAIAACAAAABxzww6e4Fmf8oK9TwAPhVh4yFVijfvNSaJVsGyOreqAhAAAABQWwQmhi16wyl7ekcxz2jjQAAAABLlBO3Udrin8fg/6zO/OL+25fLg6goY7RNZw+3pYJAeegQU9ZXQb76z1tzDLNzIU7MKQFV5Tk9WnAc0gZ6Krso="
+}
+2017-10-29 22:14:35,291 [1] DEBUG Momo.MomoSecurity - DC-CE-2F-E6
+2017-10-29 22:14:35,292 [1] DEBUG Momo.MomoSecurity - DSKSJDDD
+2017-10-29 22:14:35,301 [1] ERROR Momo.MomoSecurity - User failed login
+System.FormatException: Input string was not in a correct format.
+   at Momo.MomoSecurity.ConvertHexStringToBase64(String input) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 50
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 72
+2017-10-29 22:14:41,189 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "78-08-36-27",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAACy46dQ+Xd+5X8nQ91xDAKTstVl1Pmu9z5O0hglmKJM6QAAAAAOgAAAAAIAACAAAAB7iO/OW9UUIide+57WRovc/JhOUHtnn8phX81OXsScERAAAAD9NMI/fEMzheK8Vkl4AbhaQAAAAEZ3iV3iOjM4r9wL24WD/kX8Zf4Ua0cLI2/O5KtPHtklDmFn7HWFFvOV9iPQAQqNBCrwN4OoaTN8sVW2+VwaHnU="
+}
+2017-10-29 22:14:41,189 [1] DEBUG Momo.MomoSecurity - DC-CE-2F-E6
+2017-10-29 22:14:41,189 [1] DEBUG Momo.MomoSecurity - DSKSJDDD23
+2017-10-29 22:14:41,195 [1] ERROR Momo.MomoSecurity - User failed login
+System.FormatException: Input string was not in a correct format.
+   at Momo.MomoSecurity.ConvertHexStringToBase64(String input) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 50
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 72
+2017-10-29 22:17:06,301 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-29 22:17:29,922 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-29 22:17:41,635 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-29 22:25:01,541 [1] DEBUG Momo.MomoSecurity - 2232233332
+2017-10-29 22:25:01,583 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 22:35:45,467 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-29 22:40:57,024 [1] DEBUG Momo.ProcessIcon - doVerify E:\Works
+2017-10-29 22:40:57,029 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-29 22:41:03,983 [1] DEBUG Momo.ProcessIcon - doVerify E:\Works
+2017-10-29 22:41:03,988 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-29 23:21:57,293 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-29 23:44:53,427 [1] DEBUG Momo.MomoSecurity - DSDSSS
+2017-10-29 23:44:53,458 [1] ERROR Momo.MomoSecurity - User failed login
+System.FormatException: Input string was not in a correct format.
+   at Momo.MomoSecurity.ConvertHexStringToBase64(String input) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 50
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 72
+2017-10-29 23:45:09,893 [1] DEBUG Momo.MomoSecurity - DSDSS
+2017-10-29 23:45:09,910 [1] ERROR Momo.MomoSecurity - User failed login
+System.FormatException: Input string was not in a correct format.
+   at Momo.MomoSecurity.ConvertHexStringToBase64(String input) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 48
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 72
+2017-10-29 23:45:18,899 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-29 23:45:18,968 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "E7-5E-52-26",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAAAbF9D/iDK4+l+zhPva6ov/iLEEoqEa7r7QXatxhYqocwAAAAAOgAAAAAIAACAAAAD3dFNG3qD4Xd5PWp+5rjBsi2jypQpsMXdm9X9gcTZxTRAAAADqsEdSLoMVUJzrzOjKRxVJQAAAANdmmA6oY0nRiqYqszGpeFlDIuJIjI0A5O963dLHHBBggt8LlDsii7GiPV0k4Asl3Qxe373r/Exph5x7COHrVQU="
+}
+2017-10-29 23:49:14,759 [1] DEBUG Momo.MomoSecurity - E75E5226
+2017-10-29 23:49:14,796 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:49:14,812 [1] DEBUG Momo.MomoSecurity - E75E5226
+2017-10-29 23:51:30,977 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-29 23:51:31,009 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-29 23:51:31,009 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:51:38,774 [1] DEBUG Momo.MomoSecurity - E75E5226
+2017-10-29 23:51:38,781 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:51:38,782 [1] DEBUG Momo.MomoSecurity - E75E5226
+2017-10-29 23:51:38,846 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "64-27-67-91",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAACaWTFvprmsvuDbR1UyJa/UYYY2fPjvCXIM/Zh7n4HO1QAAAAAOgAAAAAIAACAAAACD4Fb7SE/BU+CxZSHfvPESy1f+5wJBmk2q6y7L8LCOaBAAAABNiptvU2OnQgswz1tUctV3QAAAADTb8ZwWP/YmMFqIeVMAGIFwPIqOfboqPT+NzRM0FYJJqqjX6FhJ5l9U/RtOiPtrwS+FAhtMSA8kFcFwrO+wm9o="
+}
+2017-10-29 23:52:32,705 [1] DEBUG Momo.MomoSecurity - E75E5226
+2017-10-29 23:52:32,737 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:52:32,752 [1] DEBUG Momo.MomoSecurity - E75E5226
+2017-10-29 23:52:32,752 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:52:34,221 [1] DEBUG Momo.MomoSecurity - E75E5226
+2017-10-29 23:52:34,221 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:52:34,221 [1] DEBUG Momo.MomoSecurity - E75E5226
+2017-10-29 23:52:34,221 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:52:57,278 [1] DEBUG Momo.MomoSecurity - 64276791
+2017-10-29 23:52:57,278 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:52:57,278 [1] DEBUG Momo.MomoSecurity - 64276791
+2017-10-29 23:58:26,445 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:58:26,476 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:58:26,492 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:58:26,492 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:58:28,744 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:58:28,744 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:58:28,744 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:58:28,744 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:59:46,682 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:59:46,682 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:59:46,682 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:59:46,682 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:59:48,345 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:59:48,345 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:59:48,345 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:59:48,345 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:59:49,684 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:59:49,684 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-29 23:59:49,684 [1] DEBUG Momo.MomoSecurity - 
+2017-10-29 23:59:49,684 [1] ERROR Momo.MomoSecurity - User failed login
+System.Security.Cryptography.CryptographicException: The data is invalid.
+
+   at System.Security.Cryptography.ProtectedData.Unprotect(Byte[] encryptedData, Byte[] optionalEntropy, DataProtectionScope scope)
+   at Momo.MomoSecurity.decrypt(String passwordEncrypt, String p1, String securityCode) in C:\Users\khangdc\Desktop\CTM\CTM\MomoSecurity.cs:line 76
+2017-10-30 00:00:09,199 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:00:09,246 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "BB-78-43-C2",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApENlt/RbuUaYAll5TNY/IwAAAAACAAAAAAAQZgAAAAEAACAAAADkSPXrLk2yYu2o7xMDLP6TrAL8LfcRoTTk7J0g0+q50QAAAAAOgAAAAAIAACAAAACHwILuhkQSMt2rGgrit4Iw5odQOCZWrHdMW4NR7yxmRhAAAACO0Yvi7eMKrO8jMt4YnmfiQAAAALSdd83jn9dKyTVcCmp0VnqIkL+/lcUmg8/9Vlr354MwfSY2jbCh11Jwv+eWvC7Mf7b3xG9mUOsd0N+h9iST04s="
+}
+2017-10-30 00:00:33,522 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:00:36,312 [1] DEBUG Momo.ProcessIcon - doVerify E:\Works
+2017-10-30 00:00:36,312 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 00:00:56,222 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 00:01:28,929 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:01:50,354 [1] DEBUG Momo.ProcessIcon - doVerify E:\Works
+2017-10-30 00:01:50,370 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 00:03:32,336 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:03:35,493 [1] DEBUG Momo.ProcessIcon - doVerify E:\works
+2017-10-30 00:03:35,498 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 00:15:03,875 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 00:15:09,589 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 00:16:20,518 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 00:16:32,505 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:16:36,134 [1] DEBUG Momo.ProcessIcon - doVerify C:\coop
+2017-10-30 00:16:36,134 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 00:16:49,877 [1] DEBUG Momo.ProcessIcon - doVerify E:\Works
+2017-10-30 00:16:49,893 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 00:18:08,315 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\197db61a-bb8c-4b45-ad18-e0eeb14f4727.REQ
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\42bbd2b1-0310-49e1-8125-c3d38bbc3de6.REQ
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\79a41196-e8fc-4274-98ee-a0b90773f34d.REQ
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\8ee316b6-2bba-45ca-a1ae-b134db47dac1.REQ
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\9abe48e4-c987-4404-9c3b-75ee3bd6f6f0.REQ
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\cf3c55e6-2436-40e7-9bcf-78f62143b055.REQ
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\e29acbd9-de25-4134-9945-cca0e6c1028b.REQ
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\e496f4b9-42a3-416e-b690-b03ce4b17b85.REQ
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\ea0e1c8f-5cc4-47df-8213-58269c40d202.REQ
+2017-10-30 00:18:10,362 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\f03e5d60-8e9b-4a8d-80aa-d19b7f088e58.REQ
+2017-10-30 00:18:10,540 [6] DEBUG Momo.MomoProcess - <197db61a-bb8c-4b45-ad18-e0eeb14f4727>Request valid, send to momo server 197db61a-bb8c-4b45-ad18-e0eeb14f4727,34200,MM60830972016173593,,
+
+2017-10-30 00:18:10,541 [9] DEBUG Momo.MomoProcess - <8ee316b6-2bba-45ca-a1ae-b134db47dac1>Request valid, send to momo server 8ee316b6-2bba-45ca-a1ae-b134db47dac1,34200,MM60830972016173593,,
+
+2017-10-30 00:18:10,543 [8] DEBUG Momo.MomoProcess - <79a41196-e8fc-4274-98ee-a0b90773f34d>Request valid, send to momo server 79a41196-e8fc-4274-98ee-a0b90773f34d,34200,MM60830972016173593,,
+
+2017-10-30 00:18:10,540 [7] DEBUG Momo.MomoProcess - <42bbd2b1-0310-49e1-8125-c3d38bbc3de6>Request valid, send to momo server 42bbd2b1-0310-49e1-8125-c3d38bbc3de6,34200,MM60830972016173593,,
+
+2017-10-30 00:18:10,887 [11] DEBUG Momo.MomoProcess - <9abe48e4-c987-4404-9c3b-75ee3bd6f6f0>Request valid, send to momo server 9abe48e4-c987-4404-9c3b-75ee3bd6f6f0,34200,MM60830972016173593,,
+
+2017-10-30 00:18:11,038 [6] DEBUG Momo.MomoProcess - <cf3c55e6-2436-40e7-9bcf-78f62143b055>Request valid, send to momo server cf3c55e6-2436-40e7-9bcf-78f62143b055,34200,MM60830972016173593,,
+
+2017-10-30 00:18:11,038 [8] DEBUG Momo.MomoProcess - <e29acbd9-de25-4134-9945-cca0e6c1028b>Request valid, send to momo server e29acbd9-de25-4134-9945-cca0e6c1028b,34200,MM60830972016173593,,
+
+2017-10-30 00:18:11,040 [7] DEBUG Momo.MomoProcess - <e496f4b9-42a3-416e-b690-b03ce4b17b85>Request valid, send to momo server e496f4b9-42a3-416e-b690-b03ce4b17b85,34200,MM60830972016173593,,
+
+2017-10-30 00:18:11,541 [9] DEBUG Momo.MomoProcess - <f03e5d60-8e9b-4a8d-80aa-d19b7f088e58>Request valid, send to momo server f03e5d60-8e9b-4a8d-80aa-d19b7f088e58,34200,MM60830972016173593,,
+
+2017-10-30 00:18:11,541 [14] DEBUG Momo.MomoProcess - <ea0e1c8f-5cc4-47df-8213-58269c40d202>Request valid, send to momo server ea0e1c8f-5cc4-47df-8213-58269c40d202,34200,MM60830972016173593,,
+
+2017-10-30 00:21:58,360 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 00:22:11,677 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 00:22:14,716 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 00:22:30,827 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\f95981ef-69fe-45bc-a779-3879b60616e0.REQ
+2017-10-30 00:22:30,884 [6] DEBUG Momo.MomoProcess - <f95981ef-69fe-45bc-a779-3879b60616e0>Request valid, send to momo server f95981ef-69fe-45bc-a779-3879b60616e0,34200,MM60830972016173593,,
+
+2017-10-30 00:22:40,842 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\b5ed150a-970f-476f-a5a6-174877e9bf1c.REQ
+2017-10-30 00:22:40,908 [6] DEBUG Momo.MomoProcess - <b5ed150a-970f-476f-a5a6-174877e9bf1c>Request valid, send to momo server b5ed150a-970f-476f-a5a6-174877e9bf1c,34200,MM60830972016173593,,
+
+2017-10-30 00:23:40,633 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 00:24:22,809 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\aae61f1f-ffcc-43f0-9eed-7a08d6b18d66.REQ
+2017-10-30 00:24:22,849 [6] DEBUG Momo.MomoProcess - <aae61f1f-ffcc-43f0-9eed-7a08d6b18d66>Request valid, send to momo server aae61f1f-ffcc-43f0-9eed-7a08d6b18d66,34200,MM60830972016173593,,
+
+2017-10-30 00:25:06,855 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\45ea2c78-fc20-43f1-a7b2-2df3a59c848b.REQ
+2017-10-30 00:25:06,922 [6] DEBUG Momo.MomoProcess - <45ea2c78-fc20-43f1-a7b2-2df3a59c848b>Request valid, send to momo server 45ea2c78-fc20-43f1-a7b2-2df3a59c848b,34200,MM60830972016173593,,
+
+2017-10-30 00:25:08,264 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 00:25:11,924 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 00:29:38,026 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 00:31:07,424 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 00:31:38,383 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 00:32:56,449 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\0f02ba92-1c35-480c-bfea-c2e3ef3817e0.REQ
+2017-10-30 00:32:56,516 [6] DEBUG Momo.MomoProcess - <0f02ba92-1c35-480c-bfea-c2e3ef3817e0>Request valid, send to momo server 0f02ba92-1c35-480c-bfea-c2e3ef3817e0,34200,MM60830972016173593,,
+
+2017-10-30 00:33:06,454 [6] DEBUG Momo.ProcessIcon - File scan captured E:\Works\9509e594-3583-437f-a305-f832ce70b2ff.REQ
+2017-10-30 00:33:06,543 [6] DEBUG Momo.MomoProcess - <9509e594-3583-437f-a305-f832ce70b2ff>Request valid, send to momo server 9509e594-3583-437f-a305-f832ce70b2ff,34200,MM60830972016173593,,
+
+2017-10-30 00:41:32,254 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 00:42:47,414 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:42:47,430 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:42:47,430 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:42:47,430 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:42:49,708 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:42:49,708 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:42:49,708 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:42:49,708 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:42:51,835 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:42:51,835 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:42:51,835 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:42:51,835 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:42:58,315 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:42:58,315 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:42:58,315 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:42:58,315 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:43:00,766 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:43:00,766 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:43:00,766 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:43:00,766 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:43:19,456 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:43:19,456 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:43:19,456 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:43:19,456 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:43:21,703 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:43:21,703 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:43:21,703 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:43:21,703 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:43:36,320 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:43:36,320 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:43:36,320 [1] DEBUG Momo.MomoSecurity - DCCE2FE6
+2017-10-30 00:43:36,320 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 00:43:39,970 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 00:43:41,730 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 08:56:57,310 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 08:57:29,766 [1] DEBUG Momo.MomoSecurity - 
+2017-10-30 08:57:29,766 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 08:57:29,766 [1] DEBUG Momo.MomoSecurity - 
+2017-10-30 08:57:29,766 [1] DEBUG Momo.MomoSecurity - User failed login
+2017-10-30 08:57:33,467 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 08:57:35,037 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 13:46:28,376 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 13:46:33,953 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "B2-EE-C0-3D",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAD+8BDba3HROWvYrsEpcrgQFsV58RFDykVKuIFWZEWzFAAAAAAOgAAAAAIAACAAAACqOBwop1tgz7iCIN3UQtViBU9+Z50TbVCi+txxMW4Z2iAAAAAcwOpigS72UTWiMVOxjh5JGoupjGLBxF23tAFfpQglEEAAAAATh4BswJ2IzhZN4454/JBbb/wLo8GElJslH6Y+9zyIXdPbrQUSXkEfbHNWC1xNXxkNBsAhJp37gG33AY7B3+fL"
+}
+2017-10-30 13:47:05,235 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "A7-D6-42-E1",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAAA7jUmBsHTqReDjyXMVgSnNk5A0LY4o2RvSaLviXH/9bwAAAAAOgAAAAAIAACAAAAAEzIQI5etNZWFlyufFMlWda7i5UNOH8HeTbmTRFTpVQiAAAACskMmBdzeZ93mBV60FGKrZL/xarNsaqLX/VLzndJmiCkAAAADIwemVMvdch+oUt1zfupH07ffw3nBTgEhMPpUOYVOjBlEf2+vsw5RirHvkNWFdW9zQ/mbYhNGCrI4Jee/4peYW"
+}
+2017-10-30 13:50:31,917 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 13:50:41,954 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "38-FF-A0-12",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAABKKKkMuhcvt8tgP44JS0PsIDcRRDpsft0op0t3VJvZ9AAAAAAOgAAAAAIAACAAAACnKU9zeUR/DLHL/N3QGvo0bapQQDcUfzk9Rmgr5MsuYCAAAACnQpksFJtLGxggkNHLyTxuS4/6d7VO28X/yb5h4N0xQUAAAADoRZIsbZAE76RenBlnVtdSHJt9CrYqXw/K6mtev/TFL4ru43KpGLhYOHNw2G5/hKVts0dovdExUwBIUPcSoYNq"
+}
+2017-10-30 13:52:35,706 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 13:52:41,899 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "AB-2E-16-78",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAADj4A/tiKajqbSOGkpo8hDyKsWrSnlYkK2lX67VjeViQAAAAAAOgAAAAAIAACAAAAAlTUsVetWdltQLEUr9jC8WOAQdiQuOIaDg1BSrIB32vSAAAAA2pvfOzwzTSUyU1qLO75WrMOs9EiD1Cmk/Ami6sI5QH0AAAADCG4DhMOrYGHm3RpjAu8gklZ2WnqrP7MlJKnKwWU4rirNp3cKN2PcGjV2txmELzIFj3p6I5+cEV8vnsWMH1DHk"
+}
+2017-10-30 13:53:55,896 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 13:54:10,753 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 13:54:48,143 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 13:54:53,804 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 14:04:13,807 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 14:04:39,131 [1] DEBUG Momo.ProcessIcon - doVerify C:\coop
+2017-10-30 14:04:39,131 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 14:04:42,410 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 14:09:06,737 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 14:09:29,898 [1] INFO Momo.ProcessIcon - Can not running. Folder C:\coop not exists
+2017-10-30 14:17:18,020 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 14:17:25,610 [1] INFO Momo.ProcessIcon - Can not running. Folder C:\coop not exists
+2017-10-30 14:21:39,089 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 14:22:12,818 [1] DEBUG Momo.ProcessIcon - doVerify C:\Works
+2017-10-30 14:22:12,831 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 14:22:32,648 [1] DEBUG Momo.ProcessIcon - doVerify C:\Works
+2017-10-30 14:22:32,657 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 14:22:36,216 [1] DEBUG Momo.ProcessIcon - doVerify C:\Works
+2017-10-30 14:22:36,223 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 14:22:39,693 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 14:22:41,703 [4] DEBUG Momo.ProcessIcon - File scan captured C:\Works\a248a034-eecd-42d6-a753-2a6a55281136.REQ
+2017-10-30 14:22:41,704 [4] DEBUG Momo.ProcessIcon - File scan captured C:\Works\ea57e639-62ec-4c42-8e1f-3ef61583268a.REQ
+2017-10-30 14:22:41,735 [4] DEBUG Momo.MomoProcess - <a248a034-eecd-42d6-a753-2a6a55281136>Request valid, send to momo server a248a034-eecd-42d6-a753-2a6a55281136,34200,MM60830972016173593,,
+
+2017-10-30 14:22:41,824 [8] DEBUG Momo.MomoProcess - <ea57e639-62ec-4c42-8e1f-3ef61583268a>Request valid, send to momo server ea57e639-62ec-4c42-8e1f-3ef61583268a,34200,MM60830972016173593,,
+
+2017-10-30 14:23:39,724 [8] DEBUG Momo.ProcessIcon - File scan captured C:\Works\bfece57d-19ab-405d-a22b-a3cadffbf13f.REQ
+2017-10-30 14:23:39,789 [8] DEBUG Momo.MomoProcess - <bfece57d-19ab-405d-a22b-a3cadffbf13f>Request valid, send to momo server bfece57d-19ab-405d-a22b-a3cadffbf13f,34200,MM60830972016173593,,
+
+2017-10-30 14:26:49,880 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 14:33:23,297 [1] DEBUG Momo.MomoSecurity - {
+  "secureCode": "95-A1-9D-4D",
+  "encryptedPwd": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2Yv7tym5aUS5QI5hiJ2waAAAAAACAAAAAAAQZgAAAAEAACAAAACgFdW4MLk7xCqCTev9/NlAn5rFnX9emEyt5weO3/K6rwAAAAAOgAAAAAIAACAAAAADJOKdKnPOI8d/HXkQTETl1/A2tyrwFH5hmi7tTvv3pRAAAAAzclob2c45IYKuVkfBEIGZQAAAAKcYa8X01Cna/rIlue5m6fMrZt9oEPcEzHpnQiVV+VbbwzOddxUFwNAzuujPIqO5unJ44WMlb/awJYopknmVSvI="
+}
+2017-10-30 14:57:34,664 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 14:57:42,498 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 14:58:52,600 [1] INFO Momo.ProcessIcon - Can not running. Folder C:\coop not exists
+2017-10-30 14:58:57,446 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 14:59:09,007 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 14:59:40,712 [1] INFO Momo.ProcessIcon - Can not running. Folder C:\coop not exists
+2017-10-30 15:02:17,044 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 15:02:35,095 [1] DEBUG Momo.ProcessIcon - doVerify C:\coop
+2017-10-30 15:02:35,095 [1] DEBUG Momo.ProcessIcon - Folder [C:\coop] is not existed
+2017-10-30 15:02:53,348 [1] DEBUG Momo.ProcessIcon - doVerify C:\Users\KhangDC\Downloads
+2017-10-30 15:02:53,356 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 15:02:55,210 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 15:04:49,255 [7] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\fa709949-1694-4017-b260-0a8ef52cfbf0.REQ
+2017-10-30 15:04:49,376 [7] DEBUG Momo.MomoProcess - <fa709949-1694-4017-b260-0a8ef52cfbf0>Request valid, send to momo server fa709949-1694-4017-b260-0a8ef52cfbf0,34200,MM60830972016173593,,
+
+2017-10-30 15:05:23,811 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 15:35:48,472 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 16:30:25,948 [1] DEBUG Momo.ProcessIcon - doVerify C:\Users\KhangDC\Downloads
+2017-10-30 16:30:25,980 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 18:00:53,312 [1] DEBUG Momo.ProcessIcon - doVerify C:\Users\KhangDC\Downloads
+2017-10-30 18:00:53,324 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 18:04:41,560 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 18:05:03,674 [1] DEBUG Momo.ProcessIcon - doVerify C:\Users\KhangDC\Downloads
+2017-10-30 18:05:03,707 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-30 18:06:27,165 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 18:09:32,623 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-30 18:09:41,696 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 18:09:43,731 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\3a7ef88f-51e9-47bf-af4c-e1a601dc032f.REQ
+2017-10-30 18:09:43,731 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\5698776f-259f-4a24-b4db-9dd5616c7915.REQ
+2017-10-30 18:09:43,732 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\74f36ee5-50c0-4144-a6f1-6f0cf317c0d6.REQ
+2017-10-30 18:09:43,732 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\b63b2f62-9c2a-4163-ba44-aed80b1acc34.REQ
+2017-10-30 18:09:43,732 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\e213e577-aef9-45c9-aa39-943414571fad.REQ
+2017-10-30 18:09:43,732 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\ec05da58-b9ed-4f6c-a4f9-f3f518fec0eb.REQ
+2017-10-30 18:09:43,788 [6] DEBUG Momo.MomoProcess - <3a7ef88f-51e9-47bf-af4c-e1a601dc032f>Request valid, send to momo server 3a7ef88f-51e9-47bf-af4c-e1a601dc032f,34200,MM60830972016173593,,
+
+2017-10-30 18:09:43,898 [8] DEBUG Momo.MomoProcess - <5698776f-259f-4a24-b4db-9dd5616c7915>Request valid, send to momo server 5698776f-259f-4a24-b4db-9dd5616c7915,34200,MM60830972016173593,,
+
+2017-10-30 18:09:44,007 [9] DEBUG Momo.MomoProcess - <74f36ee5-50c0-4144-a6f1-6f0cf317c0d6>Request valid, send to momo server 74f36ee5-50c0-4144-a6f1-6f0cf317c0d6,34200,MM60830972016173593,,
+
+2017-10-30 18:09:44,117 [10] DEBUG Momo.MomoProcess - <b63b2f62-9c2a-4163-ba44-aed80b1acc34>Request valid, send to momo server b63b2f62-9c2a-4163-ba44-aed80b1acc34,34200,MM60830972016173593,,
+
+2017-10-30 18:09:44,239 [11] DEBUG Momo.MomoProcess - <e213e577-aef9-45c9-aa39-943414571fad>Request valid, send to momo server e213e577-aef9-45c9-aa39-943414571fad,34200,MM60830972016173593,,
+
+2017-10-30 18:09:44,321 [10] DEBUG Momo.MomoProcess - <ec05da58-b9ed-4f6c-a4f9-f3f518fec0eb>Request valid, send to momo server ec05da58-b9ed-4f6c-a4f9-f3f518fec0eb,34200,MM60830972016173593,,
+
+2017-10-30 18:10:02,115 [1] INFO Momo.ProcessIcon - Start running
+2017-10-30 18:10:10,151 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\1fee0dd6-0987-492b-92bc-932fca8aa5dd.REQ
+2017-10-30 18:10:10,194 [6] DEBUG Momo.MomoProcess - <1fee0dd6-0987-492b-92bc-932fca8aa5dd>Request valid, send to momo server 1fee0dd6-0987-492b-92bc-932fca8aa5dd,34200,MM60830972016173593,,
+
+2017-10-31 11:27:19,466 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 11:45:16,676 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 11:46:50,233 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-31 11:46:59,235 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 11:48:06,380 [1] DEBUG Momo.ProcessIcon - doVerify C:\Users\KhangDC\Downloads
+2017-10-31 11:48:06,396 [1] DEBUG Momo.ProcessIcon - doVerify  http://10.10.10.171:8082/payoffline
+2017-10-31 11:49:45,061 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 11:50:13,262 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\1a773c1f-fcf2-4d1e-a2f0-ef2e412afd9f.REQ
+2017-10-31 11:50:13,340 [6] DEBUG Momo.MomoProcess - <1a773c1f-fcf2-4d1e-a2f0-ef2e412afd9f>Request valid, send to momo server 1a773c1f-fcf2-4d1e-a2f0-ef2e412afd9f,55000,MM343648171431958265,,mm65d1c381
+
+2017-10-31 11:53:50,378 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 11:54:34,581 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\8276f84b-e1e1-42a3-9202-a448d085539b.REQ
+2017-10-31 11:54:34,618 [6] DEBUG Momo.MomoProcess - <8276f84b-e1e1-42a3-9202-a448d085539b>Request valid, send to momo server 8276f84b-e1e1-42a3-9202-a448d085539b,50000,MM343648171431958265,,mm65d1c381
+
+2017-10-31 11:57:13,221 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 11:57:41,408 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\5d9659da-5856-45db-a5d6-6a4ac9689a32.REQ
+2017-10-31 11:57:41,455 [6] DEBUG Momo.MomoProcess - <5d9659da-5856-45db-a5d6-6a4ac9689a32>Request valid, send to momo server 5d9659da-5856-45db-a5d6-6a4ac9689a32,55000,MM637666705454493528,,mm65d1c381
+
+2017-10-31 11:57:41,486 [6] DEBUG Momo.MomoProcess - {"merchantId":"coopmart","TID":"5d9659da-5856-45db-a5d6-6a4ac9689a32","description":"mm65d1c381","voucherCode":"","amount":55000,"hash":"Xhhf8KHXbPGTdwcBSQr5T8BwJKJxrkl/eEiM4MHtbHvEgomcRQetfC7ZwjfhpE2gy9y0ft46lyO90Bt34/DU0nZUf4o3l8w0uBXz39v+ry5Nzfi0+jbgUmRoOQt1wLP74kF9N7JqEkjir58d3mA+IQWhUi2qC4CvadnCWtuhksZ+60zreTckp6izPrNCjhdvmo7oBrkISxYp1gcyv9BqXmpi388M9EKrINgATDy6D7Y1y133AmxRTytBJd84C9kUdEln3/BgYN0PM+RIBLeWC25uHD4WTlmRqfHBYK6U6hEd+ovqH0TAz2TzimLEjAGiVBLQgMvZLidBAxRbvo0fRg=="}
+2017-10-31 11:59:08,739 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 12:00:01,084 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\082594ab-a6a6-429d-8e60-53bb78eb13c4.REQ
+2017-10-31 12:00:01,162 [6] DEBUG Momo.MomoProcess - <082594ab-a6a6-429d-8e60-53bb78eb13c4>Request valid, send to momo server 082594ab-a6a6-429d-8e60-53bb78eb13c4,55000,MM337660085457635676,mm65d1c381,
+
+2017-10-31 12:02:18,875 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 12:02:55,106 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\416c70f6-ea05-46d1-838c-18ac8e84a6f9.REQ
+2017-10-31 12:02:55,199 [6] DEBUG Momo.MomoProcess - <416c70f6-ea05-46d1-838c-18ac8e84a6f9>Request valid, send to momo server 416c70f6-ea05-46d1-838c-18ac8e84a6f9,50000,MM348533766321185483,mm65c5c382,
+
+2017-10-31 12:05:40,529 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 12:06:04,704 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\e25847c5-36bf-46ae-b6c9-7eb02dafbf1a.REQ
+2017-10-31 12:06:04,805 [6] DEBUG Momo.MomoProcess - <e25847c5-36bf-46ae-b6c9-7eb02dafbf1a>Request valid, send to momo server e25847c5-36bf-46ae-b6c9-7eb02dafbf1a,55000,MM348533766321185483,mm61c5c319,
+
+2017-10-31 12:06:38,856 [8] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\225ab227-5441-4299-9ab4-d857daaf56d8.REQ
+2017-10-31 12:06:38,925 [8] DEBUG Momo.MomoProcess - <225ab227-5441-4299-9ab4-d857daaf56d8>Request valid, send to momo server 225ab227-5441-4299-9ab4-d857daaf56d8,55000,MM425178403968029379,mm61c5c319,
+
+2017-10-31 12:08:13,297 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\856ed341-9a22-42e3-9bf1-8fec204f83d1.REQ
+2017-10-31 12:08:13,381 [6] DEBUG Momo.MomoProcess - <856ed341-9a22-42e3-9bf1-8fec204f83d1>Request valid, send to momo server 856ed341-9a22-42e3-9bf1-8fec204f83d1,55000,MM852563270357924611,mm61c5c319,
+
+2017-10-31 12:13:58,762 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\4bfdbbc8-6576-4749-87ef-2d7ff9f582ae.REQ
+2017-10-31 12:13:58,831 [6] DEBUG Momo.MomoProcess - <4bfdbbc8-6576-4749-87ef-2d7ff9f582ae>Request valid, send to momo server 4bfdbbc8-6576-4749-87ef-2d7ff9f582ae,400000,MM852563270357924611,mm61c5c319,
+
+2017-10-31 12:14:28,879 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\05a109c9-9072-4c6d-86ff-0d5876dba021.REQ
+2017-10-31 12:14:28,915 [8] DEBUG Momo.MomoProcess - <05a109c9-9072-4c6d-86ff-0d5876dba021>Request valid, send to momo server 05a109c9-9072-4c6d-86ff-0d5876dba021,400000,MM225979033765921548,mm61c5c319,
+
+2017-10-31 12:14:46,919 [8] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\00313886-82d4-48b9-931c-9fe7b86f544f.REQ
+2017-10-31 12:14:46,972 [8] DEBUG Momo.MomoProcess - <00313886-82d4-48b9-931c-9fe7b86f544f>Request valid, send to momo server 00313886-82d4-48b9-931c-9fe7b86f544f,400000,MM236570444364350190,mm61c5c319,
+
+2017-10-31 12:15:08,997 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\dfe5ea51-8e1f-485a-8488-5bb2cb31a714.REQ
+2017-10-31 12:15:09,080 [8] DEBUG Momo.MomoProcess - <dfe5ea51-8e1f-485a-8488-5bb2cb31a714>Request valid, send to momo server dfe5ea51-8e1f-485a-8488-5bb2cb31a714,400000,MM236570444364350190,mm61c5c319,
+
+2017-10-31 12:17:03,394 [8] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\a1a9004d-e087-4004-9024-ad972c5dd05e.REQ
+2017-10-31 12:17:03,494 [8] DEBUG Momo.MomoProcess - <a1a9004d-e087-4004-9024-ad972c5dd05e>Request valid, send to momo server a1a9004d-e087-4004-9024-ad972c5dd05e,400000,MM326449817777377660,mm61c5c319,
+
+2017-10-31 12:18:10,018 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-31 12:18:28,627 [1] INFO Momo.ProcessIcon - Start running
+2017-10-31 12:18:56,810 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\d8706d3a-2760-41d6-9550-5efc0a250e67.REQ
+2017-10-31 12:18:56,903 [6] DEBUG Momo.MomoProcess - <d8706d3a-2760-41d6-9550-5efc0a250e67>Request valid, send to momo server d8706d3a-2760-41d6-9550-5efc0a250e67,150000,MM505877746101915374,mm65c5c382,
+
+2017-10-31 12:19:41,037 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\8c0d7bb2-8961-42fa-929e-26fb8ad64ed9.REQ
+2017-10-31 12:19:41,099 [6] DEBUG Momo.MomoProcess - <8c0d7bb2-8961-42fa-929e-26fb8ad64ed9>Request valid, send to momo server 8c0d7bb2-8961-42fa-929e-26fb8ad64ed9,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:45,056 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\8a902eaa-b284-427a-9b95-44a7a1e388bc.REQ
+2017-10-31 12:19:45,056 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\9c0f1b46-763e-455f-8fff-5f6283365400.REQ
+2017-10-31 12:19:45,056 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\aee983c9-9265-4a10-8ffd-cc8d7b41631d.REQ
+2017-10-31 12:19:45,056 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\da2b73c6-2a85-4f35-aa64-e0036d80eca9.REQ
+2017-10-31 12:19:45,150 [6] DEBUG Momo.MomoProcess - <8a902eaa-b284-427a-9b95-44a7a1e388bc>Request valid, send to momo server 8a902eaa-b284-427a-9b95-44a7a1e388bc,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:45,259 [6] DEBUG Momo.MomoProcess - <9c0f1b46-763e-455f-8fff-5f6283365400>Request valid, send to momo server 9c0f1b46-763e-455f-8fff-5f6283365400,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:45,368 [6] DEBUG Momo.MomoProcess - <aee983c9-9265-4a10-8ffd-cc8d7b41631d>Request valid, send to momo server aee983c9-9265-4a10-8ffd-cc8d7b41631d,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:45,478 [6] DEBUG Momo.MomoProcess - <da2b73c6-2a85-4f35-aa64-e0036d80eca9>Request valid, send to momo server da2b73c6-2a85-4f35-aa64-e0036d80eca9,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:51,091 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\1e446c5e-c5be-4d57-a37a-428d9e7f4fce.REQ
+2017-10-31 12:19:51,091 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\37a6f639-d320-4525-835c-9e0b34367ff3.REQ
+2017-10-31 12:19:51,091 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\39ff0c60-c770-42cf-ae32-1a69e93816be.REQ
+2017-10-31 12:19:51,091 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\81598a72-bf6a-422e-b15a-59f9ecffed33.REQ
+2017-10-31 12:19:51,091 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\9e8aa79e-fafe-4f27-86fa-9ff29a4ce850.REQ
+2017-10-31 12:19:51,091 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\bbe574ca-2615-4edf-af47-6873548c3b82.REQ
+2017-10-31 12:19:51,091 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\f26c567b-239d-49a1-8817-2c80a4ac50f1.REQ
+2017-10-31 12:19:51,185 [6] DEBUG Momo.MomoProcess - <1e446c5e-c5be-4d57-a37a-428d9e7f4fce>Request valid, send to momo server 1e446c5e-c5be-4d57-a37a-428d9e7f4fce,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:51,294 [6] DEBUG Momo.MomoProcess - <37a6f639-d320-4525-835c-9e0b34367ff3>Request valid, send to momo server 37a6f639-d320-4525-835c-9e0b34367ff3,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:51,403 [6] DEBUG Momo.MomoProcess - <39ff0c60-c770-42cf-ae32-1a69e93816be>Request valid, send to momo server 39ff0c60-c770-42cf-ae32-1a69e93816be,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:51,513 [6] DEBUG Momo.MomoProcess - <81598a72-bf6a-422e-b15a-59f9ecffed33>Request valid, send to momo server 81598a72-bf6a-422e-b15a-59f9ecffed33,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:51,622 [6] DEBUG Momo.MomoProcess - <9e8aa79e-fafe-4f27-86fa-9ff29a4ce850>Request valid, send to momo server 9e8aa79e-fafe-4f27-86fa-9ff29a4ce850,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:51,731 [6] DEBUG Momo.MomoProcess - <bbe574ca-2615-4edf-af47-6873548c3b82>Request valid, send to momo server bbe574ca-2615-4edf-af47-6873548c3b82,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:51,841 [6] DEBUG Momo.MomoProcess - <f26c567b-239d-49a1-8817-2c80a4ac50f1>Request valid, send to momo server f26c567b-239d-49a1-8817-2c80a4ac50f1,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:53,107 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\022a4ada-2c6b-4414-8d3f-3f27392a3b63.REQ
+2017-10-31 12:19:53,107 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\9478e2e9-49f3-4e61-8ebc-32f48d50fda0.REQ
+2017-10-31 12:19:53,170 [6] DEBUG Momo.MomoProcess - <022a4ada-2c6b-4414-8d3f-3f27392a3b63>Request valid, send to momo server 022a4ada-2c6b-4414-8d3f-3f27392a3b63,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:53,279 [6] DEBUG Momo.MomoProcess - <9478e2e9-49f3-4e61-8ebc-32f48d50fda0>Request valid, send to momo server 9478e2e9-49f3-4e61-8ebc-32f48d50fda0,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:55,110 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\378a7f62-adae-400b-8c26-452d7a28eb98.REQ
+2017-10-31 12:19:55,110 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\61b5e2e3-85f0-403a-932d-4ce7ee5be9f4.REQ
+2017-10-31 12:19:55,110 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\85cb3094-a371-4936-8238-6b8d51629cae.REQ
+2017-10-31 12:19:55,110 [6] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\dcfb2888-92ff-4dc2-83ea-647a1874dbd7.REQ
+2017-10-31 12:19:55,126 [6] DEBUG Momo.MomoProcess - <378a7f62-adae-400b-8c26-452d7a28eb98>Request valid, send to momo server 378a7f62-adae-400b-8c26-452d7a28eb98,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:55,235 [8] DEBUG Momo.MomoProcess - <61b5e2e3-85f0-403a-932d-4ce7ee5be9f4>Request valid, send to momo server 61b5e2e3-85f0-403a-932d-4ce7ee5be9f4,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:55,348 [6] DEBUG Momo.MomoProcess - <85cb3094-a371-4936-8238-6b8d51629cae>Request valid, send to momo server 85cb3094-a371-4936-8238-6b8d51629cae,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:19:55,457 [6] DEBUG Momo.MomoProcess - <dcfb2888-92ff-4dc2-83ea-647a1874dbd7>Request valid, send to momo server dcfb2888-92ff-4dc2-83ea-647a1874dbd7,150000,MM071054212388554311,mm65c5c382,
+
+2017-10-31 12:24:58,544 [8] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\63747fb7-3731-47e7-9136-e392b83f5c3f.REQ
+2017-10-31 12:24:58,606 [8] DEBUG Momo.MomoProcess - <63747fb7-3731-47e7-9136-e392b83f5c3f>Request valid, send to momo server 63747fb7-3731-47e7-9136-e392b83f5c3f,150000,MM157258548589669025,mm65d1c381,
+
+2017-10-31 12:25:30,708 [8] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\a8870698-cc42-49c9-9062-3a311acbaf88.REQ
+2017-10-31 12:25:30,723 [8] DEBUG Momo.MomoProcess - <a8870698-cc42-49c9-9062-3a311acbaf88>Request valid, send to momo server a8870698-cc42-49c9-9062-3a311acbaf88,170000,MM935726986056664811,mm65d1c381,
+
+2017-10-31 14:32:46,235 [1] DEBUG Momo.ProcessIcon - doVerify C:\Users\KhangDC\Downloads
+2017-10-31 14:32:46,235 [1] DEBUG Momo.ProcessIcon - doVerify  http://payment.momo.vn:8091/payoffline
+2017-10-31 14:32:54,180 [8] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\f43086d5-ae18-4584-8b22-22d4b8870632.REQ
+2017-10-31 14:32:54,262 [8] DEBUG Momo.MomoProcess - <f43086d5-ae18-4584-8b22-22d4b8870632>Request valid, send to momo server f43086d5-ae18-4584-8b22-22d4b8870632,170000.55,MM935726986056664811,mm65d1c381,
+
+2017-10-31 14:33:38,349 [8] DEBUG Momo.ProcessIcon - File scan captured C:\Users\KhangDC\Downloads\04e6caac-1df1-447c-ae03-3d1d39a00e8b.REQ
+2017-10-31 14:33:38,412 [8] DEBUG Momo.MomoProcess - <04e6caac-1df1-447c-ae03-3d1d39a00e8b>Request valid, send to momo server 04e6caac-1df1-447c-ae03-3d1d39a00e8b,170000.55,MM637338615121275107,mm65d1c381,
+
+2017-10-31 14:34:26,779 [1] INFO Momo.ProcessIcon - Stop running
+2017-10-31 14:35:28,352 [1] INFO Momo.ProcessIcon - Start running
