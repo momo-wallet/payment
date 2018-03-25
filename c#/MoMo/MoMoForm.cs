@@ -137,7 +137,7 @@ namespace MoMo
         private void button2_Click(object sender, EventArgs e)
         {
             string endpoint = "http://testing.momo.vn:18099/pay/query-status";
-            string partnerCode = "MOMO6FZP20180209";
+            string partnerCode = "MOMO";
             string merchantRefId = "1519717410468";
             string version = "2.0";
             string publicKey = textPubkey.Text;
@@ -178,7 +178,7 @@ namespace MoMo
         private void button3_Click(object sender, EventArgs e)
         {
             string endpoint = "	http://testing.momo.vn:8097/pay/refund";
-            string partnerCode = "MOMO6FZP20180209";
+            string partnerCode = "MOMO";
             string merchantRefId = "1519717410468";
             string momoTransId = "137489899";
             string version = "2.0";

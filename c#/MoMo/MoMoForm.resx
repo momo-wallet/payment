@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textPubkey.Text" xml:space="preserve">
-    <value>&lt;RSAKeyValue&gt;&lt;Modulus&gt;jSa3MWzuXMyuhU0ux3K3/ILpXL1i/O4rnW8IHoXriRYH0doc1x7S8qeqLcXy0B1BZNAYDgl7swcMEdAPiGmtP8K1zxJsyIo8PNBvg5SIAZB0b6CC8sLqnPOO4BZXWMwoNL9BSAXynfBqGWpR1PoPSXeylrbCzeinbX8jM9GBysN+myRM8Wp6T60qDcN89ge2jN6tULrhWI4P18mDiFGaaGuvBXcfx5JS6TDW3CHnyM32GVV70f60bthoE/uydJV+JKdXe4lIFKyDhNGQwDH+ydlguNUBjBdNTjmSNm2LwAHr7qbRunT7mFT/QCXSwP/IxxKfOY2VHYIYBj8nfRKKfQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</value>
+    <value>&lt;RSAKeyValue&gt;&lt;Modulus&gt;8W1bP/Wab6eys552h6U0HjdDWCrDICq7jyVqLG0fvPFluGVnBNVcIfgk0YU0sYy6wDgPIWJfRJBqQZTh/siIuvsZvMu6b9++YQ/CMXQusurcKHp3rdwQvUz32HuMumUq+qiWEHyUZFDRzF7YJiDRr4rpGCxc2Be6Eh7Od1YbD2X+ZOxTcO8/bTzmPek3FMoyw2fYs+4QvPsZFiAYw6R1o2v7F/1o5FQguNrNSDWcp1fJABCBljIFeoKt7crUQQnwuTLfFyVKfESM6LNrNv6wJ4+powOmklDEdK3MICScZEAlR5YMKHEaUhHbcLRo2t+2BCSHI3v68xhI9jHmDMcMIw==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

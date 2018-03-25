@@ -11,3 +11,16 @@ C:\Users\khangdc\Desktop\MoMo\MoMo\bin\Debug\Newtonsoft.Json.dll
 C:\Users\khangdc\Desktop\MoMo\MoMo\obj\Debug\MoMo.exe
 C:\Users\khangdc\Desktop\MoMo\MoMo\obj\Debug\MoMo.pdb
 C:\Users\khangdc\Desktop\MoMo\MoMo\obj\Debug\MoMo.MoMoForm.resources
+C:\Users\khangdc\Documents\payment\c#\MoMo\bin\Debug\log4net.config
+C:\Users\khangdc\Documents\payment\c#\MoMo\bin\Debug\MoMo.exe.config
+C:\Users\khangdc\Documents\payment\c#\MoMo\bin\Debug\MoMo.exe
+C:\Users\khangdc\Documents\payment\c#\MoMo\bin\Debug\MoMo.pdb
+C:\Users\khangdc\Documents\payment\c#\MoMo\bin\Debug\log4net.dll
+C:\Users\khangdc\Documents\payment\c#\MoMo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\khangdc\Documents\payment\c#\MoMo\obj\Debug\MoMo.csprojResolveAssemblyReference.cache
+C:\Users\khangdc\Documents\payment\c#\MoMo\obj\Debug\MoMo.MoMoForm.resources
+C:\Users\khangdc\Documents\payment\c#\MoMo\obj\Debug\MoMo.Properties.Resources.resources
+C:\Users\khangdc\Documents\payment\c#\MoMo\obj\Debug\MoMo.csproj.GenerateResource.Cache
+C:\Users\khangdc\Documents\payment\c#\MoMo\obj\Debug\MoMo.csproj.CoreCompileInputs.cache
+C:\Users\khangdc\Documents\payment\c#\MoMo\obj\Debug\MoMo.exe
+C:\Users\khangdc\Documents\payment\c#\MoMo\obj\Debug\MoMo.pdb
