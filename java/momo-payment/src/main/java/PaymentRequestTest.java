@@ -46,11 +46,11 @@ public class PaymentRequestTest {
         String orderInfo = "";
         String extraData = "";
         String amount = "250000";
-        String partnerCode = "123456";
+        String partnerCode = "MOMO";
         String accessKey = "F8BBA842ECF85";
         String serectKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz";
-        String notifyUrl = "https://www.123phim.vn/";
-        String returnUrl = "https://www.123phim.vn/";
+        String notifyUrl = "https://www.google.com.vn/";
+        String returnUrl = "https://www.google.com.vn/";
 
         String dataSignature = "partnerCode="+partnerCode
                                 +"&accessKey="+accessKey
