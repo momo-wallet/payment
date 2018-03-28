@@ -1,0 +1,86 @@
+2018-03-25 23:10:33,391 [1] DEBUG MoMo.MoMoForm - rawHash = partnerCode=123456&accessKey=F8BBA842ECF85&requestId=414c8020-9d3e-4641-93f2-68cbf0155f49&amount=55000&orderId=ae7c647c-e5aa-45e2-afa0-8105b0817366&orderInfo=test&returnUrl=https://momo.vn/return&notifyUrl=https://momo.vn/notify&extraData=
+2018-03-25 23:10:33,445 [1] DEBUG MoMo.MoMoForm - Signature = f8d55b428f0a316949286189ff32380e9d9bb74b413102774035c6af58899d75
+2018-03-25 23:10:33,528 [1] DEBUG MoMo.MoMoForm - Json request to MoMo: {
+  "partnerCode": "123456",
+  "accessKey": "F8BBA842ECF85",
+  "requestId": "414c8020-9d3e-4641-93f2-68cbf0155f49",
+  "amount": "55000",
+  "orderId": "ae7c647c-e5aa-45e2-afa0-8105b0817366",
+  "orderInfo": "test",
+  "returnUrl": "https://momo.vn/return",
+  "notifyUrl": "https://momo.vn/notify",
+  "requestType": "captureMoMoWallet",
+  "signature": "f8d55b428f0a316949286189ff32380e9d9bb74b413102774035c6af58899d75"
+}
+2018-03-25 23:10:34,823 [1] DEBUG MoMo.MoMoForm - Return from MoMo: {
+  "requestId": "414c8020-9d3e-4641-93f2-68cbf0155f49",
+  "errorCode": 0,
+  "orderId": "ae7c647c-e5aa-45e2-afa0-8105b0817366",
+  "message": "Success",
+  "localMessage": "Thành công",
+  "requestType": "captureMoMoWallet",
+  "payUrl": "https://payment.momo.vn:18081/gw_payment/payment/qr?partnerCode=123456&accessKey=F8BBA842ECF85&requestId=414c8020-9d3e-4641-93f2-68cbf0155f49&amount=55000&orderId=ae7c647c-e5aa-45e2-afa0-8105b0817366&signature=41db1192f362d416b32eac5628bea71292bd8b01654ee9b416eb3a7c64c73321&requestType=captureMoMoWallet",
+  "signature": "fe25776d9ab2a2ca12c37e24d0f0604515b6c535e5bee92c01a981dcb5641aa6",
+  "qrCodeUrl": "https://payment.momo.vn:18081/gw_payment/s/EV0RyQ",
+  "deeplink": "momo://?action=payWithAppToken&amount=55000&requestType=payment&partnerCode=CGV19072017&orderId=ae7c647c-e5aa-45e2-afa0-8105b0817366&fee=0&orderLabel=M%C3%A3+%C4%91%C6%A1n+h%C3%A0ng&description=test&extras=&language=vi&merchantnamelabel=Nh%C3%A0+cung+c%E1%BA%A5p&merchantcode=CGV19072017&requestId=ae7c647c-e5aa-45e2-afa0-8105b0817366&deeplinkCallback=https%3A%2F%2Fpayment.momo.vn%3A18081%2Fgw_payment%2Fm2%3Fid%3Dk9rjbW&urlSubmitToken=https%3A%2F%2Fpayment.momo.vn%3A18081%2Fgw_payment%2Fpayment_with_app%3FpartnerCode%3D123456%26accessKey%3DF8BBA842ECF85%26requestId%3D414c8020-9d3e-4641-93f2-68cbf0155f49%26orderId%3Dae7c647c-e5aa-45e2-afa0-8105b0817366%26orderInfo%3Dtest%26amount%3D55000%26signature%3D41db1192f362d416b32eac5628bea71292bd8b01654ee9b416eb3a7c64c73321%26requestType%3DcaptureMoMoWallet%26payType%3Dapp-in-app&merchantname=MoMo&callbackUrl=https%3A%2F%2Fpayment.momo.vn%3A18081%2Fgw_payment%2Fm2%3Fid%3Dk9rjbW"
+}
+2018-03-25 23:10:45,424 [1] DEBUG MoMo.MoMoSecurity - Raw hash: {"partnerCode":"MOMO","partnerRefId":"ab27acad-00e5-4d21-80f4-4ebf598493d5","amount":55000,"paymentCode":"MM315244796579015388","storeId":"1","storeName":"cua hang netika"}
+2018-03-25 23:17:17,866 [1] DEBUG MoMo.MoMoForm - rawHash = partnerCode=MOMO&accessKey=F8BBA842ECF85&requestId=a851f538-9728-4d27-a90f-8efd59b80086&amount=55000&orderId=a369d907-7a04-45b3-95d2-b86788f1d799&orderInfo=test&returnUrl=https://momo.vn/return&notifyUrl=https://momo.vn/notify&extraData=
+2018-03-25 23:17:17,912 [1] DEBUG MoMo.MoMoForm - Signature = 81659324eadd4525b3657cf4bde1910c501e38a194d9070d80afe64a7e135439
+2018-03-25 23:17:17,982 [1] DEBUG MoMo.MoMoForm - Json request to MoMo: {
+  "partnerCode": "MOMO",
+  "accessKey": "F8BBA842ECF85",
+  "requestId": "a851f538-9728-4d27-a90f-8efd59b80086",
+  "amount": "55000",
+  "orderId": "a369d907-7a04-45b3-95d2-b86788f1d799",
+  "orderInfo": "test",
+  "returnUrl": "https://momo.vn/return",
+  "notifyUrl": "https://momo.vn/notify",
+  "requestType": "captureMoMoWallet",
+  "signature": "81659324eadd4525b3657cf4bde1910c501e38a194d9070d80afe64a7e135439"
+}
+2018-03-25 23:17:18,402 [1] DEBUG MoMo.MoMoForm - Return from MoMo: {
+  "requestId": "a851f538-9728-4d27-a90f-8efd59b80086",
+  "errorCode": 0,
+  "orderId": "a369d907-7a04-45b3-95d2-b86788f1d799",
+  "message": "Success",
+  "localMessage": "Thành công",
+  "requestType": "captureMoMoWallet",
+  "payUrl": "https://payment.momo.vn:18081/gw_payment/payment/qr?partnerCode=MOMO&accessKey=F8BBA842ECF85&requestId=a851f538-9728-4d27-a90f-8efd59b80086&amount=55000&orderId=a369d907-7a04-45b3-95d2-b86788f1d799&signature=b62d65786638b9455964c89efd37f338e0b7f58bd64492187cdae08718ab1680&requestType=captureMoMoWallet",
+  "signature": "e9fa981e068832a7cd6c2cba688963351f491fcdcaea105cc7f653c184ac9536",
+  "qrCodeUrl": "https://payment.momo.vn:18081/gw_payment/s/XzJWDY"
+}
+2018-03-25 23:17:24,174 [1] DEBUG MoMo.MoMoSecurity - Raw hash: {"partnerCode":"MOMO","partnerRefId":"947ec829-c7d1-4f38-a342-6e091ec64c55","amount":55000,"paymentCode":"MM315244796579015388","storeId":"1","storeName":"cua hang netika"}
+2018-03-25 23:18:06,046 [1] DEBUG MoMo.MoMoSecurity - Raw hash: {"partnerCode":"MOMO","partnerRefId":"1519717410468","momoTransId":"137489899","amount":5000,"description":""}
+2018-03-25 23:18:06,086 [1] DEBUG MoMo.MoMoForm - {"partnerCode":"MOMO","requestId":"d72789f4-459a-4341-91f4-41af1a43fc43","version":2.0,"hash":"jSlPKMrQ27EmCyTchHUPCeUkiVD9/rvWuXzcVNR4aNHtrQ1miT4bgEiFNTbjdaSbgEfvae1JbjKPO2EqZP+jEzDK0GXdNbs6GjtHoEEaNon7ck0lM29cWIuwhUAr7AhGrmIa0TRs8YUcts053ECtae7iMEza4WjCntyqgxaatubJ9NZnyqqSSf7PU8c8Hp8vYMqnYwEmz0nZsTNmp9wKezm4iEZB2ebVELlqPqrKLQBmYfSIBhoYP95rt7dv/SlNzuSB6HJwGqYL2gj6GLwJ5B8jsShf+FZFtLAA7DV1QA49hVGc3ns6RS3GSQZXEC5u3nEWQP3qbn4wWZ0b9lEliA=="}
+2018-03-25 23:18:06,939 [1] DEBUG MoMo.MoMoForm - {"status":2125,"message":"BillId can't refund","transid":"-1","amount":5000,"partnerRefId":"1519717410468"}
+2018-03-25 23:18:06,939 [1] DEBUG MoMo.MoMoForm - jSlPKMrQ27EmCyTchHUPCeUkiVD9/rvWuXzcVNR4aNHtrQ1miT4bgEiFNTbjdaSbgEfvae1JbjKPO2EqZP+jEzDK0GXdNbs6GjtHoEEaNon7ck0lM29cWIuwhUAr7AhGrmIa0TRs8YUcts053ECtae7iMEza4WjCntyqgxaatubJ9NZnyqqSSf7PU8c8Hp8vYMqnYwEmz0nZsTNmp9wKezm4iEZB2ebVELlqPqrKLQBmYfSIBhoYP95rt7dv/SlNzuSB6HJwGqYL2gj6GLwJ5B8jsShf+FZFtLAA7DV1QA49hVGc3ns6RS3GSQZXEC5u3nEWQP3qbn4wWZ0b9lEliA==
+2018-03-25 23:18:07,079 [1] DEBUG MoMo.MoMoForm - Return from MoMo: {
+  "status": 2125,
+  "message": "BillId can't refund",
+  "transid": "-1",
+  "amount": 5000,
+  "partnerRefId": "1519717410468"
+}
+2018-03-25 23:18:11,150 [1] DEBUG MoMo.MoMoSecurity - Raw hash: {"partnerCode":"MOMO","partnerRefId":"07db308d-ae7c-4133-be7c-fa38d4171715","amount":55000,"paymentCode":"MM315244796579015388","storeId":"1","storeName":"cua hang netika"}
+2018-03-25 23:18:11,161 [1] DEBUG MoMo.MoMoForm - {"partnerCode":"MOMO","partnerRefId":"07db308d-ae7c-4133-be7c-fa38d4171715","description":"","amount":55000,"version":2.0,"hash":"HcqzXIw6tAX7s0owDQWAPUfRDPUUoFYwaDYSCm51zc4f0yLPHLWQzwlN3vPaSfaleYBRDtaUJ/ZQpdVCe6lnl8aqyUUIT1U/HsPdfd7FtyRGSiPiYw1goIBerpVTN7thExkpscYrB0d3MzgExGL78oXyD7vaS4uTV4/uOXQqdcTsvba1f7T2jIPcIRB8xrbtWY93QctHmnxAU5r6KgayOr31MvB+27ccrab7/oHUtP61KgEyZpQ5ddt+q7kpNDNp1wGNlZLXRU+c5wiLzV0nIWk//onXfs/ndZhcTfdx8T2bFvDrlqTSozds9uDJxx8+immqgiictSVjL/3T5rP2wg=="}
+2018-03-25 23:18:12,270 [1] DEBUG MoMo.MoMoForm - {"status":1014,"message":{"description":"M?t kh?u b?n nh?p không chính xác","transid":139428885,"amount":55000,"phoneNumber":"0938***061"}}
+2018-03-25 23:18:12,271 [1] DEBUG MoMo.MoMoForm - HcqzXIw6tAX7s0owDQWAPUfRDPUUoFYwaDYSCm51zc4f0yLPHLWQzwlN3vPaSfaleYBRDtaUJ/ZQpdVCe6lnl8aqyUUIT1U/HsPdfd7FtyRGSiPiYw1goIBerpVTN7thExkpscYrB0d3MzgExGL78oXyD7vaS4uTV4/uOXQqdcTsvba1f7T2jIPcIRB8xrbtWY93QctHmnxAU5r6KgayOr31MvB+27ccrab7/oHUtP61KgEyZpQ5ddt+q7kpNDNp1wGNlZLXRU+c5wiLzV0nIWk//onXfs/ndZhcTfdx8T2bFvDrlqTSozds9uDJxx8+immqgiictSVjL/3T5rP2wg==
+2018-03-25 23:18:12,281 [1] DEBUG MoMo.MoMoForm - Return from MoMo: {
+  "status": 1014,
+  "message": {
+    "description": "M?t kh?u b?n nh?p không chính xác",
+    "transid": 139428885,
+    "amount": 55000,
+    "phoneNumber": "0938***061"
+  }
+}
+2018-03-25 23:18:16,284 [1] DEBUG MoMo.MoMoSecurity - Raw hash: {"partnerCode":"MOMO","partnerRefId":"1519717410468","requestId":"55bfd478-010a-4273-9c63-d691d915135e"}
+2018-03-25 23:18:16,295 [1] DEBUG MoMo.MoMoForm - {"partnerCode":"MOMO","partnerRefId":"1519717410468","description":"","version":2.0,"hash":"iXojsQXArjj/gpdSZ+neUOrz6d5lbwtO8sU6RYntWiSDvaGs3FBS5tyJEWemiNlxeF+V7Ft9lfVp9tvc/qUcR4GyeL+sTm/bLeaDp6hdb4MNDNrWpCCip32LgzwW1ITWZ3hAfedeHofiD+4H/wNdY3Mq6U5oSCcLHnPGtgKw3/x4Fw8Ch5NckAMWmzkjd6KCEv0k73Vmobwp82+yWB0ELK/awh8uQAI4I8n4y637EyKTWq2RwZMQAyM1ha86HDaQw+BfihDz6Z40rFDPEhVSXrVKOAURDv1Iz1lnSqFOix+zpEn8ha7PfRVWxdTToVyZ4+VW5OYlpniXd+kfHr/vDg=="}
+2018-03-25 23:18:16,696 [1] DEBUG MoMo.MoMoForm - {"status":0,"message":"Thành công","data":{}}
+2018-03-25 23:18:16,696 [1] DEBUG MoMo.MoMoForm - iXojsQXArjj/gpdSZ+neUOrz6d5lbwtO8sU6RYntWiSDvaGs3FBS5tyJEWemiNlxeF+V7Ft9lfVp9tvc/qUcR4GyeL+sTm/bLeaDp6hdb4MNDNrWpCCip32LgzwW1ITWZ3hAfedeHofiD+4H/wNdY3Mq6U5oSCcLHnPGtgKw3/x4Fw8Ch5NckAMWmzkjd6KCEv0k73Vmobwp82+yWB0ELK/awh8uQAI4I8n4y637EyKTWq2RwZMQAyM1ha86HDaQw+BfihDz6Z40rFDPEhVSXrVKOAURDv1Iz1lnSqFOix+zpEn8ha7PfRVWxdTToVyZ4+VW5OYlpniXd+kfHr/vDg==
+2018-03-25 23:18:16,696 [1] DEBUG MoMo.MoMoForm - Return from MoMo: {
+  "status": 0,
+  "message": "Thành công",
+  "data": {}
+}
