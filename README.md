@@ -5,7 +5,7 @@ Payment solutions based online platform
 
 
 ## Documents
-Full documents to integrated MoMo payment to the system
+Full documents to integrated MoMo payment 
 
 [Find out] (https://business.momo.vn/solution/document) - Section 7
 
@@ -27,7 +27,7 @@ Version 1.0
 
 ## Authors
 
-* **Khang Đoàn** - khang.doan@mservice.com
+* **Khang Đoàn** - khang.doan@mservice.com.vn
 * **Hải Nguyễn** - hai.nguyen@mservice.com.vn
 
 
