@@ -14,7 +14,7 @@ Full documents to integrated MoMo payment
 
 
 ## Languages
-- Java
+- Java (SDK is ready)
 - PHP
 - C#
 
