@@ -21,21 +21,20 @@
 
     return $result;
    }
-   $endpoint = "https://payment.momo.vn:18081/gw_payment/transactionProcessor";
-   $partnerCode = "MOMO5G4K20180302";
-   $accessKey = "ilqLK85fz0e724bI";
-   $serectkey = "b0lHVHTZ99823FhmKt2Lw8VYaPiVzbg4";
-   $orderInfo = "pay with MoMo ATM";
-   $bankCode = "SML";
+   $endpoint = "https://testing.momo.vn/gw_payment/transactionProcessor";
+   $partnerCode = "MOMO";
+   $accessKey = "F8BBA842ECF85";
+   $serectkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz";
+   $orderInfo = "pay with MoMo";
    $returnUrl = "https://momo.vn/return";
    $notifyurl = "https://momo.vn/notify";
    $amount = "50000";
    $orderid = time()."";
    $requestId = time()."";
-   $requestType = "payWithMoMoATM";
-   $extraData = "";
+   $requestType = "captureMoMoWallet";
+   $extraData = "merchantName=Grab taxi;merchantId=3948";
    //before sign HMAC SHA256 signature
-   $rawHash = "partnerCode=".$partnerCode."&accessKey=".$accessKey."&requestId=".$requestId."&bankCode=".$bankCode."&amount=".$amount."&orderId=".$orderid."&orderInfo=".$orderInfo."&returnUrl=".$returnUrl."&notifyUrl=".$notifyurl."&extraData=".$extraData."&requestType=".$requestType;
+   $rawHash = "partnerCode=".$partnerCode."&accessKey=".$accessKey."&requestId=".$requestId."&amount=".$amount."&orderId=".$orderid."&orderInfo=".$orderInfo."&returnUrl=".$returnUrl."&notifyUrl=".$notifyurl."&extraData=".$extraData;
    echo "Raw signature: ".$rawHash."\n";
    $signature = hash_hmac("sha256", $rawHash, $serectkey);
 
@@ -46,7 +45,6 @@
                   'orderId' => $orderid,
                   'orderInfo' => $orderInfo,
                   'returnUrl' => $returnUrl,
-                  'bankCode' => $bankCode,
                   'notifyUrl' => $notifyurl,
                   'extraData' => $extraData,
                   'requestType' => $requestType,
