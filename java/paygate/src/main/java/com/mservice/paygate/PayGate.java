@@ -20,7 +20,7 @@ public class PayGate {
         switch (target) {
             case "dev":
                 PartnerInfo devInfo = new PartnerInfo("MOMO", "F8BBA842ECF85", "K951B6PE1waDMi640xX08PD3vg6EkVlz");
-                Environment dev = new Environment("http://10.10.10.142:8081/gw_payment/transactionProcessor", devInfo, "development");
+                Environment dev = new Environment("https://testing.momo.vn/gw_payment/transactionProcessor", devInfo, "development");
                 return dev;
             case "prod":
                 PartnerInfo productionInfo = new PartnerInfo("MOMO", "F8BBA842ECF85", "K951B6PE1waDMi640xX08PD3vg6EkVlz");
