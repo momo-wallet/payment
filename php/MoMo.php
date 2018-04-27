@@ -22,9 +22,9 @@
     return $result;
    }
    $endpoint = "https://testing.momo.vn/gw_payment/transactionProcessor";
-   $partnerCode = "MOMO";
-   $accessKey = "F8BBA842ECF85";
-   $serectkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz";
+   $partnerCode = "MOMO0HGO20180417";
+   $accessKey = "E8HZuQRy2RsjVtZp";
+   $serectkey = "fj00YKnJhmYqahaFWUgkg75saNTzMrbO";
    $orderInfo = "pay with MoMo";
    $returnUrl = "https://momo.vn/return";
    $notifyurl = "https://momo.vn/notify";
