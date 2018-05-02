@@ -28,6 +28,7 @@ OTP: 000000
 
 Password: 000000 or 111111
 
+Download MoMo Lite test app: https://goo.gl/HNz1HY
 ## Versioning
 
 ```
