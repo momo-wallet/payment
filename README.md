@@ -21,8 +21,7 @@ Full documents to integrated MoMo payment
 ## Testing
 
 MoMo test number list
-
-- 0961800390; 0978787890; 0978787891; 0978787892; 0978787893; 0978787894; 0978787895; 0978787896; 0978787897; 0978787898; 0978787899
+- 0961800390; 0900123123; 0978787890; 0978787891; 0978787892; 0900123124; 0900123125; 0900123126; 0900123127; 0900123128; 0978787899
 
 OTP: 000000
 
@@ -37,8 +36,8 @@ Version 1.0
 
 ## Authors
 
-* **Khang Đoàn** - khang.doan@mservice.com.vn
-* **Hải Nguyễn** - hai.nguyen@mservice.com.vn
+* **Khang Đoàn** - khang.doan@m r v i c e . c o m . v n
+* **Hải Nguyễn** - hai.nguyen@m s e r v i c e . c o m . v n
 
 
 
