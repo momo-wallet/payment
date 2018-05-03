@@ -25,7 +25,7 @@ MoMo test number list
 
 OTP: 000000
 
-Password: 000000 or 111111
+Password: 000000
 
 Download MoMo Lite test app: https://goo.gl/HNz1HY
 ## Versioning
@@ -36,8 +36,8 @@ Version 1.0
 
 ## Authors
 
-* **Khang Đoàn** - khang.doan@m r v i c e . c o m . v n
-* **Hải Nguyễn** - hai.nguyen@m s e r v i c e . c o m . v n
+* **Khang Đoàn** - khang.doan@mservice . com . vn
+* **Hải Nguyễn** - hai.nguyen@mservice . com . vn
 
 
 
