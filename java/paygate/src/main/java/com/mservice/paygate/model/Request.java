@@ -1,112 +1,112 @@
 package com.mservice.paygate.model;
 
 /**
- * Created by Hai.Nguyen
- * Date: 19-01-2018
+ * Created by Hai.Nguyen Date: 19-01-2018
  */
-public class Request  {
-    private String partnerCode;
-    private String orderId;
-    private String orderInfo;
-    private String accessKey;
-    private String amount;
-    private String signature;
-    private String extraData;
-    private String requestId;
+public class Request {
+	
+	private String partnerCode;
+	private String orderId;
+	private String orderInfo;
+	private String accessKey;
+	private String amount;
+	private String signature;
+	private String extraData;
+	private String requestId;
 
-    private String notifyUrl;
-    private String returnUrl;
-    private String requestType;
+	private String notifyUrl;
+	private String returnUrl;
+	private String requestType;
 
-    public String getPartnerCode() {
-        return partnerCode;
-    }
+	public String getPartnerCode() {
+		return partnerCode;
+	}
 
-    public void setPartnerCode(String partnerCode) {
-        this.partnerCode = partnerCode;
-    }
+	public void setPartnerCode(String partnerCode) {
+		this.partnerCode = partnerCode;
+	}
 
-    public String getOrderId() {
-        return orderId;
-    }
+	public String getOrderId() {
+		return orderId;
+	}
 
-    public void setOrderId(String orderId) {
-        this.orderId = orderId;
-    }
+	public void setOrderId(String orderId) {
+		this.orderId = orderId;
+	}
 
-    public String getOrderInfo() {
-        return orderInfo;
-    }
+	public String getOrderInfo() {
+		return orderInfo;
+	}
 
-    public void setOrderInfo(String orderInfo) {
-        this.orderInfo = orderInfo;
-    }
+	public void setOrderInfo(String orderInfo) {
+		this.orderInfo = orderInfo;
+	}
 
-    public String getAccessKey() {
-        return accessKey;
-    }
+	public String getAccessKey() {
+		return accessKey;
+	}
 
-    public void setAccessKey(String accessKey) {
-        this.accessKey = accessKey;
-    }
+	public void setAccessKey(String accessKey) {
+		this.accessKey = accessKey;
+	}
 
-    public String getAmount() {
-        return amount;
-    }
+	public String getAmount() {
+		return amount;
+	}
 
-    public void setAmount(String amount) {
-        this.amount = amount;
-    }
+	public void setAmount(String amount) {
+		this.amount = amount;
+	}
 
-    public String getSignature() {
-        return signature;
-    }
+	public String getSignature() {
+		return signature;
+	}
 
-    public void setSignature(String signature) {
-        this.signature = signature;
-    }
+	public void setSignature(String signature) {
+		this.signature = signature;
+	}
 
-    public String getExtraData() {
-        return extraData;
-    }
+	public String getExtraData() {
+		return extraData;
+	}
 
-    public void setExtraData(String extraData) {
-        this.extraData = extraData;
-    }
+	public void setExtraData(String extraData) {
+		this.extraData = extraData;
+	}
 
-    public String getRequestId() {
-        return requestId;
-    }
+	public String getRequestId() {
+		return requestId;
+	}
 
-    public void setRequestId(String requestId) {
-        this.requestId = requestId;
-    }
+	public void setRequestId(String requestId) {
+		this.requestId = requestId;
+	}
 
-    public String getNotifyUrl() {
-        return notifyUrl;
-    }
+	public String getNotifyUrl() {
+		return notifyUrl;
+	}
 
-    public void setNotifyUrl(String notifyUrl) {
-        this.notifyUrl = notifyUrl;
-    }
+	public void setNotifyUrl(String notifyUrl) {
+		this.notifyUrl = notifyUrl;
+	}
 
-    public String getReturnUrl() {
-        return returnUrl;
-    }
+	public String getReturnUrl() {
+		return returnUrl;
+	}
 
-    public void setReturnUrl(String returnUrl) {
-        this.returnUrl = returnUrl;
-    }
+	public void setReturnUrl(String returnUrl) {
+		this.returnUrl = returnUrl;
+	}
 
-    public String getRequestType() {
-        return requestType;
-    }
+	public String getRequestType() {
+		return requestType;
+	}
 
-    public void setRequestType(String requestType) {
-        this.requestType = requestType;
-    }
+	public void setRequestType(String requestType) {
+		this.requestType = requestType;
+	}
 
-    @Override
+	@Override
     public String toString() {
         return "Request{" +
                 "partnerCode='" + partnerCode + '\'' +
@@ -122,5 +122,4 @@ public class Request  {
                 ", requestType='" + requestType + '\'' +
                 '}';
     }
-
 }

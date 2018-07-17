@@ -5,25 +5,31 @@
  */
 package com.mservice.paygate.utils;
 
-import org.apache.commons.codec.binary.Base64;
-
-import javax.crypto.Mac;
-import javax.crypto.spec.SecretKeySpec;
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
-import java.security.*;
+import java.security.InvalidKeyException;
+import java.security.KeyFactory;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.PublicKey;
 import java.security.spec.EncodedKeySpec;
-import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
-import java.util.ArrayList;
 import java.util.Formatter;
-import java.util.List;
-import java.util.Map;
+
+import javax.crypto.Cipher;
+import javax.crypto.Mac;
+import javax.crypto.spec.SecretKeySpec;
+
+import org.apache.commons.codec.binary.Base64;
+
+import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;
 
 /**
  *
  * @author khangdoan
  */
+@SuppressWarnings("restriction")
 public class Encoder {
 
     private static final char[] HEX_CHARS = "0123456789ABCDEF".toCharArray();
@@ -31,14 +37,13 @@ public class Encoder {
 
     private static final String HMAC_SHA256 = "HmacSHA256";
 
-    private static String toHexString(byte[] bytes) {
+    @SuppressWarnings("resource")
+	private static String toHexString(byte[] bytes) {
         StringBuilder sb = new StringBuilder(bytes.length * 2);
-
         Formatter formatter = new Formatter(sb);
         for (byte b : bytes) {
             formatter.format("%02x", b);
         }
-
         return sb.toString();
     }
 
@@ -62,7 +67,6 @@ public class Encoder {
         }
         return sb.toString();
     }
-
 
     public static String decode64(String s) {
         try {
@@ -94,21 +98,29 @@ public class Encoder {
     }
 
     public static String hmacSha1(String value, String key) throws Exception {
+        // Get an hmac_sha1 key from the raw key bytes
+        byte[] keyBytes = key.getBytes();
+        SecretKeySpec signingKey = new SecretKeySpec(keyBytes, "HmacSHA1");
 
-            // Get an hmac_sha1 key from the raw key bytes
-            byte[] keyBytes = key.getBytes();
-            SecretKeySpec signingKey = new SecretKeySpec(keyBytes, "HmacSHA1");
+        // Get an hmac_sha1 Mac instance and initialize with the signing key
+        Mac mac = Mac.getInstance("HmacSHA1");
+        mac.init(signingKey);
 
-            // Get an hmac_sha1 Mac instance and initialize with the signing key
-            Mac mac = Mac.getInstance("HmacSHA1");
-            mac.init(signingKey);
-
-            // Compute the hmac on input data bytes
-            byte[] rawHmac = mac.doFinal(value.getBytes());
-            return Base64.encodeBase64String(rawHmac);
-
+        // Compute the hmac on input data bytes
+        byte[] rawHmac = mac.doFinal(value.getBytes());
+        return Base64.encodeBase64String(rawHmac);
     }
-
-
-
+    
+	public static String encryptRSA(byte[] dataBytes, String publicKey) throws Exception {
+    	PublicKey pubk;
+        BASE64Decoder decoder = new BASE64Decoder();
+        BASE64Encoder encoder = new BASE64Encoder();
+        byte[] publicKeyBytes = decoder.decodeBuffer(publicKey);
+        EncodedKeySpec publicKeySpec = new X509EncodedKeySpec (publicKeyBytes);
+        KeyFactory keyFactory = KeyFactory.getInstance("RSA");
+        pubk = keyFactory.generatePublic(publicKeySpec);
+        Cipher cipher = Cipher.getInstance("RSA");
+        cipher.init(Cipher.ENCRYPT_MODE, pubk);
+        return new String(encoder.encode(cipher.doFinal(dataBytes)).replace("\r", ""));
+    }
 }

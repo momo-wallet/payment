@@ -1,9 +1,9 @@
 package com.mservice.paygate.utils;
 
 public class $$HttpResponse {
+	
     private String data;
     private int status;
-
 
     public $$HttpResponse() {
 
@@ -24,6 +24,4 @@ public class $$HttpResponse {
     public void setStatus(int status) {
         this.status = status;
     }
-
-
 }

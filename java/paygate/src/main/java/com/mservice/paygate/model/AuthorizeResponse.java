@@ -1,13 +1,14 @@
 package com.mservice.paygate.model;
 
-public class AuthorizeResponse extends PaymentResponse{
-    private String hash;
+public class AuthorizeResponse extends PaymentResponse {
+	
+	private String hash;
 
-    public String getHash() {
-        return hash;
-    }
+	public String getHash() {
+		return hash;
+	}
 
-    public void setHash(String hash) {
-        this.hash = hash;
-    }
+	public void setHash(String hash) {
+		this.hash = hash;
+	}
 }

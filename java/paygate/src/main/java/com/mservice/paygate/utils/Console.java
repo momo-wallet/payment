@@ -24,28 +24,28 @@ public class Console {
     public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
     public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
-    public static void log(Object... args){
+    public static void log(String... args) {
         System.out.println(ANSI_GREEN + getString(args) + ANSI_RESET);
     }
-    public static void error(String... args){
+    public static void error(String... args) {
         System.out.println(ANSI_RED + getString(args) + ANSI_RESET);
     }
-    public static void warn(String... args){
+    public static void warn(String... args) {
         System.out.println(ANSI_YELLOW + getString(args) + ANSI_RESET);
     }
-    public static void debug(String... args){
+    public static void debug(String... args) {
         System.out.println(ANSI_CYAN + getString(args) + ANSI_RESET);
     }
-    public static String getString(Object... args){
+    public static String getString(String... args) {
         String text = "";
-        for(Object arg : args){
+        for(Object arg : args) {
             text += arg;
         }
         return text;
     }
-    public static String getObject(String... args){
+    public static String getObject(String... args) {
         String text = "";
-        for(String arg : args){
+        for(String arg : args) {
             text += arg + " ";
         }
         return text;

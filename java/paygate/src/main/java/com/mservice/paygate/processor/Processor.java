@@ -1,17 +1,29 @@
 package com.mservice.paygate.processor;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import com.google.gson.Gson;
 import com.mservice.paygate.constants.Parameter;
 import com.mservice.paygate.constants.RequestType;
-import com.mservice.paygate.model.*;
+import com.mservice.paygate.model.CaptureMoMoRequest;
+import com.mservice.paygate.model.CaptureMoMoResponse;
+import com.mservice.paygate.model.Environment;
+import com.mservice.paygate.model.PartnerInfo;
+import com.mservice.paygate.model.PayATMRequest;
+import com.mservice.paygate.model.PayATMResponse;
+import com.mservice.paygate.model.PaymentResponse;
+import com.mservice.paygate.model.QueryStatusTransactionRequest;
+import com.mservice.paygate.model.QueryStatusTransactionResponse;
+import com.mservice.paygate.model.RefundATMMoMoRequest;
+import com.mservice.paygate.model.RefundMoMoRequest;
 import com.mservice.paygate.utils.Console;
 import com.mservice.paygate.utils.Encoder;
 
 public class Processor {
 
-
     public static PayATMRequest createPayWithATMRequest(String requestId, String orderId, String bankCode, String amount, String orderInfo, String returnUrl,
                                                         String notifyUrl, String extra, PartnerInfo partnerInfo) {
-
         String dataCryption
                 = Parameter.PARTNER_CODE + "=" + partnerInfo.getPartnerCode() + "&"
                 + Parameter.ACCESS_KEY + "=" + partnerInfo.getAccessKey() + "&"
@@ -24,8 +36,6 @@ public class Processor {
                 + Parameter.NOTIFY_URL + "=" + notifyUrl + "&"
                 + Parameter.EXTRA_DATA + "=" + extra + "&"
                 + Parameter.REQUEST_TYPE + "=" + RequestType.PAY_WITH_ATM;
-
-
         try {
             String signature = Encoder.signHmacSHA256(dataCryption, partnerInfo.getSecretKey());
 
@@ -42,8 +52,6 @@ public class Processor {
             payATMRequest.setRequestType(RequestType.PAY_WITH_ATM);
             payATMRequest.setSignature(signature);
             return payATMRequest;
-
-
         } catch (Exception e) {
             e.printStackTrace();
             throw new IllegalArgumentException("Invalid params capture MoMo Request");
@@ -51,9 +59,7 @@ public class Processor {
     }
 
     public static RefundATMMoMoRequest createRefundMoMoATMRequest(String requestId, String orderId, String bankCode, String amount, String momoTransId, PartnerInfo partnerInfo) {
-
         RefundATMMoMoRequest refundATMMoMoRequest = new RefundATMMoMoRequest();
-
         String dataCryption
                 = Parameter.PARTNER_CODE + "=" + refundATMMoMoRequest.getPartnerCode() + "&"
                 + Parameter.ACCESS_KEY + "=" + refundATMMoMoRequest.getAccessKey() + "&"
@@ -63,7 +69,6 @@ public class Processor {
                 + Parameter.ORDER_ID + "=" + refundATMMoMoRequest.getOrderId() + "&"
                 + Parameter.TRANS_ID + "=" + refundATMMoMoRequest.getTransId() + "&"
                 + Parameter.REQUEST_TYPE + "=" + refundATMMoMoRequest.getRequestType();
-
         String signature = "";
         try {
             signature = Encoder.signHmacSHA256(dataCryption, partnerInfo.getSecretKey());
@@ -81,12 +86,10 @@ public class Processor {
         } catch (Exception e) {
             throw new IllegalArgumentException("Invalid params capture MoMo Request");
         }
-
     }
 
     public static RefundMoMoRequest createRefundMoMoRequest(String requestId, String orderId, String amount, String momoTransId, PartnerInfo partnerInfo) {
         RefundMoMoRequest refundMoMoRequest = new RefundMoMoRequest();
-
         String dataCryption =
                 Parameter.PARTNER_CODE + "=" + partnerInfo.getPartnerCode() +
                         "&" + Parameter.ACCESS_KEY + "=" + partnerInfo.getAccessKey() +
@@ -95,7 +98,6 @@ public class Processor {
                         "&" + Parameter.ORDER_ID + "=" + orderId +
                         "&" + Parameter.TRANS_ID + "=" + momoTransId +
                         "&" + Parameter.REQUEST_TYPE + "=" + RequestType.REFUND_MOMO_WALLET;
-
         String signature = "";
         try {
             signature = Encoder.signHmacSHA256(dataCryption, partnerInfo.getSecretKey());
@@ -114,24 +116,18 @@ public class Processor {
         }
     }
 
-
     public static QueryStatusTransactionRequest createQueryTransactionRequest(String requestId, String orderId, PartnerInfo partnerInfo) {
         QueryStatusTransactionRequest request = new QueryStatusTransactionRequest();
-
         String rawData =
                 Parameter.PARTNER_CODE + "=" + partnerInfo.getPartnerCode() +
                         "&" + Parameter.ACCESS_KEY + "=" + partnerInfo.getAccessKey() +
                         "&" + Parameter.REQUEST_ID + "=" + requestId +
                         "&" + Parameter.ORDER_ID + "=" + orderId +
                         "&" + Parameter.REQUEST_TYPE + "=" + RequestType.TRANSACTION_STATUS;
-
         String signature = "";
         try {
             Console.debug("createQueryStatusRequest::rawDataBeforeHash::" + rawData);
-
-
             signature = Encoder.signHmacSHA256(rawData, partnerInfo.getSecretKey());
-
             Console.debug("createQueryStatusRequest::signature::" + signature);
         } catch (Exception e) {
             e.printStackTrace();
@@ -158,13 +154,8 @@ public class Processor {
                             "&" + Parameter.RETURN_URL + "=" + returnUrl +
                             "&" + Parameter.NOTIFY_URL + "=" + notifyUrl +
                             "&" + Parameter.EXTRA_DATA + "=" + extraData;
-
-
             Console.debug("createCaptureMoMoRequest::rawDataBeforeHash::" + rawData);
-
-
             String signature = Encoder.signHmacSHA256(rawData, partnerInfo.getSecretKey());
-
             Console.debug("createCaptureMoMoRequest::signature::" + signature);
 
             CaptureMoMoRequest captureMoMoRequest = new CaptureMoMoRequest();
@@ -180,7 +171,6 @@ public class Processor {
             captureMoMoRequest.setExtraData(extraData);
             captureMoMoRequest.setOrderInfo(orderInfo);
             return captureMoMoRequest;
-
         } catch (Exception ex) {
             ex.printStackTrace();
             throw new IllegalArgumentException("Invalid params capture MoMo Request");
@@ -191,20 +181,12 @@ public class Processor {
     /*** Send to MoMo Service**/
 
     public static CaptureMoMoResponse getCaptureMoMoResponse(Environment env, CaptureMoMoRequest captureMoMoRequest) throws Exception {
-
         PartnerInfo partnerInfo = env.getPartnerInfo();
-
         Execute execute = new Execute();
-
         String payload = execute.getGson().toJson(captureMoMoRequest, CaptureMoMoRequest.class);
-
         String response = execute.sendToMoMo(env, payload);
-
         CaptureMoMoResponse captureMoMoResponse = execute.getGson().fromJson(response, CaptureMoMoResponse.class);
-
         errorMoMoProcess(captureMoMoResponse.getErrorCode());
-
-
         if (captureMoMoResponse.getErrorCode() == 0) {
             String rawData =
                     Parameter.REQUEST_ID + "=" + captureMoMoResponse.getRequestId() +
@@ -216,9 +198,7 @@ public class Processor {
                             "&" + Parameter.REQUEST_TYPE + "=" + RequestType.CAPTURE_MOMO_WALLET;
 
             Console.debug("getCaptureMoMoResponse::partnerRawDataBeforeHash::" + rawData);
-
             String signature = Encoder.signHmacSHA256(rawData, partnerInfo.getSecretKey());
-
             Console.debug("getCaptureMoMoResponse::partnerSignature::" + signature);
             Console.debug("getCaptureMoMoResponse::momoSignature::" + captureMoMoResponse.getSignature());
 
@@ -237,10 +217,7 @@ public class Processor {
         String response = Execute.sendToMoMo(env, payload);
         QueryStatusTransactionResponse queryStatusResponse = Execute.getGson().fromJson(response, QueryStatusTransactionResponse.class);
 
-
         errorMoMoProcess(queryStatusResponse.getErrorCode());
-
-
         String rawData = Parameter.PARTNER_CODE + "=" + queryStatusResponse.getPartnerCode() +
                 "&" + Parameter.ACCESS_KEY + "=" + queryStatusResponse.getAccessKey() +
                 "&" + Parameter.REQUEST_ID + "=" + queryStatusResponse.getRequestId() +
@@ -253,13 +230,8 @@ public class Processor {
                 "&" + Parameter.REQUEST_TYPE + "=" + RequestType.TRANSACTION_STATUS +
                 "&" + Parameter.PAY_TYPE + "=" + queryStatusResponse.getPayType() +
                 "&" + Parameter.EXTRA_DATA + "=" + queryStatusResponse.getExtraData();
-
-
         Console.debug("getQueryStatusResponse::rawDataBeforeHash::" + rawData);
-
         String signature = Encoder.signHmacSHA256(rawData, partnerInfo.getSecretKey());
-
-
         Console.debug("getQueryStatusResponse::signature::" + signature);
 
         if (signature.equals(queryStatusResponse.getSignature())) {
@@ -271,17 +243,11 @@ public class Processor {
 
     public static PayATMResponse getPayMoMoATMResponse(Environment env, PayATMRequest payATMRequest) throws Exception {
         PartnerInfo partnerInfo = env.getPartnerInfo();
-
         Execute execute = new Execute();
-
         String payload = execute.getGson().toJson(payATMRequest, PayATMRequest.class);
-
         String response = execute.sendToMoMo(env, payload);
-
         PayATMResponse payATMResponse = execute.getGson().fromJson(response, PayATMResponse.class);
-
         errorMoMoProcess(payATMResponse.getErrorCode());
-
 
         if (payATMResponse.getErrorCode() == 0) {
             String rawData =
@@ -296,9 +262,7 @@ public class Processor {
                             "&" + Parameter.REQUEST_TYPE + "=" + RequestType.PAY_WITH_ATM;
 
             Console.debug("getPayATMMoMoResponse::partnerRawDataBeforeHash::" + rawData);
-
             String signature = Encoder.signHmacSHA256(rawData, partnerInfo.getSecretKey());
-
             Console.debug("getPayATMMoMoResponse::partnerSignature::" + signature);
             Console.debug("getPayATMMoMoResponse::momoSignature::" + payATMResponse.getSignature());
 
@@ -310,7 +274,6 @@ public class Processor {
         }
         return payATMResponse;
     }
-
 
     /**
      * After end-user do pay order, MoMo will return result to partner by two ways:
@@ -339,9 +302,7 @@ public class Processor {
      * @throws Exception
      */
     public static PaymentResponse resultCaptureMoMoWallet(Environment env, PaymentResponse paymentResponse) throws Exception {
-
         PartnerInfo partnerInfo = env.getPartnerInfo();
-
         String rawData
                 = Parameter.PARTNER_CODE + "=" + paymentResponse.getPartnerCode() + "&"
                 + Parameter.ACCESS_KEY + "=" + paymentResponse.getAccessKey() + "&"
@@ -359,9 +320,7 @@ public class Processor {
                 + Parameter.EXTRA_DATA + "=" + paymentResponse.getExtraData();
 
         Console.debug("resultCaptureMoMoWallet::partnerRawDataBeforeHash::" + rawData);
-
         String signature = Encoder.signHmacSHA256(rawData, partnerInfo.getSecretKey());
-
         Console.debug("resultCaptureMoMoWallet::partnerSignature::" + signature);
         Console.debug("resultCaptureMoMoWallet::momoSignature::" + paymentResponse.getSignature());
 
@@ -390,5 +349,25 @@ public class Processor {
                 throw new Exception("Empty access key or partner code");
 
         }
+    }
+    
+    /**
+     * @author nhat.nguyen
+     */
+    public static String generateRSA(String phoneNumber, String billId, String tranId, String username, String partnerCode, long amount, String publicKey) throws Exception {
+        // current version of Parameter key name is 2.0
+    	Map<String, Object> rawData = new HashMap<>();
+    	rawData.put(Parameter.CUSTOMER_NUMBER, phoneNumber);
+    	rawData.put(Parameter.PARTNER_REF_ID, billId);
+    	rawData.put(Parameter.PARTNER_TRANS_ID, tranId);
+    	rawData.put(Parameter.USERNAME, username);
+    	rawData.put(Parameter.PARTNER_CODE, partnerCode);
+    	rawData.put(Parameter.AMOUNT, amount);
+    	
+    	Gson gson = new Gson();
+    	String jsonStr = gson.toJson(rawData);
+	    byte[] testByte = jsonStr.getBytes("UTF-8");
+	    final String hash = Encoder.encryptRSA(testByte, publicKey);
+	    return hash;
     }
 }

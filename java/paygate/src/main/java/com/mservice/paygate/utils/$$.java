@@ -1,6 +1,5 @@
 package com.mservice.paygate.utils;
 
-
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -12,7 +11,8 @@ import org.apache.http.protocol.HTTP;
 
 public class $$ {
 
-    public static $$HttpResponse post($$HttpRequest httpRequest) throws Exception {
+    @SuppressWarnings("deprecation")
+	public static $$HttpResponse post($$HttpRequest httpRequest) throws Exception {
         $$HttpResponse response = new $$HttpResponse();
 
         HttpPost post = new HttpPost(httpRequest.getUrl());
@@ -33,6 +33,4 @@ public class $$ {
         return response;
 
     }
-
-
 }

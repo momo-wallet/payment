@@ -1,17 +1,19 @@
 package com.mservice.paygate.model;
 
-public class NotifyInternalResponse extends Response{
-    private String subscribeId;
+public class NotifyInternalResponse extends Response {
 
-    /**
-     * For some services pay by subscribe command
-     * @return
-     */
-    public String getSubscribeId() {
-        return subscribeId;
-    }
+	private String subscribeId;
 
-    public void setSubscribeId(String subscribeId) {
-        this.subscribeId = subscribeId;
-    }
+	/**
+	 * For some services pay by subscribe command
+	 * 
+	 * @return
+	 */
+	public String getSubscribeId() {
+		return subscribeId;
+	}
+
+	public void setSubscribeId(String subscribeId) {
+		this.subscribeId = subscribeId;
+	}
 }

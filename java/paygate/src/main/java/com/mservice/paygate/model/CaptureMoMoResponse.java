@@ -1,33 +1,34 @@
 package com.mservice.paygate.model;
 
-public class CaptureMoMoResponse extends Response{
-    private String payUrl;
+public class CaptureMoMoResponse extends Response {
 
-    private String deeplink;
+	private String payUrl;
 
-    private String qrCodeUrl;
+	private String deeplink;
 
-    public String getDeeplink() {
-        return deeplink;
-    }
+	private String qrCodeUrl;
 
-    public void setDeeplink(String deeplink) {
-        this.deeplink = deeplink;
-    }
+	public String getDeeplink() {
+		return deeplink;
+	}
 
-    public String getQrCodeUrl() {
-        return qrCodeUrl;
-    }
+	public void setDeeplink(String deeplink) {
+		this.deeplink = deeplink;
+	}
 
-    public void setQrCodeUrl(String qrCodeUrl) {
-        this.qrCodeUrl = qrCodeUrl;
-    }
+	public String getQrCodeUrl() {
+		return qrCodeUrl;
+	}
 
-    public String getPayUrl() {
-        return payUrl;
-    }
+	public void setQrCodeUrl(String qrCodeUrl) {
+		this.qrCodeUrl = qrCodeUrl;
+	}
 
-    public void setPayUrl(String payUrl) {
-        this.payUrl = payUrl;
-    }
+	public String getPayUrl() {
+		return payUrl;
+	}
+
+	public void setPayUrl(String payUrl) {
+		this.payUrl = payUrl;
+	}
 }

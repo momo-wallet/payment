@@ -1,7 +1,7 @@
 package com.mservice.paygate.utils;
 
-
 public class $$HttpRequest {
+	
     private String method;
     private String data;
     private String url;

@@ -1,6 +1,7 @@
 package com.mservice.paygate.model;
 
 public class PartnerInfo {
+	
     private String accessKey;
     private String partnerCode;
     private String secretKey;

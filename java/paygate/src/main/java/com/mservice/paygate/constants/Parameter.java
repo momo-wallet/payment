@@ -2,7 +2,7 @@ package com.mservice.paygate.constants;
 
 public class Parameter {
 
-    public static String PARTNER_CODE = "partnerCode";
+	public static String PARTNER_CODE = "partnerCode";
     public static String ACCESS_KEY = "accessKey";
     public static String REQUEST_ID = "requestId";
     public static String AMOUNT = "amount";
@@ -27,4 +27,12 @@ public class Parameter {
     public static String ORDER_TYPE = "orderType";
 
     public static String DATE = "responseTime";
+    
+    /**
+     * nhat.nguyen
+     */
+    public static final String CUSTOMER_NUMBER = "customerNumber";
+    public static final String PARTNER_REF_ID = "partnerRefId";
+	public static final String PARTNER_TRANS_ID = "partnerTransId";
+	public static final String USERNAME = "userName";
 }

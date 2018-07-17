@@ -3,6 +3,7 @@ package com.mservice.paygate.model;
 import java.util.HashMap;
 
 public class Extra {
+	
     private HashMap<String, String> data;
 
     public Extra() {
@@ -14,13 +15,10 @@ public class Extra {
     }
 
     public String getValue(String key, String defualt) {
-
         return data.get(key) == null ? defualt : data.get(key);
-
     }
 
     public String getValue(String key) {
-
         return data.get(key) == null ? "" : data.get(key);
     }
 

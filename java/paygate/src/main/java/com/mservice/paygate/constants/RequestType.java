@@ -9,8 +9,6 @@ package com.mservice.paygate.constants;
  */
 public class RequestType {
 
-
-
     /**
      * ======================= USING FOR MERCHANT/PARTNER PUBLIC =================
      */
