@@ -1,8 +1,9 @@
+// npm install node-rsa
 const NodeRSA = require('node-rsa');
+
 // using your public key get from partner code
 //const fs = require('fs');
 //const pubKey = fs.readFileSync('rsa.pub');
-
 const pubKey = '-----BEGIN PUBLIC KEY-----'+
 'MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAiBIo9EMTElPppPejirL1'+
 'cdgCuZUoBzGZF3SyrTp+xdMnIXSOiFYG+zHmI1lFzoEbEd1JwXAUV52gn/oAkUo+'+
