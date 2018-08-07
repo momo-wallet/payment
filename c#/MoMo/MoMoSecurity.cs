@@ -27,7 +27,7 @@ namespace MoMo
             log.Debug("Raw hash: " + json);
             byte[] data = Encoding.UTF8.GetBytes(json);
             string result = null;
-            using (var rsa = new RSACryptoServiceProvider(2048))
+            using (var rsa = new RSACryptoServiceProvider(2048)) // or 4096, base on key length
             {
                 try
                 {
