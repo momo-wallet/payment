@@ -31,7 +31,9 @@ namespace MoMo
             {
                 try
                 {
-                    // client encrypting data with public key issued by server
+                    // Client encrypting data with public key issued by server
+                    // "publicKey" must be XML format, use https://superdry.apphb.com/tools/online-rsa-key-converter
+                    // to convert from PEM to XML before hash
                     rsa.FromXmlString(publicKey);
                     var encryptedData = rsa.Encrypt(data, false);
                     var base64Encrypted = Convert.ToBase64String(encryptedData);
