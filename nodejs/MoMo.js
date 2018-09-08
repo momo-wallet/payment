@@ -1,15 +1,15 @@
 const uuidv1 = require('uuid/v1');
 const https = require('https');
 //parameters send to MoMo get get payUrl
-var endpoint = "https://testing.momo.vn/gw_payment/transactionProcessor"
-var hostname = "https://testing.momo.vn"
+var endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor"
+var hostname = "https://test-payment.momo.vn"
 var path = "/gw_payment/transactionProcessor"
 var partnerCode = "MOMO"
 var accessKey = "F8BBA842ECF85"
 var serectkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
 var orderInfo = "pay with MoMo"
 var returnUrl = "https://momo.vn/return"
-var notifyurl = "https://momo.vn/notify"
+var notifyurl = "https://callback.url/notify"
 var amount = "50000"
 var orderId = uuidv1()
 var requestId = uuidv1()
@@ -46,7 +46,7 @@ var body = JSON.stringify({
 })
 //Create the HTTPS objects
 var options = {
-  hostname: 'testing.momo.vn',
+  hostname: 'test-payment.momo.vn',
   port: 443,
   path: '/gw_payment/transactionProcessor',
   method: 'POST',
