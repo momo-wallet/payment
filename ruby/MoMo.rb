@@ -6,13 +6,13 @@ require 'Base64'
 require 'securerandom'
 
 #parameters send to MoMo get get payUrl
-endpoint = "https://testing.momo.vn/gw_payment/transactionProcessor";
+endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
 partnerCode = "MOMO"
 accessKey = "F8BBA842ECF85"
 serectkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
 orderInfo = "pay with MoMo"
 returnUrl = "https://momo.vn/return"
-notifyurl = "https://momo.vn/notify"
+notifyurl = "https://dummy-url.vn/notify"
 amount = "50000"
 orderId = SecureRandom.uuid
 requestId = SecureRandom.uuid
