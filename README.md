@@ -3,12 +3,12 @@
 
 Payment solutions based online platform 
 </br>
-[MoMo Developers](https://payment.momo.vn:18081/payment-platform/docs/online-payment-overview.html)
+[MoMo Developers](https://test-payment.momo.vn/payment-platform/)
 
 ## Documents
 Full documents to integrated MoMo payment 
 
-[Find out] (https://business.momo.vn/solution/document) - Section 7
+[Find out] (https://business.momo.vn/assets/docs/api/MoMo-Payment-APIs-v2.1.5.pdf?version=13) - Section 7
 
 ## Acknowledgments
 - [HMAC 256] (https://en.wikipedia.org/wiki/HMAC)
