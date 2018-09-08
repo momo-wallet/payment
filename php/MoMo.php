@@ -21,13 +21,13 @@
 
     return $result;
    }
-   $endpoint = "https://testing.momo.vn/gw_payment/transactionProcessor";
+   $endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
    $partnerCode = "MOMO0HGO20180417";
    $accessKey = "E8HZuQRy2RsjVtZp";
    $serectkey = "fj00YKnJhmYqahaFWUgkg75saNTzMrbO";
    $orderInfo = "pay with MoMo";
    $returnUrl = "https://momo.vn/return";
-   $notifyurl = "https://momo.vn/notify";
+   $notifyurl = "https://dummy-url.vn/notify";
    $amount = "50000";
    $orderid = time()."";
    $requestId = time()."";
