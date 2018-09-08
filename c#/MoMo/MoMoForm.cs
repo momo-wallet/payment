@@ -20,7 +20,7 @@ namespace MoMo
         private void button1_Click(object sender, EventArgs e)
         {
             //request params need to request to MoMo system
-            string endpoint = textEndpoint.Text.Equals("") ? "https://payment.momo.vn:18081/gw_payment/transactionProcessor" : textEndpoint.Text;
+            string endpoint = textEndpoint.Text.Equals("") ? "https://test-payment.momo.vn/gw_payment/transactionProcessor" : textEndpoint.Text;
             string partnerCode = textPartnerCode.Text;
             string accessKey = textAccessKey.Text;
             string serectkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz";
@@ -136,7 +136,7 @@ namespace MoMo
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string endpoint = "http://testing.momo.vn:18099/pay/query-status";
+            string endpoint = "https://test-payment.momo.vn/pay/query-status";
             string partnerCode = "MOMO";
             string merchantRefId = "1519717410468";
             string version = "2.0";
@@ -177,7 +177,7 @@ namespace MoMo
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string endpoint = "	http://testing.momo.vn:8097/pay/refund";
+            string endpoint = "https://test-payment.momo.vn/pay/refund";
             string partnerCode = "MOMO";
             string merchantRefId = "1519717410468";
             string momoTransId = "137489899";
