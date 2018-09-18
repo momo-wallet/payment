@@ -28,7 +28,7 @@ OTP: 000000
 
 Password: 000000
 
-Download MoMo Lite test app: https://goo.gl/HNz1HY
+Download MoMo Lite test app: https://bit.ly/2xu8Z35
 ## Versioning
 
 ```
