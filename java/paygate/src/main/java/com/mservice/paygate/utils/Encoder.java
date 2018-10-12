@@ -112,15 +112,21 @@ public class Encoder {
     }
     
 	public static String encryptRSA(byte[] dataBytes, String publicKey) throws Exception {
+		// Note: You can use java.util.Base64 instead of sun.misc.*
     	PublicKey pubk;
         BASE64Decoder decoder = new BASE64Decoder();
         BASE64Encoder encoder = new BASE64Encoder();
+//    	java.util.Base64.Decoder decoder = java.util.Base64.getDecoder();
+//    	java.util.Base64.Encoder encoder = java.util.Base64.getEncoder();
+        
+//        byte[] publicKeyBytes = decoder.decode(publicKey);
         byte[] publicKeyBytes = decoder.decodeBuffer(publicKey);
         EncodedKeySpec publicKeySpec = new X509EncodedKeySpec (publicKeyBytes);
         KeyFactory keyFactory = KeyFactory.getInstance("RSA");
         pubk = keyFactory.generatePublic(publicKeySpec);
         Cipher cipher = Cipher.getInstance("RSA");
         cipher.init(Cipher.ENCRYPT_MODE, pubk);
+//        return new String(encoder.encodeToString(cipher.doFinal(dataBytes)).replace("\r", ""));
         return new String(encoder.encode(cipher.doFinal(dataBytes)).replace("\r", ""));
     }
 }
