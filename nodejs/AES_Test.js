@@ -1,10 +1,10 @@
-var crypto = require('crypto'),
-  key = 'um76xDBeRmmj5kVMhXiCeFKixZTTlmZb';
+var crypto = require('crypto');
+var secretKey = 'um76xDBeRmmj5kVMhXiCeFKixZTTlmZb';
 var iv = new Buffer(16); // 16 byte buffer with random data
 iv.fill(0); // fill with zeros
  
 function encrypt_token(data) {
-  var encipher = crypto.createCipheriv('aes-256-cbc', key, iv),
+  var encipher = crypto.createCipheriv('aes-256-cbc', secretKey, iv),
     buffer = Buffer.concat([
       encipher.update(data),
       encipher.final()
@@ -13,7 +13,7 @@ function encrypt_token(data) {
 }
  
 function decrypt_token(data) {
-  var decipher = crypto.createDecipheriv('aes-256-cbc', key, iv),
+  var decipher = crypto.createDecipheriv('aes-256-cbc', secretKey, iv),
     buffer = Buffer.concat([
       decipher.update(Buffer.from(data, 'base64')),
       decipher.final()
