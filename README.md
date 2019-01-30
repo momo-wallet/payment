@@ -1,45 +1,42 @@
-# MoMo - Payment Gateway (Sample Code)
+# MoMo - Payment Platform
 
-
-Payment solutions based online platform 
-</br>
-[MoMo Developers](https://test-payment.momo.vn/payment-platform/)
+Example code to integrate MoMo E-Wallet as payment method
+- Online Payment: Desktop, Mobile website
+- Offline payment: POS, Static QR, Dynamic QR
+- Mobile Payment: App to App, In MoMo Application  
 
 ## Documents
 Full documents to integrated MoMo payment 
 
-[Find out] (https://business.momo.vn/assets/docs/api/MoMo-Payment-APIs-v2.1.5.pdf?version=13) - Section 7
+[Find out] (https://developers.momo.vn)
 
 ## Acknowledgments
-- [HMAC 256] (https://en.wikipedia.org/wiki/HMAC)
+### Security Aalgorithms
+- [HMAC 256](https://en.wikipedia.org/wiki/HMAC)
+- [RSA - Rivest–Shamir–Adleman](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+- [AES - Advanced Encryption Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+### More
+- [IPN - Instant Payment Notification](https://developer.paypal.com/docs/classic/products/instant-payment-notification/)
 
+- [JSON - JavaScript Object Notation](https://www.json.org/)
 
 ## Languages
 - Java (SDK is ready)
 - PHP
 - C#
-
-## Testing
-
-MoMo test number list
-- 0900123123; 0978787890; 0978787891; 0978787892; 0900123124; 0900123125; 0900123126; 0900123127; 0900123128; 0978787899
-
-OTP: 000000
-
-Password: 000000
-
-Download MoMo Lite test app: https://bit.ly/2xu8Z35
+- Ruby
+- Python
+- NodeJs
 ## Versioning
 
 ```
-Version 1.0
+Version 1.1
 ``` 
 
 ## Authors
 
 * **Khang Đoàn** - khang.doan@mservice . com . vn
 * **Hải Nguyễn** - hai.nguyen@mservice . com . vn
-
 
 
 ## License
