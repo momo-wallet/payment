@@ -6,9 +6,8 @@ Example code to integrate MoMo E-Wallet as payment method
 - Mobile Payment: App to App, In MoMo Application  
 
 ## Documents
-Full documents to integrated MoMo payment 
 
-[Find out] (https://developers.momo.vn)
+https://developers.momo.vn
 
 ## Acknowledgments
 ### Security Aalgorithms
@@ -22,7 +21,7 @@ Full documents to integrated MoMo payment
 - [JSON - JavaScript Object Notation](https://www.json.org/)
 
 ## Languages
-- Java (SDK is ready)
+- Java
 - PHP
 - C#
 - Ruby
@@ -32,7 +31,7 @@ Full documents to integrated MoMo payment
 ## Versioning
 
 ```
-Version 1.1
+Version 1.0.1
 ``` 
 
 ## Authors
