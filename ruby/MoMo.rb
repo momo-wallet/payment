@@ -54,12 +54,13 @@ http.verify_mode = OpenSSL::SSL::VERIFY_NONE
 request = Net::HTTP::Post.new(uri.path)
 request.add_field('Content-Type', 'application/json')
 request.body = jsonRequestToMomo.to_json
-response = http.request(request)
+
 
 # Send the request and get the response
 puts "SENDING...."
-response = JSON.parse(http.request(request).body)
+response = http.request(request)
+result = JSON.parse(response.body)
 puts "--------------------RESPONSE----------------"
-puts JSON.pretty_generate(response)
-puts "pay URL is: " + response["payUrl"]
+puts JSON.pretty_generate(result)
+puts "pay URL is: " + result["payUrl"]
 
