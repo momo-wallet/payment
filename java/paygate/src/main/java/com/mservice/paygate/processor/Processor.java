@@ -20,6 +20,7 @@ import com.mservice.paygate.model.RefundMoMoRequest;
 import com.mservice.paygate.utils.Console;
 import com.mservice.paygate.utils.Encoder;
 
+@SuppressWarnings("static-access")
 public class Processor {
 
     public static PayATMRequest createPayWithATMRequest(String requestId, String orderId, String bankCode, String amount, String orderInfo, String returnUrl,
@@ -179,8 +180,7 @@ public class Processor {
 
 
     /*** Send to MoMo Service**/
-
-    public static CaptureMoMoResponse getCaptureMoMoResponse(Environment env, CaptureMoMoRequest captureMoMoRequest) throws Exception {
+	public static CaptureMoMoResponse getCaptureMoMoResponse(Environment env, CaptureMoMoRequest captureMoMoRequest) throws Exception {
         PartnerInfo partnerInfo = env.getPartnerInfo();
         Execute execute = new Execute();
         String payload = execute.getGson().toJson(captureMoMoRequest, CaptureMoMoRequest.class);

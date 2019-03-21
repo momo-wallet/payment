@@ -33,7 +33,7 @@ import sun.misc.BASE64Encoder;
 public class Encoder {
 
     private static final char[] HEX_CHARS = "0123456789ABCDEF".toCharArray();
-    private static final String ENCODING = "UTF-8";
+//    private static final String ENCODING = "UTF-8";
 
     private static final String HMAC_SHA256 = "HmacSHA256";
 
