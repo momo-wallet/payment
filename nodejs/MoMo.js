@@ -14,7 +14,7 @@ var amount = "50000"
 var orderId = uuidv1()
 var requestId = uuidv1()
 var requestType = "captureMoMoWallet"
-var extraData = "merchantName=Grab taxi;merchantId=3948"
+var extraData = "merchantName=;merchantId=" //pass empty value if your merchant does not have stores else merchantName=[storeName]; merchantId=[storeId] to identify a transaction map with a physical store
 
 //before sign HMAC SHA256 with format
 //partnerCode=$partnerCode&accessKey=$accessKey&requestId=$requestId&amount=$amount&orderId=$oderId&orderInfo=$orderInfo&returnUrl=$returnUrl&notifyUrl=$notifyUrl&extraData=$extraData
