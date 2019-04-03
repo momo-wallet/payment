@@ -32,7 +32,7 @@
    $orderid = time()."";
    $requestId = time()."";
    $requestType = "captureMoMoWallet";
-   $extraData = "merchantName=;merchantId=";//pass empty value if your merchant does not have store else merchantName=[storeName]; merchantId=[storeId]
+   $extraData = "merchantName=;merchantId=";//pass empty value if your merchant does not have stores else merchantName=[storeName]; merchantId=[storeId] to identify a transaction map with a physical store
    //before sign HMAC SHA256 signature
    $rawHash = "partnerCode=".$partnerCode."&accessKey=".$accessKey."&requestId=".$requestId."&amount=".$amount."&orderId=".$orderid."&orderInfo=".$orderInfo."&returnUrl=".$returnUrl."&notifyUrl=".$notifyurl."&extraData=".$extraData;
    echo "Raw signature: ".$rawHash."\n";
