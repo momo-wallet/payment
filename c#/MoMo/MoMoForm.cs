@@ -31,7 +31,7 @@ namespace MoMo
             string amount = textAmount.Text;
             string orderid = Guid.NewGuid().ToString();
             string requestId = Guid.NewGuid().ToString();
-            string extraData = "";
+            string extraData = "merchantName=;merchantId=";//pass empty value if your merchant does not have stores else merchantName=[storeName]; merchantId=[storeId] to identify a transaction map with a physical store
 
             //before sign HMAC SHA256 signature
             string rawHash = "partnerCode="+ 
