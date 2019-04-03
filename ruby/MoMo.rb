@@ -17,7 +17,7 @@ amount = "50000"
 orderId = SecureRandom.uuid
 requestId = SecureRandom.uuid
 requestType = "captureMoMoWallet"
-extraData = "merchantName=Grab taxi;merchantId=3948"
+extraData = "merchantName=;merchantId=" //pass empty value if your merchant does not have stores else merchantName=[storeName]; merchantId=[storeId] to identify a transaction map with a physical store
 
 #before sign HMAC SHA256 with format
 #partnerCode=$partnerCode&accessKey=$accessKey&requestId=$requestId&amount=$amount&orderId=$oderId&orderInfo=$orderInfo&returnUrl=$returnUrl&notifyUrl=$notifyUrl&extraData=$extraData
