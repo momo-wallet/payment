@@ -15,7 +15,7 @@ import (
 	"github.com/sony/sonyflake"
 )
 
-//define a payload, refference in https://developers.momo.vn/#cong-thanh-toan-momo-phuong-thuc-thanh-toan
+//define a payload, reference in https://developers.momo.vn/#cong-thanh-toan-momo-phuong-thuc-thanh-toan
 type Payload struct {
 	PartnerCode string `json:"partnerCode"`
 	AccessKey   string `json:"accessKey"`
