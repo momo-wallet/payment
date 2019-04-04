@@ -2,13 +2,21 @@ package main
 
 import (
 	"bytes"
+	"crypto/dsa"
+	"crypto/ecdsa"
 	"crypto/hmac"
+	"crypto/rand"
+	"crypto/rsa"
 	"crypto/sha256"
+	"crypto/x509"
+	b64 "encoding/base64"
 	"encoding/hex"
 	"encoding/json"
+	"encoding/pem"
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"strconv"
 
 	//run for download library `go get github.com/sony/sonyflake`
@@ -30,10 +38,22 @@ type Payload struct {
 	Signature   string `json:"signature"`
 }
 
+var pubKeyData = []byte(`
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkpa+qMXS6O11x7jBGo9W
+3yxeHEsAdyDE40UoXhoQf9K6attSIclTZMEGfq6gmJm2BogVJtPkjvri5/j9mBnt
+A8qKMzzanSQaBEbr8FyByHnf226dsLt1RbJSMLjCd3UC1n0Yq8KKvfHhvmvVbGcW
+fpgfo7iQTVmL0r1eQxzgnSq31EL1yYNMuaZjpHmQuT24Hmxl9W9enRtJyVTUhwKh
+tjOSOsR03sMnsckpFT9pn1/V9BE2Kf3rFGqc6JukXkqK6ZW9mtmGLSq3K+JRRq2w
+8PVmcbcvTr/adW4EL2yc1qk9Ec4HtiDhtSYd6/ov8xLVkKAQjLVt7Ex3/agRPfPr
+NwIDAQAB
+-----END PUBLIC KEY-----
+`)
+
 func main() {
 	fmt.Printf("Hello Momo!\n")
-	flake := sonyflake.NewSonyflake(sonyflake.Settings{})
 
+	flake := sonyflake.NewSonyflake(sonyflake.Settings{})
 	//randome orderID and requestID
 	a, err := flake.NextID()
 	b, err := flake.NextID()
@@ -113,9 +133,50 @@ func main() {
 	//result
 	var result map[string]interface{}
 	json.NewDecoder(resp.Body).Decode(&result)
-	fmt.Println(result)
+	fmt.Println("Response from Momo: ", result)
+
+	fmt.Println()
+	fmt.Println()
+	fmt.Println()
 
 	//PayUrl
-	fmt.Println(result["payUrl"])
+	fmt.Println("PayUrl is: %s\n", result["payUrl"])
+	fmt.Println()
+	fmt.Println()
+	fmt.Println()
 
+	//READ ONLY
+	//--------------FOR RSA Only for pay/pos, pay/app, tokenization
+	block, _ := pem.Decode([]byte(pubKeyData))
+	if block == nil {
+		panic("failed to parse PEM block containing the public key")
+	}
+	pkixPub, err := x509.ParsePKIXPublicKey(block.Bytes)
+	if err != nil {
+		panic("failed to parse DER encoded public key: " + err.Error())
+	}
+	//compare pub key type
+	switch pkixPub := pkixPub.(type) {
+	case *rsa.PublicKey:
+		fmt.Println("PublicKey is of type RSA:", pkixPub)
+	case *dsa.PublicKey:
+		fmt.Println("PublicKey is of type DSA:", pkixPub)
+	case *ecdsa.PublicKey:
+		fmt.Println("PublicKey is of type ECDSA:", pkixPub)
+	default:
+		panic("unknown type of public key")
+	}
+	var pub *rsa.PublicKey
+	pub = pkixPub.(*rsa.PublicKey)
+
+	//message to encrypt
+	message := []byte("000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+
+	reader := rand.Reader
+	ciphertext, err := rsa.EncryptOAEP(sha256.New(), reader, pub, message, nil)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Error from encryption: %s\n", err)
+		return
+	}
+	fmt.Printf("RSA Encrypt data: %s\n", b64.StdEncoding.EncodeToString(ciphertext))
 }
