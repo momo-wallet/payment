@@ -80,12 +80,11 @@ public class PayGate {
         		"4Hmxl9W9enRtJyVTUhwKhtjOSOsR03sMnsckpFT9pn1/V9BE2Kf3rFGqc6JukXkqK6ZW9mtmGLSq3" + 
         		"K+JRRq2w8PVmcbcvTr/adW4EL2yc1qk9Ec4HtiDhtSYd6/ov8xLVkKAQjLVt7Ex3/agRPfPrNwIDAQAB";
 		String partnerCode = "MOMOIQA420180417";
-        String billId = requestId;		// this is test, use your order id
         String phoneNumber = "0963181714";
         long amount1 = 30000;
         String username = "nhat.nguyen";
-        String tranId = requestId;		// this is test, use transaction id
-        final String hashRSA = Processor.generateRSA(phoneNumber, billId, tranId, username, partnerCode, amount1, publicKey);
+        // this is test, use your order_id
+        final String hashRSA = Processor.generateRSA(phoneNumber, requestId, requestId, username, partnerCode, amount1, publicKey);
         Console.log(" RSA hash data:: ", hashRSA, " ");
         Console.log("========================== END CREATE RSA TEST DATA ==================");
     }

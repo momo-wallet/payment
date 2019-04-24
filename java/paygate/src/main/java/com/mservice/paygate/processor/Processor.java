@@ -1,5 +1,6 @@
 package com.mservice.paygate.processor;
 
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -366,8 +367,7 @@ public class Processor {
     	
     	Gson gson = new Gson();
     	String jsonStr = gson.toJson(rawData);
-	    byte[] testByte = jsonStr.getBytes("UTF-8");
-	    final String hash = Encoder.encryptRSA(testByte, publicKey);
-	    return hash;
+	    byte[] testByte = jsonStr.getBytes(StandardCharsets.UTF_8);
+        return Encoder.encryptRSA(testByte, publicKey);
     }
 }
