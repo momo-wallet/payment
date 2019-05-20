@@ -2,3 +2,4 @@
 **/.DS_Store
 **/*.imlnodejs/node_modules/*
 c#/MoMo/bin/*
+c#/MoMo/obj/Debug
