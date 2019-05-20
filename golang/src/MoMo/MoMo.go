@@ -38,6 +38,21 @@ type Payload struct {
 	Signature   string `json:"signature"`
 }
 
+//define a POS payload, reference in https://developers.momo.vn/#thanh-toan-pos-xu-ly-thanh-toan
+type PosHash struct {
+	PartnerCode  string `json:"partnerCode"`
+	PartnerRefID string `json:"partnerRefId"`
+	Amount       int    `json:"amount"`
+	PaymentCode  string `json:"paymentCode"`
+}
+
+type PosPayload struct {
+	PartnerCode  string `json:"partnerCode"`
+	PartnerRefID string `json:"partnerRefId"`
+	Hash         string `json:"hash"`
+	Version      int    `json:"version"`
+}
+
 var pubKeyData = []byte(`
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkpa+qMXS6O11x7jBGo9W
@@ -146,7 +161,9 @@ func main() {
 	fmt.Println()
 
 	//READ ONLY
-	//--------------FOR RSA Only for pay/pos, pay/app, tokenization
+	//--------------FOR RSA Only for pay/pos, pay/app, pay/tokenization
+
+	//1. TODO - Parse RSA Public key string to memory Public key
 	block, _ := pem.Decode([]byte(pubKeyData))
 	if block == nil {
 		panic("failed to parse PEM block containing the public key")
@@ -155,28 +172,70 @@ func main() {
 	if err != nil {
 		panic("failed to parse DER encoded public key: " + err.Error())
 	}
-	//compare pub key type
 	switch pkixPub := pkixPub.(type) {
 	case *rsa.PublicKey:
-		fmt.Println("PublicKey is of type RSA:", pkixPub)
+		fmt.Println("RSA Public Key: {}")
+		fmt.Println(pkixPub)
+		fmt.Println()
 	case *dsa.PublicKey:
-		fmt.Println("PublicKey is of type DSA:", pkixPub)
+		fmt.Println("DSA Public Key: {}")
+		fmt.Println(pkixPub)
 	case *ecdsa.PublicKey:
-		fmt.Println("PublicKey is of type ECDSA:", pkixPub)
+		fmt.Println("ECDSA Public Key: {}")
+		fmt.Println(pkixPub)
 	default:
-		panic("unknown type of public key")
+		panic("Unknow Public Key")
 	}
-	var pub *rsa.PublicKey
-	pub = pkixPub.(*rsa.PublicKey)
+	var publicKey *rsa.PublicKey
+	//TODO - Result public key in memory
+	publicKey = pkixPub.(*rsa.PublicKey)
+	/////////////////////////////////////
 
-	//message to encrypt
-	message := []byte("000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000")
+	//TODO - Define some json that to be encrypt to hash
+	var refId = "112233445566"
+	var newAmount = 10000
+	var paymentCode = "339939393939393"
+	var posHash = PosHash{
+		PartnerCode:  partnerCode,
+		PartnerRefID: refId,
+		Amount:       newAmount,
+		PaymentCode:  paymentCode,
+	}
+	var rawJashJson []byte
+	rawJashJson, err = json.Marshal(posHash)
+	if err != nil {
+		log.Println(err)
+	}
+	//END define a Json before hash name `hashJson`
 
-	reader := rand.Reader
-	ciphertext, err := rsa.EncryptOAEP(sha256.New(), reader, pub, message, nil)
+	//2. TODO - Encrypt PKCS1V15 RSA encryption using `publicKey` in memory
+	randomReader := rand.Reader
+	ciphertext, err := rsa.EncryptPKCS1v15(randomReader, publicKey, rawJashJson)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Error from encryption: %s\n", err)
 		return
 	}
-	fmt.Printf("RSA Encrypt data: %s\n", b64.StdEncoding.EncodeToString(ciphertext))
+	var hash = b64.StdEncoding.EncodeToString(ciphertext)
+	///////END encryption with `hash` value////////
+
+	fmt.Println("Hash after encryption : {}")
+	fmt.Println(hash)
+	fmt.Println()
+
+	var version = 2
+	var posPayload = PosPayload{
+		PartnerCode:  partnerCode,
+		PartnerRefID: refId,
+		Hash:         hash,
+		Version:      version,
+	}
+
+	var posPayloadJson []byte
+	posPayloadJson, err = json.Marshal(posPayload)
+	if err != nil {
+		log.Println(err)
+	}
+	fmt.Println("Payload with hash : {}")
+	fmt.Println(string(posPayloadJson))
+	fmt.Println()
 }
