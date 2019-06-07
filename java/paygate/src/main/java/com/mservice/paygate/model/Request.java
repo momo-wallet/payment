@@ -1,8 +1,13 @@
 package com.mservice.paygate.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 /**
  * Created by Hai.Nguyen Date: 19-01-2018
  */
+@Getter
+@AllArgsConstructor
 public class Request {
 	
 	private String partnerCode;

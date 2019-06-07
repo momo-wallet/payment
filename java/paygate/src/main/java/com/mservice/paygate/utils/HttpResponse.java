@@ -1,11 +1,11 @@
 package com.mservice.paygate.utils;
 
-public class $$HttpResponse {
+public class HttpResponse {
 	
     private String data;
     private int status;
 
-    public $$HttpResponse() {
+    public HttpResponse() {
 
     }
 

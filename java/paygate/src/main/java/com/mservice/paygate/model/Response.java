@@ -5,7 +5,18 @@ import com.google.gson.Gson;
 import java.util.Date;
 
 public class Response extends Request {
-	
+
+	public Response(String partnerCode, String orderId, String orderInfo, String accessKey, String amount, String signature, String extraData, String requestId, String notifyUrl, String returnUrl, String requestType, int errorCode, String message, String localMessage, String transId, String orderType, String payType, Date responseDate) {
+		super(partnerCode, orderId, orderInfo, accessKey, amount, signature, extraData, requestId, notifyUrl, returnUrl, requestType);
+		this.errorCode = errorCode;
+		this.message = message;
+		this.localMessage = localMessage;
+		this.transId = transId;
+		this.orderType = orderType;
+		this.payType = payType;
+		this.responseDate = responseDate;
+	}
+
 	private int errorCode;
 	private String message;
 	private String localMessage;

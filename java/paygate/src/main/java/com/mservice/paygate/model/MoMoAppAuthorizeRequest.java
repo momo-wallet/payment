@@ -1,7 +1,21 @@
 package com.mservice.paygate.model;
 
 public class MoMoAppAuthorizeRequest extends Request {
-	
+
+
+	public MoMoAppAuthorizeRequest(String partnerCode, String orderId, String orderInfo, String accessKey, String amount, String signature, String extraData, String requestId, String notifyUrl, String returnUrl, String requestType, String email, String fullName, String clientId, String deeplinkCallback, String walletId, String pin, String platform, int appVersion, String sessionData) {
+		super(partnerCode, orderId, orderInfo, accessKey, amount, signature, extraData, requestId, notifyUrl, returnUrl, requestType);
+		this.email = email;
+		this.fullName = fullName;
+		this.clientId = clientId;
+		this.deeplinkCallback = deeplinkCallback;
+		this.walletId = walletId;
+		this.pin = pin;
+		this.platform = platform;
+		this.appVersion = appVersion;
+		this.sessionData = sessionData;
+	}
+
 	private String email;
 	private String fullName;
 	private String clientId;

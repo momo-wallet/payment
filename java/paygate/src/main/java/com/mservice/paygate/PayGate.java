@@ -1,8 +1,16 @@
 package com.mservice.paygate;
 
+import com.google.gson.Gson;
+import com.mservice.paygate.constants.Parameter;
 import com.mservice.paygate.model.*;
-import com.mservice.paygate.processor.Processor;
+import com.mservice.paygate.processor.allinone.CaptureMoMoProcess;
+import com.mservice.paygate.processor.allinone.QueryStatusProcess;
 import com.mservice.paygate.utils.Console;
+import com.mservice.paygate.utils.Encoder;
+
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Demo
@@ -42,9 +50,13 @@ public class PayGate {
 
         Environment environment = selectEnv("dev");
 
+        CaptureMoMoProcess m2Processor = new CaptureMoMoProcess(environment);
+
         Console.log("========================== START CAPTURE MOMO WALLET ==================");
-        CaptureMoMoRequest captureMoMoRequest = Processor.createCaptureMoMoRequest(orderId, requestId, amount, orderInfo, returnURL, notifyURL, extraData, environment.getPartnerInfo());
-        CaptureMoMoResponse captureMoMoResponse = Processor.getCaptureMoMoResponse(environment, captureMoMoRequest);
+        CaptureMoMoRequest captureMoMoRequest = m2Processor.createPaymentCreationRequest(orderId, requestId, amount, orderInfo, returnURL, notifyURL, extraData);
+
+        CaptureMoMoResponse captureMoMoResponse = m2Processor.execute(captureMoMoRequest);
+
         // Your handler
         if (captureMoMoResponse.getErrorCode() != 0) {
             Console.debug("errorCode::", captureMoMoResponse.getErrorCode() + "");
@@ -59,12 +71,15 @@ public class PayGate {
             Console.debug("deepLink::", captureMoMoResponse.getDeeplink());
             Console.debug("qrCodeURL::", captureMoMoResponse.getQrCodeUrl());
         }
+
         Console.log("========================== END CAPTURE MOMO WALLET ==================");
 
 
         Console.log("========================== START QUERY QUERY STATUS ==================");
-        QueryStatusTransactionRequest queryStatusRequest = Processor.createQueryTransactionRequest(orderId, requestId, environment.getPartnerInfo());
-        QueryStatusTransactionResponse queryStatusResponse = Processor.getQueryStatusResponse(environment, queryStatusRequest);
+        QueryStatusProcess queryStatusProcess = new QueryStatusProcess(environment);
+
+        QueryStatusTransactionRequest queryStatusRequest = queryStatusProcess.createQueryRequest(orderId, requestId);
+        QueryStatusTransactionResponse queryStatusResponse = queryStatusProcess.execute(queryStatusRequest);
         // Your handler
         Console.error("errorCode::", queryStatusResponse.getErrorCode() + "");
         Console.error("errorMessage::", queryStatusResponse.getMessage());
@@ -84,8 +99,28 @@ public class PayGate {
         long amount1 = 30000;
         String username = "nhat.nguyen";
         // this is test, use your order_id
-        final String hashRSA = Processor.generateRSA(phoneNumber, requestId, requestId, username, partnerCode, amount1, publicKey);
+        final String hashRSA = generateRSA(phoneNumber, requestId, requestId, username, partnerCode, amount1, publicKey);
         Console.log(" RSA hash data:: ", hashRSA, " ");
         Console.log("========================== END CREATE RSA TEST DATA ==================");
+    }
+
+
+    /**
+     * @author nhat.nguyen
+     */
+    public static String generateRSA(String phoneNumber, String billId, String tranId, String username, String partnerCode, long amount, String publicKey) throws Exception {
+        // current version of Parameter key name is 2.0
+        Map<String, Object> rawData = new HashMap<>();
+        rawData.put(Parameter.CUSTOMER_NUMBER, phoneNumber);
+        rawData.put(Parameter.PARTNER_REF_ID, billId);
+        rawData.put(Parameter.PARTNER_TRANS_ID, tranId);
+        rawData.put(Parameter.USERNAME, username);
+        rawData.put(Parameter.PARTNER_CODE, partnerCode);
+        rawData.put(Parameter.AMOUNT, amount);
+
+        Gson gson = new Gson();
+        String jsonStr = gson.toJson(rawData);
+        byte[] testByte = jsonStr.getBytes(StandardCharsets.UTF_8);
+        return Encoder.encryptRSA(testByte, publicKey);
     }
 }

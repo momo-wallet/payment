@@ -1,16 +1,16 @@
 package com.mservice.paygate.utils;
 
-public class $$HttpRequest {
+public class HttpRequest {
 	
     private String method;
     private String data;
     private String url;
     private Headers headers;
 
-    public $$HttpRequest() {
+    public HttpRequest() {
     }
 
-    public $$HttpRequest(String method, String data, String url, Headers headers) {
+    public HttpRequest(String method, String data, String url, Headers headers) {
         this.method = method;
         this.data = data;
         this.url = url;
@@ -21,7 +21,7 @@ public class $$HttpRequest {
         return method;
     }
 
-    public $$HttpRequest setMethod(String method) {
+    public HttpRequest setMethod(String method) {
         this.method = method;
         return this;
     }
@@ -30,7 +30,7 @@ public class $$HttpRequest {
         return data;
     }
 
-    public $$HttpRequest setData(String data) {
+    public HttpRequest setData(String data) {
         this.data = data;
         return this;
     }
@@ -39,7 +39,7 @@ public class $$HttpRequest {
         return url;
     }
 
-    public $$HttpRequest setUrl(String url) {
+    public HttpRequest setUrl(String url) {
         this.url = url;
         return this;
     }
@@ -48,7 +48,7 @@ public class $$HttpRequest {
         return headers;
     }
 
-    public $$HttpRequest setHeaders(Headers headers) {
+    public HttpRequest setHeaders(Headers headers) {
         this.headers = headers;
         return this;
     }
