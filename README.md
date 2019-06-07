@@ -5,7 +5,7 @@ Example code to integrate MoMo E-Wallet as payment method
 - Offline payment: POS, Static QR, Dynamic QR
 - Mobile Payment: App to App, In MoMo Application  
 
-## Documents
+## Documention
 
 https://developers.momo.vn
 
@@ -43,8 +43,13 @@ Version 1.0.1
 ## License
 (c) MoMo 
 
-## Contact - Support
-* itc.payment@mservice.com.vn
+## Contact
+itc.payment@mservice.com.vn
+
+## Support
+If you have any issues when integrate MoMo API, please find out in [`F.A.Q`](https://developers.momo.vn/#/docs/aio/?id=faq) or [`Exception handling`](https://developers.momo.vn/#/docs/error_code) section in our [documention](https://developers.momo.vn)
+
+
 
 
 
