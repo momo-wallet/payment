@@ -21,8 +21,8 @@ https://developers.momo.vn
 - [JSON - JavaScript Object Notation](https://www.json.org/)
 
 ## Languages
-- Java
-- PHP
+- [Java](https://github.com/momo-wallet/java) - SDK already
+- [PHP](https://github.com/momo-wallet/php) - SDK already
 - C#
 - Ruby
 - Python
@@ -31,7 +31,7 @@ https://developers.momo.vn
 ## Versioning
 
 ```
-Version 1.0.1
+Version 1.0.2
 ``` 
 
 ## Authors
