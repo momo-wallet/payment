@@ -7,3 +7,4 @@ c#/MoMo/obj/Debug
 **/*.iml
 **/.idea
 **/bin/*
+.vs

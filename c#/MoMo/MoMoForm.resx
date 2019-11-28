@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textPubkey.Text" xml:space="preserve">
-    <value>&lt;RSAKeyValue&gt;&lt;Modulus&gt;8W1bP/Wab6eys552h6U0HjdDWCrDICq7jyVqLG0fvPFluGVnBNVcIfgk0YU0sYy6wDgPIWJfRJBqQZTh/siIuvsZvMu6b9++YQ/CMXQusurcKHp3rdwQvUz32HuMumUq+qiWEHyUZFDRzF7YJiDRr4rpGCxc2Be6Eh7Od1YbD2X+ZOxTcO8/bTzmPek3FMoyw2fYs+4QvPsZFiAYw6R1o2v7F/1o5FQguNrNSDWcp1fJABCBljIFeoKt7crUQQnwuTLfFyVKfESM6LNrNv6wJ4+powOmklDEdK3MICScZEAlR5YMKHEaUhHbcLRo2t+2BCSHI3v68xhI9jHmDMcMIw==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</value>
+    <value>&lt;RSAKeyValue&gt;&lt;Modulus&gt;2XH2JFw5YakSagtabOr6Qy/GBy8tY35usAOnHZ08ahIGomMLrS7MPtxK30Foa2AKaF6z/gFqrsBF+IB8yLC7UtYUatPsCz/zzlWR5jP6+SCsjv8l0bXGzPA8O31UVPUnoFFUBfL3K5ORQ8REKjlpRe6EZpLQndVRu93V8LqjOdpp7xT+zhICB9FOEGKHmOR69v+ewubsuLAC88d5ALowopm1zx5DRA6MgBFt0SId108X2JOItJ6y3NlKJhJGC8oXNduUp5SvnlKigH75mqcgBzvA1jvWbRQwDiiIIcBvPh8UXgU8qDOh24rY6Ly0e2leMdO9nZ6aEWKox4fU8otmY2q8RpswuEA0Aq3jz6A/QXy/EoW9rIA4OjfifqhY1eCSIfDAd1/YkgU7n+gxiP21HnDfj/aw9Dj+/rLva+ohy4oWZvfYxHpiCpB8tTBfiHpGCMxik2ejf9qT0Nnx/xP10zW34JSiBX0u0ByV/Ol2X7g/tIfTGRyGIUDqj+DYmO1Tu+WjJli0KBNX0TQvdFNjnvbsLvDxTPKVNSJImpPZb/V/1f8z5fUEEvrC7TNNhuJL+j0OoI15PeFRlUsM7052EiSr08Tgh8yIt2T7Tjbms25ljfM2+glh+UvrqW9RIZm/eNkYfPRQSG3a2kV7y29xebnKX60R4rq3XWpgT2nxGIE=&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

@@ -23,7 +23,7 @@ namespace MoMo
             string endpoint = textEndpoint.Text.Equals("") ? "https://test-payment.momo.vn/gw_payment/transactionProcessor" : textEndpoint.Text;
             string partnerCode = textPartnerCode.Text;
             string accessKey = textAccessKey.Text;
-            string serectkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz";
+            string serectkey = "nqQiVSgDMy809JoPF6OzP5OdBUB550Y4";
             string orderInfo = textOrderInfo.Text;
             string returnUrl = textReturn.Text;
             string notifyurl = textNotify.Text;
@@ -31,9 +31,9 @@ namespace MoMo
             string amount = textAmount.Text;
             string orderid = Guid.NewGuid().ToString();
             string requestId = Guid.NewGuid().ToString();
-            string extraData = "merchantName=;merchantId=";//pass empty value if your merchant does not have stores else merchantName=[storeName]; merchantId=[storeId] to identify a transaction map with a physical store
+            string extraData = ""; 
 
-            //before sign HMAC SHA256 signature
+            //Before sign HMAC SHA256 signature
             string rawHash = "partnerCode="+ 
                 partnerCode + "&accessKey="+
                 accessKey+ "&requestId=" +
@@ -44,6 +44,7 @@ namespace MoMo
                 returnUrl + "&notifyUrl=" + 
                 notifyurl + "&extraData="+
                 extraData;
+
             log.Debug("rawHash = "+ rawHash);
 
             MoMoSecurity crypto = new MoMoSecurity();
@@ -62,13 +63,14 @@ namespace MoMo
                 { "orderInfo", orderInfo },
                 { "returnUrl", returnUrl },
                 { "notifyUrl", notifyurl },
+                { "extraData", extraData },
                 { "requestType", "captureMoMoWallet" },
                 { "signature", signature }
 
             };
             log.Debug("Json request to MoMo: " + message.ToString());
             string responseFromMomo = PaymentRequest.sendPaymentRequest(endpoint, message.ToString());
-            textPubkey.Text = responseFromMomo;
+         
             JObject jmessage = JObject.Parse(responseFromMomo);
             log.Debug("Return from MoMo: " + jmessage.ToString());
             DialogResult result = MessageBox.Show(responseFromMomo, "Open in browser", MessageBoxButtons.OKCancel);
@@ -86,7 +88,7 @@ namespace MoMo
         private void payOfflinebtn_Click(object sender, EventArgs e)
         {
             string endpoint = textEndpointPos.Text;
-            string partnerCode = "MOMO";
+            string partnerCode = "MOMO5RGX20191128";
             string merchantRefId = Guid.NewGuid().ToString();
             string amount = textAmountPos.Text;
             string paymentCode = textPaymentCode.Text;
@@ -96,6 +98,7 @@ namespace MoMo
             string version = "2.0";
             string publicKey = textPubkey.Text;
 
+            Console.Out.WriteLine(publicKey);
             //get hash
             MoMoSecurity momoCrypto = new MoMoSecurity();
             string hash = momoCrypto.getHash(partnerCode, merchantRefId, amount,
@@ -110,12 +113,15 @@ namespace MoMo
                 amount + ",\"version\":" +
                 version + ",\"hash\":\"" +
                 hash + "\"}";
+
             log.Debug(jsonRequest);
 
             //response from MoMo
             string responseFromMomo = PaymentRequest.sendPaymentRequest(endpoint, jsonRequest.ToString());
+
             log.Debug(responseFromMomo);
             log.Debug(hash);
+
             JObject jmessage = JObject.Parse(responseFromMomo);
             log.Debug("Return from MoMo: " + jmessage.ToString());
             DialogResult result = MessageBox.Show(responseFromMomo, "MoMo response", MessageBoxButtons.OKCancel);
@@ -137,7 +143,7 @@ namespace MoMo
         private void button2_Click(object sender, EventArgs e)
         {
             string endpoint = "https://test-payment.momo.vn/pay/query-status";
-            string partnerCode = "MOMO";
+            string partnerCode = "MOMO5RGX20191128";
             string merchantRefId = "1519717410468";
             string version = "2.0";
             string publicKey = textPubkey.Text;
@@ -178,7 +184,7 @@ namespace MoMo
         private void button3_Click(object sender, EventArgs e)
         {
             string endpoint = "https://test-payment.momo.vn/pay/refund";
-            string partnerCode = "MOMO";
+            string partnerCode = "MOMO5RGX20191128";
             string merchantRefId = "1519717410468";
             string momoTransId = "137489899";
             string version = "2.0";
@@ -216,6 +222,11 @@ namespace MoMo
             {
                 //no...
             }
+        }
+
+        private void textPartnerCode_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

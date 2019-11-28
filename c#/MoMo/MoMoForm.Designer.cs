@@ -102,7 +102,7 @@
             // textPubkey
             // 
             this.textPubkey.Location = new System.Drawing.Point(20, 356);
-            this.textPubkey.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textPubkey.Margin = new System.Windows.Forms.Padding(2);
             this.textPubkey.Multiline = true;
             this.textPubkey.Name = "textPubkey";
             this.textPubkey.Size = new System.Drawing.Size(490, 129);
@@ -126,7 +126,7 @@
             this.textEndpoint.Name = "textEndpoint";
             this.textEndpoint.Size = new System.Drawing.Size(342, 20);
             this.textEndpoint.TabIndex = 30;
-            this.textEndpoint.Text = "https://payment.momo.vn:18081/gw_payment/transactionProcessor";
+            this.textEndpoint.Text = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
             // 
             // label4
             // 
@@ -145,7 +145,7 @@
             this.textAccessKey.Name = "textAccessKey";
             this.textAccessKey.Size = new System.Drawing.Size(250, 20);
             this.textAccessKey.TabIndex = 32;
-            this.textAccessKey.Text = "F8BBA842ECF85";
+            this.textAccessKey.Text = "M8brj9K6E22vXoDB";
             // 
             // label5
             // 
@@ -164,7 +164,8 @@
             this.textPartnerCode.Name = "textPartnerCode";
             this.textPartnerCode.Size = new System.Drawing.Size(250, 20);
             this.textPartnerCode.TabIndex = 34;
-            this.textPartnerCode.Text = "MOMO";
+            this.textPartnerCode.Text = "MOMO5RGX20191128";
+            this.textPartnerCode.TextChanged += new System.EventHandler(this.textPartnerCode_TextChanged);
             // 
             // label6
             // 
@@ -226,7 +227,7 @@
             // payOfflinebtn
             // 
             this.payOfflinebtn.Location = new System.Drawing.Point(252, 493);
-            this.payOfflinebtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.payOfflinebtn.Margin = new System.Windows.Forms.Padding(2);
             this.payOfflinebtn.Name = "payOfflinebtn";
             this.payOfflinebtn.Size = new System.Drawing.Size(114, 23);
             this.payOfflinebtn.TabIndex = 42;
@@ -310,12 +311,12 @@
             this.textEndpointPos.Name = "textEndpointPos";
             this.textEndpointPos.Size = new System.Drawing.Size(342, 20);
             this.textEndpointPos.TabIndex = 49;
-            this.textEndpointPos.Text = "http://testing.momo.vn:8094/pay/pos";
+            this.textEndpointPos.Text = "https://test-payment.momo.vn/pay/pos";
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(98, 493);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(140, 23);
             this.button2.TabIndex = 51;
@@ -326,7 +327,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(368, 532);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(140, 23);
             this.button3.TabIndex = 52;
@@ -368,7 +369,7 @@
             this.Controls.Add(this.textAmount);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MoMoForm";

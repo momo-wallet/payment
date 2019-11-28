@@ -15,7 +15,7 @@ namespace MoMo
             //encrypt and decrypt password using secure
         }
         public string getHash(string partnerCode, string merchantRefId,
-            string amount, string paymentCode, string storeId, string storeName, string publicKey)
+            string amount, string paymentCode, string storeId, string storeName, string publicKeyXML)
         {
             string json = "{\"partnerCode\":\"" + 
                 partnerCode + "\",\"partnerRefId\":\"" +
@@ -27,14 +27,13 @@ namespace MoMo
             log.Debug("Raw hash: " + json);
             byte[] data = Encoding.UTF8.GetBytes(json);
             string result = null;
-            using (var rsa = new RSACryptoServiceProvider(4096)) // or 4096, base on key length
+            using (var rsa = new RSACryptoServiceProvider(4096)) //KeySize
             {
                 try
                 {
-                    // Client encrypting data with public key issued by server
-                    // "publicKey" must be XML format, use https://superdry.apphb.com/tools/online-rsa-key-converter
-                    // to convert from PEM to XML before hash
-                    rsa.FromXmlString(publicKey);
+                    // MoMo's public key has format PEM.
+                    // You must convert it to XML format. Recommend tool: https://superdry.apphb.com/tools/online-rsa-key-converter
+                    rsa.FromXmlString(publicKeyXML);
                     var encryptedData = rsa.Encrypt(data, false);
                     var base64Encrypted = Convert.ToBase64String(encryptedData);
                     result = base64Encrypted;
