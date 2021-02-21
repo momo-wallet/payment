@@ -192,9 +192,9 @@ func main() {
 	/////////////////////////////////////
 
 	//TODO - Define some json that to be encrypt to hash
-	var refId = "112233445566"
-	var newAmount = 10000
-	var paymentCode = "339939393939393"
+	var refId = "1969900166736"
+	var newAmount = 1000000000
+	var paymentCode = "004999027531481"
 	var posHash = PosHash{
 		PartnerCode:  partnerCode,
 		PartnerRefID: refId,
