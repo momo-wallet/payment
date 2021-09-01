@@ -1,82 +1,79 @@
-const uuidv1 = require('uuid/v1');
-const https = require('https');
-//parameters send to MoMo get get payUrl
-var endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor"
-var hostname = "https://test-payment.momo.vn"
-var path = "/gw_payment/transactionProcessor"
-var partnerCode = "MOMO"
-var accessKey = "F8BBA842ECF85"
-var serectkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
-var orderInfo = "pay with MoMo"
-var returnUrl = "https://momo.vn/return"
-var notifyurl = "https://callback.url/notify"
-var amount = "50000"
-var orderId = uuidv1()
-var requestId = uuidv1()
-var requestType = "captureMoMoWallet"
-var extraData = "merchantName=;merchantId=" //pass empty value if your merchant does not have stores else merchantName=[storeName]; merchantId=[storeId] to identify a transaction map with a physical store
+//https://developers.momo.vn/#/docs/en/aiov2/?id=payment-method
+//parameters
+var partnerCode = "MOMO";
+var accessKey = "F8BBA842ECF85";
+var secretkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz";
+var requestId = partnerCode + new Date().getTime();
+var orderId = requestId;
+var orderInfo = "pay with MoMo";
+var redirectUrl = "https://momo.vn/return";
+var ipnUrl = "https://callback.url/notify";
+// var ipnUrl = redirectUrl = "https://webhook.site/454e7b77-f177-4ece-8236-ddf1c26ba7f8";
+var amount = "50000";
+var requestType = "captureWallet"
+var extraData = ""; //pass empty value if your merchant does not have stores
 
 //before sign HMAC SHA256 with format
-//partnerCode=$partnerCode&accessKey=$accessKey&requestId=$requestId&amount=$amount&orderId=$oderId&orderInfo=$orderInfo&returnUrl=$returnUrl&notifyUrl=$notifyUrl&extraData=$extraData
-var rawSignature = "partnerCode="+partnerCode+"&accessKey="+accessKey+"&requestId="+requestId+"&amount="+amount+"&orderId="+orderId+"&orderInfo="+orderInfo+"&returnUrl="+returnUrl+"&notifyUrl="+notifyurl+"&extraData="+extraData
+//accessKey=$accessKey&amount=$amount&extraData=$extraData&ipnUrl=$ipnUrl&orderId=$orderId&orderInfo=$orderInfo&partnerCode=$partnerCode&redirectUrl=$redirectUrl&requestId=$requestId&requestType=$requestType
+var rawSignature = "accessKey="+accessKey+"&amount=" + amount+"&extraData=" + extraData+"&ipnUrl=" + ipnUrl+"&orderId=" + orderId+"&orderInfo=" + orderInfo+"&partnerCode=" + partnerCode +"&redirectUrl=" + redirectUrl+"&requestId=" + requestId+"&requestType=" + requestType
 //puts raw signature
 console.log("--------------------RAW SIGNATURE----------------")
 console.log(rawSignature)
 //signature
 const crypto = require('crypto');
-var signature = crypto.createHmac('sha256', serectkey)
-                   .update(rawSignature)
-                   .digest('hex');
+var signature = crypto.createHmac('sha256', secretkey)
+    .update(rawSignature)
+    .digest('hex');
 console.log("--------------------SIGNATURE----------------")
 console.log(signature)
 
 //json object send to MoMo endpoint
-var body = JSON.stringify({
+const requestBody = JSON.stringify({
     partnerCode : partnerCode,
     accessKey : accessKey,
     requestId : requestId,
     amount : amount,
     orderId : orderId,
     orderInfo : orderInfo,
-    returnUrl : returnUrl,
-    notifyUrl : notifyurl,
+    redirectUrl : redirectUrl,
+    ipnUrl : ipnUrl,
     extraData : extraData,
     requestType : requestType,
     signature : signature,
-})
-//Create the HTTPS objects
-var options = {
-  hostname: 'test-payment.momo.vn',
-  port: 443,
-  path: '/gw_payment/transactionProcessor',
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-    'Content-Length': Buffer.byteLength(body)
- }
-};
-
-//Send the request and get the response
-console.log("Sending....")
-var req = https.request(options, (res) => {
-  console.log(`Status: ${res.statusCode}`);
-  console.log(`Headers: ${JSON.stringify(res.headers)}`);
-  res.setEncoding('utf8');
-  res.on('data', (body) => {
-    console.log('Body');
-    console.log(body);
-    console.log('payURL');
-    console.log(JSON.parse(body).payUrl);
-  });
-  res.on('end', () => {
-    console.log('No more data in response.');
-  });
+    lang: 'en'
 });
+//Create the HTTPS objects
+const https = require('https');
+const options = {
+    hostname: 'test-payment.momo.vn',
+    port: 443,
+    path: '/v2/gateway/api/create',
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(requestBody)
+    }
+}
+//Send the request and get the response
+const req = https.request(options, res => {
+    console.log(`Status: ${res.statusCode}`);
+    console.log(`Headers: ${JSON.stringify(res.headers)}`);
+    res.setEncoding('utf8');
+    res.on('data', (body) => {
+        console.log('Body: ');
+        console.log(body);
+        console.log('payUrl: ');
+        console.log(JSON.parse(body).payUrl);
+    });
+    res.on('end', () => {
+        console.log('No more data in response.');
+    });
+})
 
 req.on('error', (e) => {
-  console.log(`problem with request: ${e.message}`);
+    console.log(`problem with request: ${e.message}`);
 });
-
 // write data to request body
-req.write(body);
+console.log("Sending....")
+req.write(requestBody);
 req.end();
