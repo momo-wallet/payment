@@ -20,30 +20,32 @@ namespace MoMo
         private void button1_Click(object sender, EventArgs e)
         {
             //request params need to request to MoMo system
-            string endpoint = textEndpoint.Text.Equals("") ? "https://test-payment.momo.vn/gw_payment/transactionProcessor" : textEndpoint.Text;
+            string endpoint = textEndpoint.Text.Equals("") ? "https://test-payment.momo.vn/v2/gateway/api/create" : textEndpoint.Text;
             string partnerCode = textPartnerCode.Text;
             string accessKey = textAccessKey.Text;
             string serectkey = "nqQiVSgDMy809JoPF6OzP5OdBUB550Y4";
             string orderInfo = textOrderInfo.Text;
-            string returnUrl = textReturn.Text;
-            string notifyurl = textNotify.Text;
+            string redirectUrl = textReturn.Text;
+            string ipnUrl = textNotify.Text;
+            string requestType = "captureWallet";
 
             string amount = textAmount.Text;
-            string orderid = Guid.NewGuid().ToString();
+            string orderId = Guid.NewGuid().ToString();
             string requestId = Guid.NewGuid().ToString();
-            string extraData = ""; 
+            string extraData = "";
 
             //Before sign HMAC SHA256 signature
-            string rawHash = "partnerCode="+ 
-                partnerCode + "&accessKey="+
-                accessKey+ "&requestId=" +
-                requestId+ "&amount=" + 
-                amount + "&orderId="+
-                orderid + "&orderInfo="+ 
-                orderInfo + "&returnUrl="+ 
-                returnUrl + "&notifyUrl=" + 
-                notifyurl + "&extraData="+
-                extraData;
+            string rawHash = "accessKey=" + accessKey +
+                "&amount=" + amount +
+                "&extraData=" + extraData +
+                "&ipnUrl=" + ipnUrl +
+                "&orderId=" + orderId +
+                "&orderInfo=" + orderInfo +
+                "&partnerCode=" + partnerCode +
+                "&redirectUrl=" + redirectUrl +
+                "&requestId=" + requestId +
+                "&requestType=" + requestType
+                ;
 
             log.Debug("rawHash = "+ rawHash);
 
@@ -56,21 +58,23 @@ namespace MoMo
             JObject message = new JObject
             {
                 { "partnerCode", partnerCode },
-                { "accessKey", accessKey },
+                { "partnerName", "Test" },
+                { "storeId", "MomoTestStore" },
                 { "requestId", requestId },
                 { "amount", amount },
-                { "orderId", orderid },
+                { "orderId", orderId },
                 { "orderInfo", orderInfo },
-                { "returnUrl", returnUrl },
-                { "notifyUrl", notifyurl },
+                { "redirectUrl", redirectUrl },
+                { "ipnUrl", ipnUrl },
+                { "lang", "en" },
                 { "extraData", extraData },
-                { "requestType", "captureMoMoWallet" },
+                { "requestType", requestType },
                 { "signature", signature }
 
             };
             log.Debug("Json request to MoMo: " + message.ToString());
             string responseFromMomo = PaymentRequest.sendPaymentRequest(endpoint, message.ToString());
-         
+
             JObject jmessage = JObject.Parse(responseFromMomo);
             log.Debug("Return from MoMo: " + jmessage.ToString());
             DialogResult result = MessageBox.Show(responseFromMomo, "Open in browser", MessageBoxButtons.OKCancel);
@@ -104,7 +108,7 @@ namespace MoMo
             string hash = momoCrypto.getHash(partnerCode, merchantRefId, amount,
                 paymentCode, storeId,
                 storeName, publicKey);
-            
+
             //request to MoMo
             string jsonRequest = "{\"partnerCode\":\"" +
                 partnerCode + "\",\"partnerRefId\":\"" +

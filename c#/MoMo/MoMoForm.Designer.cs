@@ -126,10 +126,10 @@
             this.textEndpoint.Name = "textEndpoint";
             this.textEndpoint.Size = new System.Drawing.Size(342, 20);
             this.textEndpoint.TabIndex = 30;
-            this.textEndpoint.Text = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
-            // 
+            this.textEndpoint.Text = "https://test-payment.momo.vn/v2/gateway/api/create";
+            //
             // label4
-            // 
+            //
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(18, 73);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -137,18 +137,18 @@
             this.label4.Size = new System.Drawing.Size(63, 13);
             this.label4.TabIndex = 33;
             this.label4.Text = "AccessKey:";
-            // 
+            //
             // textAccessKey
-            // 
+            //
             this.textAccessKey.Location = new System.Drawing.Point(90, 70);
             this.textAccessKey.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textAccessKey.Name = "textAccessKey";
             this.textAccessKey.Size = new System.Drawing.Size(250, 20);
             this.textAccessKey.TabIndex = 32;
             this.textAccessKey.Text = "M8brj9K6E22vXoDB";
-            // 
+            //
             // label5
-            // 
+            //
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(12, 99);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -156,19 +156,18 @@
             this.label5.Size = new System.Drawing.Size(69, 13);
             this.label5.TabIndex = 35;
             this.label5.Text = "PartnerCode:";
-            // 
+            //
             // textPartnerCode
-            // 
+            //
             this.textPartnerCode.Location = new System.Drawing.Point(90, 96);
             this.textPartnerCode.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textPartnerCode.Name = "textPartnerCode";
             this.textPartnerCode.Size = new System.Drawing.Size(250, 20);
             this.textPartnerCode.TabIndex = 34;
             this.textPartnerCode.Text = "MOMO5RGX20191128";
-            this.textPartnerCode.TextChanged += new System.EventHandler(this.textPartnerCode_TextChanged);
-            // 
+            //
             // label6
-            // 
+            //
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(30, 154);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -176,53 +175,53 @@
             this.label6.Size = new System.Drawing.Size(54, 13);
             this.label6.TabIndex = 37;
             this.label6.Text = "OrderInfo:";
-            // 
+            //
             // textOrderInfo
-            // 
+            //
             this.textOrderInfo.Location = new System.Drawing.Point(90, 151);
             this.textOrderInfo.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textOrderInfo.Name = "textOrderInfo";
             this.textOrderInfo.Size = new System.Drawing.Size(250, 20);
             this.textOrderInfo.TabIndex = 36;
             this.textOrderInfo.Text = "test";
-            // 
+            //
             // label7
-            // 
+            //
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(34, 183);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 13);
+            this.label7.Size = new System.Drawing.Size(38, 13);
             this.label7.TabIndex = 39;
-            this.label7.Text = "NotifyUrl:";
-            // 
+            this.label7.Text = "IpnUrl:";
+            //
             // textNotify
-            // 
+            //
             this.textNotify.Location = new System.Drawing.Point(90, 180);
             this.textNotify.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textNotify.Name = "textNotify";
             this.textNotify.Size = new System.Drawing.Size(250, 20);
             this.textNotify.TabIndex = 38;
-            this.textNotify.Text = "https://momo.vn/notify";
-            // 
+            this.textNotify.Text = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b";
+            //
             // label8
-            // 
+            //
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(30, 209);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(55, 13);
+            this.label8.Size = new System.Drawing.Size(63, 13);
             this.label8.TabIndex = 41;
-            this.label8.Text = "ReturnUrl:";
-            // 
+            this.label8.Text = "RedirectUrl:";
+            //
             // textReturn
-            // 
+            //
             this.textReturn.Location = new System.Drawing.Point(90, 206);
             this.textReturn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textReturn.Name = "textReturn";
             this.textReturn.Size = new System.Drawing.Size(250, 20);
             this.textReturn.TabIndex = 40;
-            this.textReturn.Text = "https://momo.vn/return";
+            this.textReturn.Text = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b";
             // 
             // payOfflinebtn
             // 
