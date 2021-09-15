@@ -31,8 +31,8 @@ type Payload struct {
 	Amount      string `json:"amount"`
 	OrderID     string `json:"orderId"`
 	OrderInfo   string `json:"orderInfo"`
-	ReturnURL   string `json:"returnUrl"`
-	NotifyURL   string `json:"notifyUrl"`
+	RedirectUrl   string `json:"redirectUrl"`
+	IpnUrl   string `json:"ipnUrl"`
 	ExtraData   string `json:"extraData"`
 	RequestType string `json:"requestType"`
 	Signature   string `json:"signature"`
@@ -75,40 +75,42 @@ func main() {
 
 	var orderId = strconv.FormatUint(a, 16)
 	var requestId = strconv.FormatUint(b, 16)
-	var endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor"
+	var endpoint = "https://test-payment.momo.vn/v2/gateway/api/create"
 	var partnerCode = "MOMOIQA420180417"
 	var accessKey = "SvDmj2cOTYZmQQ3H"
-	var serectkey = "PPuDXq1KowPT1ftR8DvlQTHhC03aul17"
+	var secretKey = "PPuDXq1KowPT1ftR8DvlQTHhC03aul17"
 	var orderInfo = "momo all-in-one"
-	var returnUrl = "https://developers.momo.vn/"
-	var notifyurl = "https://webhook.site/3c5b6488-a159-4f8d-b038-29eed82fab1e"
+	var redirectUrl = "https://webhook.site/3c5b6488-a159-4f8d-b038-29eed82fab1e"
+	var ipnUrl = "https://webhook.site/3c5b6488-a159-4f8d-b038-29eed82fab1e"
 	var amount = "1000"
-	var requestType = "captureMoMoWallet"
-	var extraData = "merchantName=;merchantId=" //pass empty value if your merchant does not have stores else merchantName=[storeName]; merchantId=[storeId] to identify a transaction map with a physical store
+	var requestType = "captureWallet"
+	var extraData = "" //pass empty value or Encode base64 JsonString
 
 	//build raw signature
 	var rawSignature bytes.Buffer
+    rawSignature.WriteString("&accessKey=")
+    rawSignature.WriteString(accessKey)
+    rawSignature.WriteString("&amount=")
+    rawSignature.WriteString(amount)
+    rawSignature.WriteString("&extraData=")
+    rawSignature.WriteString(extraData)
+    rawSignature.WriteString("&ipnUrl=")
+    rawSignature.WriteString(ipnUrl)
+    rawSignature.WriteString("&orderId=")
+    rawSignature.WriteString(orderId)
+    rawSignature.WriteString("&orderInfo=")
+    rawSignature.WriteString(orderInfo)
 	rawSignature.WriteString("partnerCode=")
 	rawSignature.WriteString(partnerCode)
-	rawSignature.WriteString("&accessKey=")
-	rawSignature.WriteString(accessKey)
+	rawSignature.WriteString("&redirectUrl=")
+	rawSignature.WriteString(redirectUrl)
 	rawSignature.WriteString("&requestId=")
 	rawSignature.WriteString(requestId)
-	rawSignature.WriteString("&amount=")
-	rawSignature.WriteString(amount)
-	rawSignature.WriteString("&orderId=")
-	rawSignature.WriteString(orderId)
-	rawSignature.WriteString("&orderInfo=")
-	rawSignature.WriteString(orderInfo)
-	rawSignature.WriteString("&returnUrl=")
-	rawSignature.WriteString(returnUrl)
-	rawSignature.WriteString("&notifyUrl=")
-	rawSignature.WriteString(notifyurl)
-	rawSignature.WriteString("&extraData=")
-	rawSignature.WriteString(extraData)
+    rawSignature.WriteString("&requestType=")
+    rawSignature.WriteString(requestType)
 
 	// Create a new HMAC by defining the hash type and the key (as byte array)
-	hmac := hmac.New(sha256.New, []byte(serectkey))
+	hmac := hmac.New(sha256.New, []byte(secretKey))
 
 	// Write Data to it
 	hmac.Write(rawSignature.Bytes())
@@ -124,8 +126,8 @@ func main() {
 		Amount:      amount,
 		OrderID:     orderId,
 		OrderInfo:   orderInfo,
-		ReturnURL:   returnUrl,
-		NotifyURL:   notifyurl,
+		RedirectUrl:   redirectUrl,
+		IpnUrl:   ipnUrl,
 		ExtraData:   extraData,
 		RequestType: requestType,
 		Signature:   signature,
