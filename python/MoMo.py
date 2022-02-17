@@ -6,29 +6,27 @@ import hashlib
 
 
 #parameters send to MoMo get get payUrl
-endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor"
+endpoint = "https://test-payment.momo.vn/v2/gateway/api/create"
 partnerCode = "MOMO"
 accessKey = "F8BBA842ECF85"
-serectkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
+secretKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
 orderInfo = "pay with MoMo"
-returnUrl = "https://momo.vn/return"
-notifyurl = "https://dummy.url/notify"
+redirectUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b"
+ipnUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b"
 amount = "50000"
 orderId = str(uuid.uuid4())
 requestId = str(uuid.uuid4())
-requestType = "captureMoMoWallet"
-extraData = "merchantName=;merchantId=" #pass empty value if your merchant does not have stores else merchantName=[storeName]; merchantId=[storeId] to identify a transaction map with a physical store
+requestType = "captureWallet"
+extraData = "" #pass empty value or Encode base64 JsonString
 
-#before sign HMAC SHA256 with format
-#partnerCode=$partnerCode&accessKey=$accessKey&requestId=$requestId&amount=$amount&orderId=$oderId&orderInfo=$orderInfo&returnUrl=$returnUrl&notifyUrl=$notifyUrl&extraData=$extraData
-rawSignature = "partnerCode="+partnerCode+"&accessKey="+accessKey+"&requestId="+requestId+"&amount="+amount+"&orderId="+orderId+"&orderInfo="+orderInfo+"&returnUrl="+returnUrl+"&notifyUrl="+notifyurl+"&extraData="+extraData
-
+#before sign HMAC SHA256 with format: accessKey=$accessKey&amount=$amount&extraData=$extraData&ipnUrl=$ipnUrl&orderId=$orderId&orderInfo=$orderInfo&partnerCode=$partnerCode&redirectUrl=$redirectUrl&requestId=$requestId&requestType=$requestType
+rawSignature = "accessKey="+accessKey+"&amount="+amount+"&extraData="+extraData+"&ipnUrl="+ipnUrl+"&orderId="+orderId+"&orderInfo="+orderInfo+"&partnerCode="+partnerCode+"&redirectUrl="+redirectUrl+"&requestId="+requestId+"&requestType="+requestType
 
 #puts raw signature
 print "--------------------RAW SIGNATURE----------------"
 print rawSignature
 #signature
-h = hmac.new( serectkey, rawSignature, hashlib.sha256 )
+h = hmac.new( secretKey, rawSignature, hashlib.sha256 )
 signature = h.hexdigest()
 print "--------------------SIGNATURE----------------"
 print signature
@@ -37,13 +35,15 @@ print signature
 
 data = {
         'partnerCode' : partnerCode,
-      	'accessKey' : accessKey,
+      	'partnerName' : "Test",
+      	'storeId' : "MomoTestStore",
       	'requestId' : requestId,
       	'amount' : amount,
       	'orderId' : orderId,
       	'orderInfo' : orderInfo,
-      	'returnUrl' : returnUrl,
-      	'notifyUrl' : notifyurl,
+      	'redirectUrl' : redirectUrl,
+      	'ipnUrl' : ipnUrl,
+      	'lang' : "vi",
       	'extraData' : extraData,
       	'requestType' : requestType,
       	'signature' : signature

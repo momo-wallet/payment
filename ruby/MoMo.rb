@@ -6,40 +6,41 @@ require 'Base64'
 require 'securerandom'
 
 #parameters send to MoMo get get payUrl
-endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
+endpoint = "https://test-payment.momo.vn/v2/gateway/api/create";
 partnerCode = "MOMO"
 accessKey = "F8BBA842ECF85"
-serectkey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
+secretKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
 orderInfo = "pay with MoMo"
-returnUrl = "https://momo.vn/return"
-notifyurl = "https://dummy-url.vn/notify"
+redirectUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b"
+ipnUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b"
 amount = "50000"
 orderId = SecureRandom.uuid
 requestId = SecureRandom.uuid
-requestType = "captureMoMoWallet"
-extraData = "merchantName=;merchantId=" #pass empty value if your merchant does not have stores else merchantName=[storeName]; merchantId=[storeId] to identify a transaction map with a physical store
+requestType = "captureWallet"
+extraData = "" #pass empty value or Encode base64 JsonString
 
-#before sign HMAC SHA256 with format
-#partnerCode=$partnerCode&accessKey=$accessKey&requestId=$requestId&amount=$amount&orderId=$oderId&orderInfo=$orderInfo&returnUrl=$returnUrl&notifyUrl=$notifyUrl&extraData=$extraData
-rawSignature = "partnerCode="+partnerCode+"&accessKey="+accessKey+"&requestId="+requestId+"&amount="+amount+"&orderId="+orderId+"&orderInfo="+orderInfo+"&returnUrl="+returnUrl+"&notifyUrl="+notifyurl+"&extraData="+extraData
+#before sign HMAC SHA256 with format: accessKey=$accessKey&amount=$amount&extraData=$extraData&ipnUrl=$ipnUrl&orderId=$orderId&orderInfo=$orderInfo&partnerCode=$partnerCode&redirectUrl=$redirectUrl&requestId=$requestId&requestType=$requestType
+rawSignature = "accessKey="+accessKey+"&amount="+amount+"&extraData="+extraData+"&ipnUrl="+ipnUrl+"&orderId="+orderId+"&orderInfo="+orderInfo+"&partnerCode="+partnerCode+"&redirectUrl="+redirectUrl+"&requestId="+requestId+"&requestType="+requestType
 #puts raw signature
 puts "--------------------RAW SIGNATURE----------------"
 puts rawSignature
 #signature
-signature = OpenSSL::HMAC.hexdigest(OpenSSL::Digest.new('sha256'), serectkey, rawSignature)
+signature = OpenSSL::HMAC.hexdigest(OpenSSL::Digest.new('sha256'), secretKey, rawSignature)
 puts "--------------------SIGNATURE----------------"
 puts signature
 
 #json object send to MoMo endpoint
 jsonRequestToMomo = {
 				  :partnerCode => partnerCode,
-                  :accessKey => accessKey,
+                  :partnerName => "Test",
+                  :storeId => "MomoTestStore",
                   :requestId => requestId,
                   :amount => amount,
                   :orderId => orderId,
                   :orderInfo => orderInfo,
-                  :returnUrl => returnUrl,
-                  :notifyUrl => notifyurl,
+                  :redirectUrl => redirectUrl,
+                  :ipnUrl => ipnUrl,
+                  :lang => "vi",
                   :extraData => extraData,
                   :requestType => requestType,
                   :signature => signature,
@@ -63,4 +64,3 @@ result = JSON.parse(response.body)
 puts "--------------------RESPONSE----------------"
 puts JSON.pretty_generate(result)
 puts "pay URL is: " + result["payUrl"]
-

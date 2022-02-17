@@ -1,72 +1,77 @@
 <?php
 header('Content-type: text/html; charset=utf-8');
 
-$config = file_get_contents('../config.json');
-$array = json_decode($config, true);
 
-include "../common/helper.php";
+function execPostRequest($url, $data)
+{
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            'Content-Type: application/json',
+            'Content-Length: ' . strlen($data))
+    );
+    curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+    //execute post
+    $result = curl_exec($ch);
+    //close connection
+    curl_close($ch);
+    return $result;
+}
 
-$endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
+
+$endpoint = "https://test-payment.momo.vn/v2/gateway/api/create";
 
 
-$partnerCode = $array["partnerCode"];
-$accessKey = $array["accessKey"];
-$secretKey = $array["secretKey"];
+$partnerCode = 'MOMOBKUN20180529';
+$accessKey = 'klm05TvNBzhg7h7j';
+$secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa';
 $orderInfo = "Thanh toán qua MoMo";
 $amount = "10000";
 $orderId = time() ."";
-$returnUrl = "http://localhost:8000/atm/result_atm.php";
-$notifyurl = "http://localhost:8000/atm/ipn_momo.php";
-// Lưu ý: link notifyUrl không phải là dạng localhost
-$bankCode = "SML";
+$redirectUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b";
+$ipnUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b";
+$extraData = "";
+
 
 if (!empty($_POST)) {
     $partnerCode = $_POST["partnerCode"];
-         $accessKey = $_POST["accessKey"];
-         $serectkey = $_POST["secretKey"];
-         $orderid = time()."";
-         $orderInfo = $_POST["orderInfo"];
-         $amount = $_POST["amount"];
-         $bankCode = $_POST['bankCode'];
-         $returnUrl = $_POST['returnUrl'];
-         $requestId = time()."";
-         $requestType = "payWithMoMoATM";
-         $extraData = "";
-         //before sign HMAC SHA256 signature
-         $rawHashArr =  array(
-                        'partnerCode' => $partnerCode,
-                        'accessKey' => $accessKey,
-                        'requestId' => $requestId,
-                        'amount' => $amount,
-                        'orderId' => $orderid,
-                        'orderInfo' => $orderInfo,
-                        'bankCode' => $bankCode,
-                        'returnUrl' => $returnUrl,
-                        'notifyUrl' => $notifyurl,
-                        'extraData' => $extraData,
-                        'requestType' => $requestType
-                        );
-         // echo $serectkey;die;
-         $rawHash = "partnerCode=".$partnerCode."&accessKey=".$accessKey."&requestId=".$requestId."&bankCode=".$bankCode."&amount=".$amount."&orderId=".$orderid."&orderInfo=".$orderInfo."&returnUrl=".$returnUrl."&notifyUrl=".$notifyurl."&extraData=".$extraData."&requestType=".$requestType;
-         $signature = hash_hmac("sha256", $rawHash, $serectkey);
+    $accessKey = $_POST["accessKey"];
+    $serectkey = $_POST["secretKey"];
+    $orderId = $_POST["orderId"]; // Mã đơn hàng
+    $orderInfo = $_POST["orderInfo"];
+    $amount = $_POST["amount"];
+    $ipnUrl = $_POST["ipnUrl"];
+    $redirectUrl = $_POST["redirectUrl"];
+    $extraData = $_POST["extraData"];
 
-         $data =  array('partnerCode' => $partnerCode,
-                        'accessKey' => $accessKey,
-                        'requestId' => $requestId,
-                        'amount' => $amount,
-                        'orderId' => $orderid,
-                        'orderInfo' => $orderInfo,
-                        'returnUrl' => $returnUrl,
-                        'bankCode' => $bankCode,
-                        'notifyUrl' => $notifyurl,
-                        'extraData' => $extraData,
-                        'requestType' => $requestType,
-                        'signature' => $signature);
-         $result = execPostRequest($endpoint, json_encode($data));
-         $jsonResult = json_decode($result,true);  // decode json
-         
-         error_log( print_r( $jsonResult, true ) );
-         header('Location: '.$jsonResult['payUrl']);
+    $requestId = time() . "";
+    $requestType = "payWithATM";
+    $extraData = ($_POST["extraData"] ? $_POST["extraData"] : "");
+    //before sign HMAC SHA256 signature
+    $rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&ipnUrl=" . $ipnUrl . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo . "&partnerCode=" . $partnerCode . "&redirectUrl=" . $redirectUrl . "&requestId=" . $requestId . "&requestType=" . $requestType;
+    $signature = hash_hmac("sha256", $rawHash, $serectkey);
+    $data = array('partnerCode' => $partnerCode,
+        'partnerName' => "Test",
+        "storeId" => "MomoTestStore",
+        'requestId' => $requestId,
+        'amount' => $amount,
+        'orderId' => $orderId,
+        'orderInfo' => $orderInfo,
+        'redirectUrl' => $redirectUrl,
+        'ipnUrl' => $ipnUrl,
+        'lang' => 'vi',
+        'extraData' => $extraData,
+        'requestType' => $requestType,
+        'signature' => $signature);
+    $result = execPostRequest($endpoint, json_encode($data));
+    $jsonResult = json_decode($result, true);  // decode json
+
+    //Just a example, please check more in there
+
+    header('Location: ' . $jsonResult['payUrl']);
 }
 ?>
 <!DOCTYPE html>
@@ -133,9 +138,9 @@ if (!empty($_POST)) {
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="fxRate" class="col-form-label">BankCode</label>
+                                    <label for="fxRate" class="col-form-label">ExtraData</label>
                                     <div class='input-group date' id='fxRate'>
-                                        <input type='text' type="text" name="bankCode" value="<?php echo $bankCode?>"
+                                        <input type='text' type="text" name="extraData" value="<?php echo $extraData?>"
                                                class="form-control"/>
                                     </div>
                                 </div>
@@ -161,18 +166,18 @@ if (!empty($_POST)) {
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="fxRate" class="col-form-label">NotifyUrl</label>
+                                    <label for="fxRate" class="col-form-label">IpnUrl</label>
                                     <div class='input-group date' id='fxRate'>
-                                        <input type='text' name="notifyUrl" value="<?php echo $notifyurl; ?>"
+                                        <input type='text' name="ipnUrl" value="<?php echo $ipnUrl; ?>"
                                                class="form-control"/>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="fxRate" class="col-form-label">ReturnUrl</label>
+                                    <label for="fxRate" class="col-form-label">RedirectUrl</label>
                                     <div class='input-group date' id='fxRate'>
-                                        <input type='text' name="returnUrl" value="<?php echo $returnUrl; ?>"
+                                        <input type='text' name="redirectUrl" value="<?php echo $redirectUrl; ?>"
                                                class="form-control"/>
                                     </div>
                                 </div>
@@ -194,9 +199,4 @@ if (!empty($_POST)) {
 
 <script type="text/javascript" src="./statics/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="./statics/moment/min/moment.min.js"></script>
-<script type="text/javascript" src="./statics/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript"
-        src="./statics/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
-
-</body>
 </html>

@@ -1,16 +1,31 @@
 <?php
 header('Content-type: text/html; charset=utf-8');
-$config = file_get_contents('../config.json');
-$array = json_decode($config, true);
 
-include "../common/helper.php";
 
-$endpoint = "https://test-payment.momo.vn/gw_payment/transactionProcessor";
-$partnerCode = $array["partnerCode"];
-$accessKey = $array["accessKey"];
-$secretKey = $array["secretKey"];
+function execPostRequest($url, $data)
+{
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            'Content-Type: application/json',
+            'Content-Length: ' . strlen($data))
+    );
+    curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+    //execute post
+    $result = curl_exec($ch);
+    //close connection
+    curl_close($ch);
+    return $result;
+}
+
+$endpoint = "https://test-payment.momo.vn/v2/gateway/api/query";
+$partnerCode = 'MOMOBKUN20180529';
+$accessKey = 'klm05TvNBzhg7h7j';
+$secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa';
 $requestId = time()."";
-$requestType = "transactionStatus";
 
 
 
@@ -18,17 +33,17 @@ if (!empty($_POST)) {
     $orderId = $_POST["orderId"];;// Mã đơn hàng cần kiểm tra trạng thái
 
     //before sign HMAC SHA256 signature
-    $rawHash = "partnerCode=".$partnerCode."&accessKey=".$accessKey."&requestId=".$requestId."&orderId=".$orderId."&requestType=".$requestType;
+    $rawHash = "accessKey=".$accessKey."&orderId=".$orderId."&partnerCode=".$partnerCode."&requestId=".$requestId;
     // echo "<script>console.log('Debug Objects: " . $rawHash . "' );</script>";
 
     $signature = hash_hmac("sha256", $rawHash, $secretKey);
 
     $data = array('partnerCode' => $partnerCode,
-        'accessKey' => $accessKey,
         'requestId' => $requestId,
         'orderId' => $orderId,
         'requestType' => $requestType,
-        'signature' => $signature);
+        'signature' => $signature,
+        'lang' => 'vi');
     $result = execPostRequest($endpoint, json_encode($data));
     $jsonResult = json_decode($result, true);  // decode json
     $response = json_encode($jsonResult, JSON_PRETTY_PRINT);
@@ -117,15 +132,6 @@ if (!empty($_POST)) {
 
                     <?php
                     echo '<b> Response: </b><pre>' .$response . '</pre></br>';
-                    echo '<b>MoMo signature: </b><pre>' . $m2signature . '</pre></br>';
-
-                    echo '<b>Partner signature: </b><pre>' . $partnerSignature . '</pre></br>';
-
-                    if($m2signature == $partnerSignature){
-                        echo '<div class="alert alert-success"><strong>INFO: </strong>Pass Checksum</div>';
-                    }else{
-                        echo '<div class="alert alert-danger" role="alert"> <strong>ERROR!:</strong> Fail checksum</div>';
-                    }
                     ?>
                 </div>
             </div>
@@ -136,9 +142,4 @@ if (!empty($_POST)) {
 
 <script type="text/javascript" src="./statics/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="./statics/moment/min/moment.min.js"></script>
-<script type="text/javascript" src="./statics/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript"
-        src="./statics/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
-
-</body>
 </html>
