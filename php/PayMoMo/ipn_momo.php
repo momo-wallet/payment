@@ -5,28 +5,24 @@ if (!empty($_POST)) {
     $response = array();
     try {
         $partnerCode = $_POST["partnerCode"];
-        $accessKey = $_POST["accessKey"];
-        $serectkey = '';
         $orderId = $_POST["orderId"];
-        $localMessage = $_POST["localMessage"];
-        $message = $_POST["message"];
-        $transId = $_POST["transId"];
+		$requestId = $_POST["requestId"];
+        $amount = $_POST["amount"];	
         $orderInfo = $_POST["orderInfo"];
-        $amount = $_POST["amount"];
-        $errorCode = $_POST["errorCode"];
-        $responseTime = $_POST["responseTime"];
-        $requestId = $_POST["requestId"];
-        $extraData = $_POST["extraData"];
-        $payType = $_POST["payType"];
         $orderType = $_POST["orderType"];
+        $transId = $_POST["transId"];
+        $resultCode = $_POST["resultCode"];
+        $message = $_POST["message"];
+        $payType = $_POST["payType"];
+        $responseTime = $_POST["responseTime"];
         $extraData = $_POST["extraData"];
-        $m2signature = $_POST["signature"]; //MoMo signature
-
+		$m2signature = $_POST["signature"]; //MoMo signature
+        
 
         //Checksum
-        $rawHash = "partnerCode=" . $partnerCode . "&accessKey=" . $accessKey . "&requestId=" . $requestId . "&amount=" . $amount . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo .
-            "&orderType=" . $orderType . "&transId=" . $transId . "&message=" . $message . "&localMessage=" . $localMessage . "&responseTime=" . $responseTime . "&errorCode=" . $errorCode .
-            "&payType=" . $payType . "&extraData=" . $extraData;
+        $rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&message=" . $message . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo .
+            "&orderType=" . $orderType . "&partnerCode=" . $partnerCode . "&payType=" . $payType . "&payType=" . $payType . "&requestId=" . $requestId . "&responseTime=" . $responseTime .
+            "&resultCode=" . $resultCode . "&transId=" . $transId;
 
         $partnerSignature = hash_hmac("sha256", $rawHash, 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa');
 

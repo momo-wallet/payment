@@ -5,28 +5,25 @@ header('Content-type: text/html; charset=utf-8');
 $secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa'; //Put your secret key in there
 
 if (!empty($_GET)) {
-    $partnerCode = $_GET["partnerCode"];
-    $accessKey = $_GET["accessKey"];
-    $orderId = $_GET["orderId"];
-    $localMessage = $_GET["localMessage"];
-    $message = $_GET["message"];
-    $transId = $_GET["transId"];
-    $orderInfo = $_GET["orderInfo"];
-    $amount = $_GET["amount"];
-    $errorCode = $_GET["errorCode"];
-    $responseTime = $_GET["responseTime"];
-    $requestId = $_GET["requestId"];
-    $extraData = $_GET["extraData"];
-    $payType = $_GET["payType"];
-    $orderType = $_GET["orderType"];
-    $extraData = $_GET["extraData"];
-    $m2signature = $_GET["signature"]; //MoMo signature
+    $partnerCode = $_POST["partnerCode"];
+	$orderId = $_POST["orderId"];
+	$requestId = $_POST["requestId"];
+	$amount = $_POST["amount"];	
+	$orderInfo = $_POST["orderInfo"];
+	$orderType = $_POST["orderType"];
+	$transId = $_POST["transId"];
+	$resultCode = $_POST["resultCode"];
+	$message = $_POST["message"];
+	$payType = $_POST["payType"];
+	$responseTime = $_POST["responseTime"];
+	$extraData = $_POST["extraData"];
+	$m2signature = $_POST["signature"]; //MoMo signature
+	
 
-
-    //Checksum
-    $rawHash = "partnerCode=" . $partnerCode . "&accessKey=" . $accessKey . "&requestId=" . $requestId . "&amount=" . $amount . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo .
-        "&orderType=" . $orderType . "&transId=" . $transId . "&message=" . $message . "&localMessage=" . $localMessage . "&responseTime=" . $responseTime . "&errorCode=" . $errorCode .
-        "&payType=" . $payType . "&extraData=" . $extraData;
+	//Checksum
+	$rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&message=" . $message . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo .
+		"&orderType=" . $orderType . "&partnerCode=" . $partnerCode . "&payType=" . $payType . "&payType=" . $payType . "&requestId=" . $requestId . "&responseTime=" . $responseTime .
+		"&resultCode=" . $resultCode . "&transId=" . $transId;
 
     $partnerSignature = hash_hmac("sha256", $rawHash, $secretKey);
 
