@@ -5,6 +5,7 @@ header('Content-type: text/html; charset=utf-8');
 $secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa'; //Put your secret key in there
 
 if (!empty($_GET)) {
+	$accessKey = $_POST["accessKey"];
 	$partnerCode = $_POST["partnerCode"];
 	$orderId = $_POST["orderId"];
 	$requestId = $_POST["requestId"];
@@ -14,6 +15,7 @@ if (!empty($_GET)) {
 	$transId = $_POST["transId"];
 	$resultCode = $_POST["resultCode"];
 	$message = $_POST["message"];
+	$localMessage = $_POST["localMessage"];
 	$payType = $_POST["payType"];
 	$responseTime = $_POST["responseTime"];
 	$extraData = $_POST["extraData"];
@@ -22,7 +24,7 @@ if (!empty($_GET)) {
 
 	//Checksum
 	$rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&message=" . $message . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo .
-		"&orderType=" . $orderType . "&partnerCode=" . $partnerCode . "&payType=" . $payType . "&payType=" . $payType . "&requestId=" . $requestId . "&responseTime=" . $responseTime .
+		"&orderType=" . $orderType . "&partnerCode=" . $partnerCode . "&payType=" . $payType . "&requestId=" . $requestId . "&responseTime=" . $responseTime .
 		"&resultCode=" . $resultCode . "&transId=" . $transId;
 
     $partnerSignature = hash_hmac("sha256", $rawHash, $secretKey);
@@ -32,7 +34,7 @@ if (!empty($_GET)) {
 
 
     if ($m2signature == $partnerSignature) {
-        if ($errorCode == '0') {
+        if ($resultCode == '0') {
             $result = '<div class="alert alert-success"><strong>Payment status: </strong>Success</div>';
         } else {
             $result = '<div class="alert alert-danger"><strong>Payment status: </strong>' . $message .'/'.$localMessage. '</div>';
