@@ -1,0 +1,13 @@
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/bin/Debug/netcoreapp3.1/QuickPay
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/bin/Debug/netcoreapp3.1/QuickPay.deps.json
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/bin/Debug/netcoreapp3.1/QuickPay.runtimeconfig.json
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/bin/Debug/netcoreapp3.1/QuickPay.runtimeconfig.dev.json
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/bin/Debug/netcoreapp3.1/QuickPay.dll
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/bin/Debug/netcoreapp3.1/QuickPay.pdb
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/obj/Debug/netcoreapp3.1/QuickPay.csprojAssemblyReference.cache
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/obj/Debug/netcoreapp3.1/QuickPay.AssemblyInfoInputs.cache
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/obj/Debug/netcoreapp3.1/QuickPay.AssemblyInfo.cs
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/obj/Debug/netcoreapp3.1/QuickPay.csproj.CoreCompileInputs.cache
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/obj/Debug/netcoreapp3.1/QuickPay.dll
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/obj/Debug/netcoreapp3.1/QuickPay.pdb
+/home/sangle/Documents/github/mservice/payment/c#/QuickPay/obj/Debug/netcoreapp3.1/QuickPay.genruntimeconfig.cache
