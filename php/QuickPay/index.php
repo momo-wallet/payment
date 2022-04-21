@@ -22,7 +22,7 @@ function execPostRequest($url, $data)
     return $result;
 }
 
-$endpoint = 'http://localhost:9999/v2/gateway/api/pos';
+$endpoint = 'https://test-payment.momo.vn/v2/gateway/api/pos';
 $accessKey = 'F8BBA842ECF85';
 $secretKey = 'K951B6PE1waDMi640xX08PD3vg6EkVlz';
 $orderInfo = 'pay with MoMo';
@@ -97,7 +97,7 @@ if (!empty($_POST)) {
         <div class="col-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Initial payment/Khởi tạo thanh toán</h3>
+                    <h3 class="panel-title">Quick Pay/Thanh toán bằng QR các nhân. More detail at <a style="color: #2f80d1" href="https://developers.momo.vn/v3/vi/docs/payment/api/quick-pay-v2/">here</a></h3>
                 </div>
                 <div class="panel-body">
                     <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
