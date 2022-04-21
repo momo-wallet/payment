@@ -65,11 +65,10 @@ if (!empty($_POST)) {
         'amount' => $amount,
         'orderId' => $orderId,
         'orderInfo' => $orderInfo,
-        'redirectUrl' => $redirectUrl,
         'ipnUrl' => $ipnUrl,
         'lang' => 'vi',
+        'autoCapture' => autoCapture,
         'extraData' => $extraData,
-        'requestType' => $requestType,
         'paymentCode' => $paymentCode,
         'orderGroupId' => $orderGroupId,
         'signature' => $signature);

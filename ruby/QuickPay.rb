@@ -2,25 +2,30 @@ require 'net/https'
 require 'uri'
 require 'json'
 require 'openssl'
-require 'Base64'
+require 'base64'
 require 'securerandom'
 
 #parameters send to MoMo get get payUrl
-endpoint = "https://test-payment.momo.vn/v2/gateway/api/create";
-partnerCode = "MOMO"
+endpoint = "https://test-payment.momo.vn/v2/gateway/api/pos"
 accessKey = "F8BBA842ECF85"
 secretKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
 orderInfo = "pay with MoMo"
+partnerCode = "MOMO"
 redirectUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b"
 ipnUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b"
 amount = "50000"
 orderId = SecureRandom.uuid
 requestId = SecureRandom.uuid
-requestType = "captureWallet"
 extraData = "" #pass empty value or Encode base64 JsonString
+partnerName = "MoMo Payment"
+storeId = "Test Store"
+paymentCode = "L/U2a6KeeeBBU/pQAa+g8LilOVzWfvLf/P4XOnAQFmnkrKHICj51qrOTUQ+YrX8/Xs1YD4IOdyiGSkCfV6Je9PeRzl3sO+mDzXNG4enhigU3VGPFh67a37dSwItMJXRDuK64DCqv35YPQtiAOVVZV35/1XBw1rWopmRP03YMNgQWedGLHwmPSkRGoT6XtDSeypJtgbLZ5KIOJsdcynBdFEnHAuIjvo4stADmRL8GqdgsZ0jJCx/oq5JGr8wY+a4g9KolEOSTLBTih48RrGZq3LDBbT4QGBjtW+0W+/95n8W0Aot6kzdG4rWg1NB7EltY6/A8RWAHJav4kWQoFcxgfA=="
+orderGroupId =""
+autoCapture = true;
+lang = "vi";
 
 #before sign HMAC SHA256 with format: accessKey=$accessKey&amount=$amount&extraData=$extraData&ipnUrl=$ipnUrl&orderId=$orderId&orderInfo=$orderInfo&partnerCode=$partnerCode&redirectUrl=$redirectUrl&requestId=$requestId&requestType=$requestType
-rawSignature = "accessKey="+accessKey+"&amount="+amount+"&extraData="+extraData+"&ipnUrl="+ipnUrl+"&orderId="+orderId+"&orderInfo="+orderInfo+"&partnerCode="+partnerCode+"&redirectUrl="+redirectUrl+"&requestId="+requestId+"&requestType="+requestType
+rawSignature = "accessKey="+accessKey+"&amount="+amount+"&extraData="+extraData+"&orderId="+orderId+"&orderInfo="+orderInfo+"&partnerCode="+partnerCode+"&paymentCode="+paymentCode+"&requestId="+requestId
 #puts raw signature
 puts "--------------------RAW SIGNATURE----------------"
 puts rawSignature
@@ -31,19 +36,20 @@ puts signature
 
 #json object send to MoMo endpoint
 jsonRequestToMomo = {
-				  :partnerCode => partnerCode,
-                  :partnerName => "Test",
-                  :storeId => "MomoTestStore",
+                  :partnerCode => partnerCode,
+                  :partnerName => partnerName,
+                  :storeId => storeId,
                   :requestId => requestId,
                   :amount => amount,
                   :orderId => orderId,
                   :orderInfo => orderInfo,
-                  :redirectUrl => redirectUrl,
                   :ipnUrl => ipnUrl,
-                  :lang => "vi",
+                  :lang => lang,
+                  :autoCapture => autoCapture,
                   :extraData => extraData,
-                  :requestType => requestType,
-                  :signature => signature,
+                  :paymentCode => paymentCode,
+                  :orderGroupId => orderGroupId,
+                  :signature => signature
               }
 puts "--------------------JSON REQUEST----------------"
 puts JSON.pretty_generate(jsonRequestToMomo)
@@ -63,4 +69,3 @@ response = http.request(request)
 result = JSON.parse(response.body)
 puts "--------------------RESPONSE----------------"
 puts JSON.pretty_generate(result)
-puts "pay URL is: " + result["payUrl"]
