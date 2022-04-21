@@ -39,7 +39,6 @@ $paymentCode = 'L/U2a6KeeeBBU/pQAa+g8LilOVzWfvLf/P4XOnAQFmnkrKHICj51qrOTUQ+YrX8/
 $orderGroupId ='';
 $autoCapture =True;
 $lang = 'vi';
-$orderGroupId = '';
 
 if (!empty($_POST)) {
 
@@ -72,6 +71,7 @@ if (!empty($_POST)) {
         'extraData' => $extraData,
         'requestType' => $requestType,
         'paymentCode' => $paymentCode,
+        'orderGroupId' => $orderGroupId,
         'signature' => $signature);
     $result = execPostRequest($endpoint, json_encode($data));
     $jsonResult = json_decode($result, true);  // decode json
