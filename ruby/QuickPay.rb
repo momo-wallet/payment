@@ -2,7 +2,7 @@ require 'net/https'
 require 'uri'
 require 'json'
 require 'openssl'
-require 'base64'
+require 'Base64'
 require 'securerandom'
 
 #parameters send to MoMo get get payUrl
