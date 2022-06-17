@@ -21,7 +21,7 @@ if (!empty($_POST)) {
 
 		//Checksum
 		$rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&message=" . $message . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo .
-			"&orderType=" . $orderType . "&partnerCode=" . $partnerCode . "&payType=" . $payType . "&payType=" . $payType . "&requestId=" . $requestId . "&responseTime=" . $responseTime .
+			"&orderType=" . $orderType . "&partnerCode=" . $partnerCode . "&payType=" . $payType . "&requestId=" . $requestId . "&responseTime=" . $responseTime .
 			"&resultCode=" . $resultCode . "&transId=" . $transId;
 
         $partnerSignature = hash_hmac("sha256", $rawHash, 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa');
