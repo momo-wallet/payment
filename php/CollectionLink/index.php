@@ -25,7 +25,7 @@ function execPostRequest($url, $data)
     return $result;
 }
 
-$endpoint = 'https://test-payment.momo.vn/v2/gateway/api/pos';
+$endpoint = 'http://localhost:9999/v2/gateway/api/create';
 $accessKey = 'F8BBA842ECF85';
 $secretKey = 'K951B6PE1waDMi640xX08PD3vg6EkVlz';
 $orderInfo = 'pay with MoMo';
@@ -36,9 +36,9 @@ $amount = '50000';
 $orderId = time()."";
 $requestId = time()."";
 $extraData ='';
+$requestType = 'payWithMethod';
 $partnerName = 'MoMo Payment';
 $storeId = 'Test Store';
-$paymentCode = 'L/U2a6KeeeBBU/pQAa+g8LilOVzWfvLf/P4XOnAQFmnkrKHICj51qrOTUQ+YrX8/Xs1YD4IOdyiGSkCfV6Je9PeRzl3sO+mDzXNG4enhigU3VGPFh67a37dSwItMJXRDuK64DCqv35YPQtiAOVVZV35/1XBw1rWopmRP03YMNgQWedGLHwmPSkRGoT6XtDSeypJtgbLZ5KIOJsdcynBdFEnHAuIjvo4stADmRL8GqdgsZ0jJCx/oq5JGr8wY+a4g9KolEOSTLBTih48RrGZq3LDBbT4QGBjtW+0W+/95n8W0Aot6kzdG4rWg1NB7EltY6/A8RWAHJav4kWQoFcxgfA==';
 $orderGroupId ='';
 $autoCapture =True;
 $lang = 'vi';
@@ -52,13 +52,15 @@ if (!empty($_POST)) {
     $redirectUrl = $_POST["redirectUrl"];
     $amount = $_POST["amount"];
     $orderId = $_POST["orderId"];
-    $paymentCode = $_POST["paymentCode"];
     $orderGroupId = $_POST["orderGroupId"];
 
     $requestId = time().'';
     $extraData = "";
+    // rawSignature = "accessKey=" + accessKey + "&amount=" + amount + "&extraData=" + extraData + "&ipnUrl=" + ipnUrl + "&orderId=" + orderId \
+    //            + "&orderInfo=" + orderInfo + "&partnerCode=" + partnerCode + "&redirectUrl=" + redirectUrl\
+    //            + "&requestId=" + requestId + "&requestType=" + requestType
     //before sign HMAC SHA256 signature
-    $rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo . "&partnerCode=" . $partnerCode . "&paymentCode=" . $paymentCode . "&requestId=" . $requestId;
+    $rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&ipnUrl=" . $ipnUrl . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo . "&partnerCode=" . $partnerCode . "&redirectUrl=" . $redirectUrl . "&requestId=" . $requestId . "&requestType=" . $requestType;
     $signature = hash_hmac("sha256", $rawHash, $secretKey);
     $data = array(
         'partnerCode' => $partnerCode,
@@ -68,11 +70,12 @@ if (!empty($_POST)) {
         'amount' => $amount,
         'orderId' => $orderId,
         'orderInfo' => $orderInfo,
+        'requestType' => $requestType,
         'ipnUrl' => $ipnUrl,
         'lang' => 'vi',
+        'redirectUrl' => $redirectUrl,
         'autoCapture' => $autoCapture,
         'extraData' => $extraData,
-        'paymentCode' => $paymentCode,
         'orderGroupId' => $orderGroupId,
         'signature' => $signature);
     $result = execPostRequest($endpoint, json_encode($data));
@@ -99,7 +102,7 @@ if (!empty($_POST)) {
         <div class="col-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Quick Pay/Thanh toán bằng QR các nhân. More detail at <a style="color: #2f80d1" href="https://developers.momo.vn/v3/vi/docs/payment/api/quick-pay-v2/">here</a></h3>
+                    <h3 class="panel-title">Collectiion Link/Thanh toán bằng Collection Link. More detail at <a style="color: #2f80d1" href="https://developers.momo.vn/v3/docs/payment/api/collection-link/">here</a></h3>
                 </div>
                 <div class="panel-body">
                     <form class="" method="POST" target="_blank" enctype="application/x-www-form-urlencoded"
@@ -168,15 +171,6 @@ if (!empty($_POST)) {
                                     <label for="fxRate" class="col-form-label">Amount</label>
                                     <div class='input-group date' id='fxRate'>
                                         <input type='text' name="amount" value="<?php echo $amount; ?>" class="form-control"/>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group">
-                                    <label for="fxRate" class="col-form-label">paymentCode</label>
-                                    <div class='input-group date' id='fxRate'>
-                                        <input type='text' name="paymentCode" value="<?php echo $paymentCode; ?>"
-                                               class="form-control"/>
                                     </div>
                                 </div>
                             </div>

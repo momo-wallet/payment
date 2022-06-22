@@ -1,0 +1,13 @@
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/bin/Debug/netcoreapp3.1/CollectionLink
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/bin/Debug/netcoreapp3.1/CollectionLink.deps.json
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/bin/Debug/netcoreapp3.1/CollectionLink.runtimeconfig.json
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/bin/Debug/netcoreapp3.1/CollectionLink.runtimeconfig.dev.json
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/bin/Debug/netcoreapp3.1/CollectionLink.dll
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/bin/Debug/netcoreapp3.1/CollectionLink.pdb
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/obj/Debug/netcoreapp3.1/CollectionLink.csprojAssemblyReference.cache
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/obj/Debug/netcoreapp3.1/CollectionLink.AssemblyInfoInputs.cache
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/obj/Debug/netcoreapp3.1/CollectionLink.AssemblyInfo.cs
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/obj/Debug/netcoreapp3.1/CollectionLink.csproj.CoreCompileInputs.cache
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/obj/Debug/netcoreapp3.1/CollectionLink.dll
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/obj/Debug/netcoreapp3.1/CollectionLink.pdb
+/home/sangle/Documents/github/mservice/payment/c#/CollectionLink/obj/Debug/netcoreapp3.1/CollectionLink.genruntimeconfig.cache
