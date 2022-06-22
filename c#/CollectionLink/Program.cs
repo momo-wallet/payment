@@ -1,4 +1,10 @@
 ﻿using System;
+using System.Threading.Tasks;
+using System.Net.Http;
+using CollectionLink.model;
+using System.Text;
+using System.Text.Json;
+using System.Security.Cryptography;
 
 namespace CollectionLink
 {
@@ -14,27 +20,28 @@ namespace CollectionLink
             string accessKey = "F8BBA842ECF85";
             string secretKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz";
 
-            QuickPayResquest request = new QuickPayResquest();
+            CollectionLinkRequest request = new CollectionLinkRequest();
             request.orderInfo = "pay with MoMo";
             request.partnerCode = "MOMO";
             request.redirectUrl = "";
             request.ipnUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b";
+            request.redirectUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b";
             request.amount = 5000;
             request.orderId = myuuidAsString;
             request.requestId = myuuidAsString;
+            request.requestType = "payWithMethod";
             request.extraData = "";
             request.partnerName = "MoMo Payment";
             request.storeId = "Test Store";
-            request.paymentCode = "ZXJ+Lwo+IHidIb3ZMR9Ok1FMCOY2F9CCCopUh4aru4/qKEhNy689Dg2KzY7b/yBP5MjlME2hF+UtDSR+E5fQpmj7gcLDIFYJ9GQ/5GsxJ2EgmAnIPBY9BovtOh+Kgy0+nWyyxydivn3u+/VCfllgbzPViCBrO46nmezmQiR+fMi0VuSL66HqKV87vKGi42v2daYlZAJHBe75EqE5Xws8aygQL0PNZ2SQBKPDASXOhB7lQ3+chL6a/ANoKROamCVeOxG15TTZb+qkFYG2965C1bW55QWtn2xvrMhwAdwBRr0JRQdQTBucs2x6VsIBqZnN5FmO1AzfYvFiHXrm9ZzJug==";
             request.orderGroupId = "";
             request.autoCapture = true;
             request.lang = "vi";
 
-            var rawSignature = "accessKey="+accessKey+"&amount="+request.amount+"&extraData="+request.extraData+"&orderId="+request.orderId+"&orderInfo="+request.orderInfo+"&partnerCode="+request.partnerCode+"&paymentCode="+request.paymentCode+"&requestId="+request.requestId;
+            var rawSignature = "accessKey="+accessKey+"&amount="+request.amount+"&extraData="+request.extraData+"&ipnUrl="+request.ipnUrl+"&orderId="+request.orderId+"&orderInfo="+request.orderInfo+"&partnerCode="+request.partnerCode+"&redirectUrl="+request.redirectUrl+"&requestId="+request.requestId+"&requestType="+request.requestType;
             request.signature = getSignature(rawSignature, secretKey);
 
             StringContent httpContent = new StringContent(JsonSerializer.Serialize(request), System.Text.Encoding.UTF8, "application/json");
-            var quickPayResponse = await client.PostAsync("https://test-payment.momo.vn/v2/gateway/api/pos", httpContent);
+            var quickPayResponse = await client.PostAsync("https://test-payment.momo.vn/v2/gateway/api/create", httpContent);
             var contents = quickPayResponse.Content.ReadAsStringAsync().Result;
             System.Console.WriteLine(contents + "");
         }
