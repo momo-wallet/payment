@@ -143,7 +143,7 @@ func main() {
 	//result
 	var result map[string]interface{}
 	json.NewDecoder(resp.Body).Decode(&result)
-	fmt.Println("Response from Momo: ", result)
+	fmt.Println("response from Momo: ", result)
 
 	fmt.Println()
 	fmt.Println()
