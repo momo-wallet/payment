@@ -52,7 +52,7 @@ if (!empty($_POST)) {
     $extraData = ($_POST["extraData"] ? $_POST["extraData"] : "");
     //before sign HMAC SHA256 signature
     $rawHash = "accessKey=" . $accessKey . "&amount=" . $amount . "&extraData=" . $extraData . "&ipnUrl=" . $ipnUrl . "&orderId=" . $orderId . "&orderInfo=" . $orderInfo . "&partnerCode=" . $partnerCode . "&redirectUrl=" . $redirectUrl . "&requestId=" . $requestId . "&requestType=" . $requestType;
-    $signature = hash_hmac("sha256", $rawHash, $serectkey);
+    $signature = hash_hmac("sha256", $rawHash, $secretKey);
     $data = array('partnerCode' => $partnerCode,
         'partnerName' => "Test",
         "storeId" => "MomoTestStore",
