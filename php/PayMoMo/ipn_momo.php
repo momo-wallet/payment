@@ -27,7 +27,7 @@ if (!empty($_POST)) {
         $partnerSignature = hash_hmac("sha256", $rawHash, 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa');
 
         if ($m2signature == $partnerSignature) {
-            if ($errorCode == '0') {
+            if ($resultCode == '0') {
                 $result = '<div class="alert alert-success">Capture Payment Success</div>';
             } else {
                 $result = '<div class="alert alert-danger">' . $message . '</div>';
